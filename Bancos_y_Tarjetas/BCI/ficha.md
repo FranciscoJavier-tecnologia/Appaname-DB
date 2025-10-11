@@ -1,8 +1,8 @@
-# <EMISOR> — Ficha técnica
+# BCI — Ficha técnica
 
 **Categoría:** Bancos y Tarjetas  
 **Dominio principal:** <dominio>  
-**Última revisión:** <yyyy-mm-dd>  
+**Última revisión:** 2025-10-11  
 **Estado:** active | needs_review
 
 ## Resumen
