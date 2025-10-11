@@ -1,7 +1,7 @@
 # Internacional — Ficha técnica
 
 **Categoría:** Bancos y Tarjetas  
-**Dominio principal:** <dominio>  
+**Dominio principal:** bancointernacional.cl  
 **Última revisión:** 2025-10-11  
 **Estado:** active | needs_review
 

@@ -1,7 +1,7 @@
 # Itau — Ficha técnica
 
 **Categoría:** Bancos y Tarjetas  
-**Dominio principal:** <dominio>  
+**Dominio principal:** itau.cl  
 **Última revisión:** 2025-10-11  
 **Estado:** active | needs_review
 
