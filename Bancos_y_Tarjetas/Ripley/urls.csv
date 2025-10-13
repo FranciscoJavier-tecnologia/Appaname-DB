@@ -1,1 +1,33 @@
 url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://www.bancoripley.cl/beneficios,category,general,nacional,,no,none,,cadena,Portal principal Beneficios Banco Ripley,2025-10-12,active,high
+https://www.bancoripley.cl/planes,subcategory,financiero,nacional,,no,none,,cadena,Sección Planes Digitales y beneficios asociados,2025-10-12,active,medium
+https://www.bancoripley.cl/ripley-puntos-go,category,financiero,nacional,,no,none,,cadena,Portal Ripley Puntos Go (canje y acumulación),2025-10-12,active,high
+https://www.bancoripley.cl/cuenta-corriente,subcategory,financiero,nacional,,no,none,,cadena,Página Cuenta Corriente con beneficios,2025-10-12,active,medium
+https://www.bancoripley.cl/tarjetas,category,financiero,nacional,,no,none,,cadena,Listado general de tarjetas Ripley,2025-10-12,active,medium
+https://www.bancoripley.cl/tarjetas/tarjeta-ripley,detail,financiero,nacional,,no,none,,cadena,Ficha oficial Tarjeta Ripley,2025-10-12,active,high
+https://www.bancoripley.cl/tarjetas/mastercard,detail,financiero,nacional,,no,none,,cadena,Tarjeta Mastercard Ripley (beneficios globales),2025-10-12,active,medium
+
+https://www.bancoripley.cl/beneficio?id=beneficio12_50b0763d-d749-4fd1-8c53-3cf684900d79,detail,gastronomia,nacional,,no,none,,cadena,Burger King 40 % dcto con Tarjeta Ripley,2025-10-12,active,high
+https://www.bancoripley.cl/beneficio?id=beneficio10_21cc6b21-8dc2-4c85-bd9f-f3fae1a8e8cf,detail,gastronomia,nacional,,no,none,,cadena,Doggis 30 % descuento,2025-10-12,active,medium
+https://www.bancoripley.cl/beneficio?id=beneficio12_6a7e5e4e-90a1-41c0-bf4a-b75d2f84b4e2,detail,gastronomia,nacional,,no,none,,cadena,La Piccola Italia 40 % miércoles,2025-10-12,active,medium
+https://www.bancoripley.cl/beneficio?id=beneficio15_81fbb1f0-fbde-4b4c-a6b1-8f967aeff6f2,detail,gastronomia,nacional,,no,none,,cadena,Starbucks 2x1 bebidas seleccionadas,2025-10-12,active,high
+https://www.bancoripley.cl/beneficio?id=beneficio9_1b37b2c9-27f2-4f25-a3f5-b92bc7e54e0c,detail,gastronomia,nacional,,no,none,,cadena,PedidosYa 30 % cashback pagando con Ripley,2025-10-12,active,medium
+https://www.bancoripley.cl/beneficio?id=beneficio14_7a984fd2-22b4-47b8-912d-27b52bfa0e9b,detail,salud,nacional,,no,none,,cadena,Farmacias Ahumada 20 % jueves y viernes,2025-10-12,active,medium
+https://www.bancoripley.cl/beneficio?id=beneficio16_6fdf2b2b-6f70-43b3-b874-d45f1ee7f9db,detail,combustible,nacional,,no,none,,cadena,Copec 3 % cashback martes,2025-10-12,active,medium
+https://www.bancoripley.cl/beneficio?id=beneficio20_0cbd1f55-6e4b-4e10-a5a3-5b12aab7f032,detail,viajes,nacional,,no,none,,cadena,Ripley Travel 10 % vuelos y hoteles,2025-10-12,active,medium
+
+https://simple.ripley.cl/minisitios/estatico/you-win/,campaign,retail,nacional,,no,none,,cadena,Campaña You Win cupón $5.000 CMR,2025-10-12,active,medium
+https://simple.ripley.cl/minisitios/estatico/chek/index.html,campaign,financiero,nacional,,no,none,,cadena,Promoción Paga con Chek en Ripley.com,2025-10-12,active,medium
+https://ripley.zendesk.com/hc/es-419/articles/360047921594--Qué-es-Chek,reference,general,nacional,,no,none,,cadena,Explicación oficial App Chek Ripley,2025-10-12,active,low
+https://ripley.zendesk.com/hc/es-419/articles/360046254434-Términos-y-condiciones-de-uso-aplicación-Chek,reference,general,nacional,,no,none,,cadena,Términos y condiciones App Chek,2025-10-12,active,low
+https://www.comparaonline.cl/tarjeta-de-credito/product/banco-ripley/tarjeta-ripley,reference,financiero,nacional,,no,none,,cadena,Ficha comparativa beneficios Tarjeta Ripley,2025-10-12,active,low
+
+https://www.bancoripley.cl/beneficio?id=beneficio19_38b3cf55-98f1-4b32-9f13-c8416e6e0b52,detail,financiero,nacional,,no,none,,cadena,Ripley Puntos Go: 2X puntos viernes,2025-10-12,active,medium
+https://www.bancoripley.cl/preguntas-frecuentes,reference,general,nacional,,no,none,,cadena,Preguntas frecuentes sobre beneficios y cashbacks,2025-10-12,active,medium
+https://www.bancoripley.cl/bases-y-condiciones,document,general,nacional,,no,none,,cadena,PDF con bases y condiciones de promociones,2025-10-12,active,medium
+https://ripley.zendesk.com/hc/es-419/categories/360002084534-Promociones-y-beneficios,reference,general,nacional,,no,none,,cadena,Categoría Promociones y Beneficios en centro de ayuda Ripley,2025-10-12,active,low
+
+https://www.burgerking.cl/promociones/banco-ripley,detail,gastronomia,nacional,,no,none,,cadena,Campaña externa Burger King 40 % con Ripley,2025-10-12,active,high
+https://www.pedidosya.cl/promos/banco-ripley,detail,gastronomia,nacional,,no,none,,cadena,Campaña PedidosYa cashback 30 % con Ripley,2025-10-12,active,medium
+https://www.copec.cl/promociones/banco-ripley,detail,combustible,nacional,,no,none,,cadena,Campaña Copec + Ripley martes,2025-10-12,active,medium
+https://www.lapiccolaitalia.cl/promociones/banco-ripley,detail,gastronomia,regional,RM,no,text,texto “La Piccola Italia”,sucursal,Campaña restaurante miércoles,2025-10-12,active,medium
