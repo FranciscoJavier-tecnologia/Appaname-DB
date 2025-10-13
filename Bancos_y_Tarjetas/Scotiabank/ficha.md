@@ -1,27 +1,57 @@
-# Scotiabank — Ficha técnica
+---
+emisor: Scotiabank
+categoria: Bancos y Tarjetas
+dominio_principal: scotiabankchile.cl
+portal_principal: https://beneficios.scotiabank.cl/scclubfront
+estado: active
+ultima_revision: 2025-10-13
+prioridad_extraccion: alta
+render_tipo: SPA
+requiere_js: true
+frecuencia_cambio_dias: 7
+geo_detalle: texto
+selectores_clave:
+  merchant: ".card-title, h1"
+  discount: ".badge-percent, .benefit-discount"
+  terms: ".terms, .condiciones"
+  source_url: "meta[property='og:url']"
+rutas_base:
+  - https://beneficios.scotiabank.cl/scclubfront
+  - https://www.scotiabankchile.cl/Personas/beneficios-scotia
+---
 
-**Categoría:** Bancos y Tarjetas  
-**Dominio principal:** scotiabank.cl  
-**Última revisión:** 2025-10-11  
-**Estado:** active | needs_review
+# Ficha técnica — Scotiabank (ScotiaClub)
 
 ## Resumen
-(Descripción breve del portal sin login y sus secciones.)
+Portal ScotiaClub con mundos/categorías, misiones, cuotas sin interés y canje de Pesos Scotia.
 
-## Navegación / Comportamiento
-(Render, paginado/scroll, buscador, botones, etc.)
+## Cobertura/Canales
+Nacional; presencial/online/app; tarjetas Scotia.
 
-## Campos visibles por beneficio
-(merchant, discount, terms, days, channel, valid_until, source_url…)
+## Tipos de página
+Category/Subcategory, Detail, Campaign, Reference.
 
-## Segmentación geográfica
-(¿Texto de región? ¿Imagen? ¿Mapa? ¿Selector? Dónde aparece.)
+## Render
+SPA con rutas por categoría; cards por beneficio.
 
-## Riesgos / Particularidades
-(Cambios de layout, banners, iframes, cookies…)
+## Campos objetivo
+merchant, discount/value, days, payment_methods, channels, validity, terms, source_url, geo.
 
-## Frecuencia de cambios esperada
-(Semanal/mensual/estacional.)
+## Geo
+Principalmente texto en condiciones.
 
-## Checklist verificado
-(3 ejemplos reales confirmados.)
+## Reglas
+Medios Scotia; topes; acumulación/canje Pesos Scotia.
+
+## Frecuencia
+Semanal/mensual.
+
+## Riesgos
+Contenido cargado dinámico; IDs de beneficio en ruta.
+
+## QA
+- [ ] Sin login
+- [ ] % visible
+- [ ] Validez
+- [ ] Geo (si aplica)
+- [ ] Rol correcto
