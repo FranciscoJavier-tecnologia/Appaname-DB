@@ -1,13 +1,13 @@
 url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
-https://www.mercadopago.cl/,category,general,nacional,,no,none,,cadena,Sitio principal Mercado Pago Chile,2025-10-12,active,high
-https://www.mercadopago.cl/ayuda/como-funcionan-los-descuentos-con-QR_4309,subcategory,general,nacional,,no,none,,cadena,Explicación oficial descuentos con QR,2025-10-12,active,medium
-https://www.mercadopago.cl/cuotas,subcategory,financiero,nacional,,no,none,,cadena,Sección paga en cuotas sin interés,2025-10-12,active,medium
-https://mercadopago.cl/landing/ingresar-cupon,category,campañas,nacional,,no,none,,cadena,Página pública ingreso de cupones,2025-10-12,active,medium
-https://mercadopago.cl/landing/liquidos-fisico,detail,retail,nacional,,no,none,,cadena,Campaña devolución 50 % en Líquidos.cl,2025-10-12,active,medium
-https://mercadopago.cl/landing/centropuerto,detail,transporte,regional,RM,no,none,,cadena,Promoción pasaje gratis Centropuerto (100 % devolución),2025-10-12,active,medium
-https://mercadopago.cl/landing/turbus,detail,transporte,nacional,,no,none,,cadena,Descuento 15–20 % en pasajes Turbus,2025-10-12,active,medium
-https://mercadopago.cl/landing/lipigas,detail,servicios,nacional,,no,none,,cadena,Descuento 15 % en Lipigas con Mercado Pago,2025-10-12,active,medium
-https://mercadopago.cl/landing/directv-go,detail,entretenimiento,nacional,,no,none,,cadena,Promoción DGO FULL 30 % descuento,2025-10-12,active,medium
-https://mercadopago.cl/landing/fork,detail,gastronomia,regional,RM,no,text,texto Fork cashback,sucursal,Descuento en Fork (viernes a domingo),2025-10-12,active,medium
-https://www.petrobrasdistribucion.cl/promociones/billeteras/mercado-pago/,detail,combustible,nacional,,no,none,,cadena,Descuento por litro Petrobras con Mercado Pago,2025-10-12,active,high
-https://www.mercadolibre.cl/l/mercado-pago-descuentos,detail,retail,nacional,,no,none,,cadena,Descuentos en Mercado Libre al pagar con Mercado Pago,2025-10-12,active,medium
+https://www.mercadopago.cl/,category,general,nacional,,no,none,,cadena,Sitio principal Mercado Pago Chile,2025-10-12,active,high,
+https://www.mercadopago.cl/ayuda/como-funcionan-los-descuentos-con-QR_4309,subcategory,general,nacional,,no,none,,cadena,Explicación oficial descuentos con QR,2025-10-12,active,medium,
+https://www.mercadopago.cl/cuotas,subcategory,financiero,nacional,,no,none,,cadena,Sección paga en cuotas sin interés,2025-10-12,active,medium,
+https://mercadopago.cl/landing/ingresar-cupon,category,campañas,nacional,,no,none,,cadena,Página pública ingreso de cupones,2025-10-12,active,medium,
+https://mercadopago.cl/landing/liquidos-fisico,detail,retail,nacional,,no,none,,cadena,Campaña devolución 50 % en Líquidos.cl,2025-10-12,active,medium,
+https://mercadopago.cl/landing/centropuerto,detail,transporte,regional,RM,no,none,,cadena,Promoción pasaje gratis Centropuerto (100 % devolución),2025-10-12,active,medium,
+https://mercadopago.cl/landing/turbus,detail,transporte,nacional,,no,none,,cadena,Descuento 15–20 % en pasajes Turbus,2025-10-12,active,medium,
+https://mercadopago.cl/landing/lipigas,detail,servicios,nacional,,no,none,,cadena,Descuento 15 % en Lipigas con Mercado Pago,2025-10-12,active,medium,
+https://mercadopago.cl/landing/directv-go,detail,entretenimiento,nacional,,no,none,,cadena,Promoción DGO FULL 30 % descuento,2025-10-12,active,medium,
+https://mercadopago.cl/landing/fork,detail,gastronomia,regional,RM,no,text,texto Fork cashback,sucursal,Descuento en Fork (viernes a domingo),2025-10-12,active,medium,
+https://www.petrobrasdistribucion.cl/promociones/billeteras/mercado-pago/,detail,combustible,nacional,,no,none,,cadena,Descuento por litro Petrobras con Mercado Pago,2025-10-12,active,high,
+https://www.mercadolibre.cl/l/mercado-pago-descuentos,detail,retail,nacional,,no,none,,cadena,Descuentos en Mercado Libre al pagar con Mercado Pago,2025-10-12,active,medium,

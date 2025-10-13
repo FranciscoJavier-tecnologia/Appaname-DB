@@ -1,20 +1,20 @@
 url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
-https://personas.bancosecurity.cl/beneficios,category,general,nacional,,no,none,,cadena,Portal principal Beneficios Security,2025-10-12,active,high
-https://personas.bancosecurity.cl/beneficios/beneficios-destacados,subcategory,general,nacional,,no,none,,cadena,Sección Beneficios Destacados,2025-10-12,active,high
-https://personas.bancosecurity.cl/beneficios/gourmet,subcategory,gastronomia,nacional,,no,none,,cadena,Sección “Gourmet” (restaurantes y bares),2025-10-12,active,high
-https://personas.bancosecurity.cl/beneficios/shopping-y-servicios,subcategory,retail,nacional,,no,none,,cadena,Sección Shopping y Servicios,2025-10-12,active,medium
-https://personas.bancosecurity.cl/beneficios/viajes,subcategory,viajes,nacional,,no,none,,cadena,Sección Beneficios de Viajes,2025-10-12,active,medium
-https://personas.bancosecurity.cl/beneficios/entretencion-y-deportes,subcategory,entretenimiento,nacional,,no,none,,cadena,Sección Entretención y Deportes,2025-10-12,active,medium
-https://personas.bancosecurity.cl/tarjeta-credito-one,detail,financiero,nacional,,no,none,,cadena,Página Tarjeta de Crédito One con beneficios y seguros,2025-10-12,active,high
-https://personas.bancosecurity.cl/tarjetas-debit-beneficios,detail,financiero,nacional,,no,none,,cadena,Beneficios de Tarjeta Débito Security,2025-10-12,active,medium
-https://personas.bancosecurity.cl/cuenta-corriente/mujer,detail,financiero,nacional,,no,none,,cadena,Cuenta Corriente Mujer con beneficios exclusivos,2025-10-12,active,medium
-https://personas.bancosecurity.cl/app-banco-security,reference,general,nacional,,no,none,,cadena,Información sobre app Banco Security,2025-10-12,active,low
-https://www.bancosecurity.cl/security/tarjeta-credito/tarjeta_cliente.asp,reference,financiero,nacional,,no,none,,cadena,Acumulación Security Pesos y beneficios de viajes,2025-10-12,active,medium
-https://personas.bancosecurity.cl/beneficios/gourmet/your-goal,detail,retail,nacional,,no,none,,cadena,Promoción “Your Goal” tienda online 15 % dcto,2025-10-12,active,medium
-https://personas.bancosecurity.cl/beneficios/gourmet/new-city-restobar,detail,gastronomia,regional,RM,no,text,"texto New City Restobar",sucursal,Descuento en New City Restobar,2025-10-12,active,medium
-https://personas.bancosecurity.cl/beneficios/gourmet/aurea-restaurante,detail,gastronomia,regional,RM,no,text,"texto Áurea Restaurante",sucursal,Beneficio Áurea Restaurante,2025-10-12,active,medium
-https://personas.bancosecurity.cl/beneficios/gourmet/papa-johns,detail,gastronomia,nacional,,no,none,,cadena,Descuento Papa John’s con tarjetas Security,2025-10-12,active,high
-https://personas.bancosecurity.cl/beneficios/gourmet/carnivo-steakhouse,detail,gastronomia,regional,RM,no,none,,sucursal,Descuento Carnivo Steakhouse,2025-10-12,active,medium
-https://personas.bancosecurity.cl/beneficios/entretencion-y-deportes/almaoutdoor,detail,entretenimiento,nacional,,no,none,,cadena,Beneficio AlmaOutdoor,2025-10-12,active,medium
-https://personas.bancosecurity.cl/beneficios/gourmet/hashigo,detail,gastronomia,regional,RM,no,text,"texto Hashigo",sucursal,Descuento Hashigo,2025-10-12,active,medium
-https://personas.bancosecurity.cl/beneficios?combine=&page=3&sort_bef_combine=field_vigencia_beneficio_value_DESC&sort_by=field_vigencia_beneficio_value&sort_order=DESC,subcategory,general,nacional,,no,none,,cadena,Paginado de beneficios (carga dinámica),2025-10-12,active,low
+https://personas.bancosecurity.cl/beneficios,category,general,nacional,,no,none,,cadena,Portal principal Beneficios Security,2025-10-12,active,high,
+https://personas.bancosecurity.cl/beneficios/beneficios-destacados,subcategory,general,nacional,,no,none,,cadena,Sección Beneficios Destacados,2025-10-12,active,high,
+https://personas.bancosecurity.cl/beneficios/gourmet,subcategory,gastronomia,nacional,,no,none,,cadena,Sección “Gourmet” (restaurantes y bares),2025-10-12,active,high,
+https://personas.bancosecurity.cl/beneficios/shopping-y-servicios,subcategory,retail,nacional,,no,none,,cadena,Sección Shopping y Servicios,2025-10-12,active,medium,
+https://personas.bancosecurity.cl/beneficios/viajes,subcategory,viajes,nacional,,no,none,,cadena,Sección Beneficios de Viajes,2025-10-12,active,medium,
+https://personas.bancosecurity.cl/beneficios/entretencion-y-deportes,subcategory,entretenimiento,nacional,,no,none,,cadena,Sección Entretención y Deportes,2025-10-12,active,medium,
+https://personas.bancosecurity.cl/tarjeta-credito-one,detail,financiero,nacional,,no,none,,cadena,Página Tarjeta de Crédito One con beneficios y seguros,2025-10-12,active,high,
+https://personas.bancosecurity.cl/tarjetas-debit-beneficios,detail,financiero,nacional,,no,none,,cadena,Beneficios de Tarjeta Débito Security,2025-10-12,active,medium,
+https://personas.bancosecurity.cl/cuenta-corriente/mujer,detail,financiero,nacional,,no,none,,cadena,Cuenta Corriente Mujer con beneficios exclusivos,2025-10-12,active,medium,
+https://personas.bancosecurity.cl/app-banco-security,reference,general,nacional,,no,none,,cadena,Información sobre app Banco Security,2025-10-12,active,low,
+https://www.bancosecurity.cl/security/tarjeta-credito/tarjeta_cliente.asp,reference,financiero,nacional,,no,none,,cadena,Acumulación Security Pesos y beneficios de viajes,2025-10-12,active,medium,
+https://personas.bancosecurity.cl/beneficios/gourmet/your-goal,detail,retail,nacional,,no,none,,cadena,Promoción “Your Goal” tienda online 15 % dcto,2025-10-12,active,medium,
+https://personas.bancosecurity.cl/beneficios/gourmet/new-city-restobar,detail,gastronomia,regional,RM,no,text,"texto New City Restobar",sucursal,Descuento en New City Restobar,2025-10-12,active,medium,
+https://personas.bancosecurity.cl/beneficios/gourmet/aurea-restaurante,detail,gastronomia,regional,RM,no,text,"texto Áurea Restaurante",sucursal,Beneficio Áurea Restaurante,2025-10-12,active,medium,
+https://personas.bancosecurity.cl/beneficios/gourmet/papa-johns,detail,gastronomia,nacional,,no,none,,cadena,Descuento Papa John’s con tarjetas Security,2025-10-12,active,high,
+https://personas.bancosecurity.cl/beneficios/gourmet/carnivo-steakhouse,detail,gastronomia,regional,RM,no,none,,sucursal,Descuento Carnivo Steakhouse,2025-10-12,active,medium,
+https://personas.bancosecurity.cl/beneficios/entretencion-y-deportes/almaoutdoor,detail,entretenimiento,nacional,,no,none,,cadena,Beneficio AlmaOutdoor,2025-10-12,active,medium,
+https://personas.bancosecurity.cl/beneficios/gourmet/hashigo,detail,gastronomia,regional,RM,no,text,"texto Hashigo",sucursal,Descuento Hashigo,2025-10-12,active,medium,
+https://personas.bancosecurity.cl/beneficios?combine=&page=3&sort_bef_combine=field_vigencia_beneficio_value_DESC&sort_by=field_vigencia_beneficio_value&sort_order=DESC,subcategory,general,nacional,,no,none,,cadena,Paginado de beneficios (carga dinámica),2025-10-12,active,low,

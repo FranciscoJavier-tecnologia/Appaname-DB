@@ -1,0 +1,18 @@
+url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://tenpo.cl/beneficios,category,general,nacional,,no,none,,cadena,Página principal Beneficios Tenpo,2025-10-12,active,high
+https://tenpo.cl/beneficios?segmento=Personas,subcategory,general,nacional,,no,none,,cadena,Versión de Beneficios para segmento Personas,2025-10-12,active,medium
+https://tenpo.cl/beneficios?ca01dc3d_page=2,subcategory,general,nacional,,no,none,,cadena,Segunda página de beneficios,2025-10-12,active,medium
+https://tenpo.cl/beneficios?ca01dc3d_page=3,subcategory,general,nacional,,no,none,,cadena,Tercera página de beneficios,2025-10-12,active,low
+https://www.tenpo.cl/beneficios/3-cuotas-sin-interes-mayo,campaign,financiero,nacional,,no,none,,cadena,Campaña 3 cuotas sin interés Mayo 2025,2025-10-12,active,medium
+https://www.tenpo.cl/beneficios/6-cuotas-sin-interes-marzo,campaign,financiero,nacional,,no,none,,cadena,Campaña 6 cuotas sin interés Marzo 2025,2025-10-12,active,medium
+https://www.tenpo.cl/beneficios/kupos-septiembre,detail,transporte,nacional,,no,none,,cadena,Descuento 30 % en pasajes Kupos.cl miércoles,2025-10-12,active,medium
+https://www.tenpo.cl/beneficios/apps-bencina,detail,combustible,nacional,,no,none,,cadena,Promoción Apps de Bencina para clientes Tenpo,2025-10-12,active,medium
+https://www.tenpo.cl/yoelijocomopago,detail,retail,nacional,,no,text,texto “Yo elijo cómo pago”,cadena,Descuentos Farmacias Ahumada y comercios asociados,2025-10-12,active,high
+https://web.matchlab.cl/muevocopec/promo_y_beneficios/tenpo/,detail,combustible,nacional,,no,none,,cadena,Descuento Copec Muevo + Tenpo,2025-10-12,active,high
+https://www.nbeneficios.cl/tarjetas/ver/tenpo,reference,general,nacional,,no,none,,cadena,Portal externo que lista beneficios Tenpo,2025-10-12,active,low
+https://www.tenpo.cl/productos/tarjeta-de-credito/home,detail,financiero,nacional,,no,none,,cadena,Página de producto Tarjeta de Crédito Tenpo,2025-10-12,active,medium
+https://www.tenpo.cl/productos/tarjeta-prepago-debito-mastercard,detail,financiero,nacional,,no,none,,cadena,Página de Tarjeta Prepago Mastercard,2025-10-12,active,medium
+https://soporte.tenpo.cl/hc/es-419/sections/18507425422875-Beneficios-y-Tenpesos,reference,general,nacional,,no,none,,cadena,Sección ayuda sobre Tenpesos y beneficios,2025-10-12,active,low
+https://tenpo.cl/politicas-de-privacidad,reference,general,nacional,,no,none,,cadena,Políticas de privacidad (enlace público no comercial),2025-10-12,active,low
+https://tenpo.cl/tenpopro,reference,general,nacional,,no,none,,cadena,Página informativa del programa Tenpo Pro (actualmente discontinuado),2025-10-12,active,low
+https://prepagos.cl/prepagos-bancarios-cuenta-tenpo/,reference,general,nacional,,no,none,,cadena,Página externa con información sobre cuenta Tenpo,2025-10-12,active,low

@@ -1,0 +1,19 @@
+url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://sitiospublicos.bancoedwards.cl/personas/beneficios,category,general,nacional,,no,none,,cadena,Portal principal de beneficios Banco Edwards Personas,2025-10-12,active,high
+https://sitiospublicos.bancoedwards.cl/personas/beneficios/sabores/40-de-descuento-visa,campaign,gastronomia,nacional,,no,none,,cadena,Campaña 40 % descuento con Visa,2025-10-12,active,high
+https://sitiospublicos.bancoedwards.cl/personas/tarjetas,subcategory,financiero,nacional,,no,none,,cadena,Sección de tarjetas Edwards con programas de beneficios,2025-10-12,active,medium
+https://sitiospublicos.bancoedwards.cl/personas/beneficios/campanas/big5-dto,campaign,general,nacional,,no,none,,cadena,Campaña Big 5 descuentos destacados,2025-10-12,active,medium
+https://sitiospublicos.bancoedwards.cl/personas/beneficios/campanas/restaurant-planes-cordillera-oceano,detail,gastronomia,nacional,,no,text,"planes Cordillera / Océano",cadena,Beneficios en restaurantes seleccionados según plan,2025-10-12,active,medium
+https://sitiospublicos.bancoedwards.cl/personas/planes,category,financiero,nacional,,no,none,,cadena,Página de planes bancarios con beneficios asociados,2025-10-12,active,medium
+https://sitiospublicos.bancoedwards.cl/personas/beneficios/programa-de-beneficios,category,general,nacional,,no,none,,cadena,Programa general de beneficios Edwards,2025-10-12,active,high
+https://sitiospublicos.bancoedwards.cl/personas/beneficios/sabores/restaurantes-y-bares,subcategory,gastronomia,nacional,,no,none,,cadena,Sección de restaurantes y bares,2025-10-12,active,medium
+https://sitiospublicos.bancoedwards.cl/personas/beneficios/sabores/cafeterias,subcategory,gastronomia,nacional,,no,none,,cadena,Sección de cafeterías,2025-10-12,active,medium
+
+https://sitiospublicos.bancoedwards.cl/personas/beneficios/detalle/pedidosya,detail,gastronomia,nacional,,no,none,,cadena,Ficha de comercio PedidosYa con descuento Edwards,2025-10-12,active,high
+https://sitiospublicos.bancoedwards.cl/personas/beneficios/detalle/ash-dto,detail,gastronomia,nacional,,no,none,,cadena,Descuento en restaurante ASH,2025-10-12,active,medium
+https://sitiospublicos.bancoedwards.cl/personas/beneficios/detalle/traslado-gratis-al-aeropuerto-con-tu-tarjeta-de-credito-banco-edwards,detail,viajes,nacional,,no,none,,cadena,Traslado gratis al aeropuerto con tarjeta de crédito Edwards,2025-10-12,active,high
+https://sitiospublicos.bancoedwards.cl/personas/beneficios/detalle/adidas,detail,retail,nacional,,no,none,,cadena,Descuento Adidas 30 % en días específicos,2025-10-12,active,medium
+
+https://sitiospublicos.bancoedwards.cl/bancaprivada/nuestros-productos/tarjetas-de-credito/detalle/visa-infinite,detail,financiero,nacional,,no,none,,cadena,Ficha tarjeta Visa Infinite con beneficios asociados,2025-10-12,active,medium
+https://sitiospublicos.bancoedwards.cl/bancaprivada/nuestros-productos/tarjetas-de-credito/detalle/mastercard-black,detail,financiero,nacional,,no,none,,cadena,Ficha tarjeta Mastercard Black Edwards,2025-10-12,active,medium
+https://sitiospublicos.bancoedwards.cl/personas/tarjetas/detalle/visa-signature,detail,financiero,nacional,,no,none,,cadena,Ficha tarjeta Visa Signature Edwards,2025-10-12,active,medium

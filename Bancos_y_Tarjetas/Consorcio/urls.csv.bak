@@ -1,0 +1,7 @@
+url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://sitio.consorcio.cl/beneficios,category,general,nacional,,no,none,,cadena,Portal Beneficios Clientes Consorcio,2025-10-12,active,high
+https://sitio.consorcio.cl/servicio-clientes/promociones,subcategory,campañas,nacional,,no,none,,cadena,Sección Promociones y Concursos Grupo Consorcio,2025-10-12,active,medium
+https://www.bancoconsorcio.cl/index.php/conozca-banco-consorcio/110,subcategory,campañas,nacional,,no,none,,cadena,Promociones y concursos Banco Consorcio,2025-10-12,active,medium
+https://sitio.consorcio.cl/banca-personas/tarjeta-de-credito,detail,financiero,nacional,,no,none,,cadena,Página de Tarjeta de Crédito con beneficios Consorcio,2025-10-12,active,medium
+https://www.casacostanera.cl/convenios-banco-consorcio-casacostanera/,detail,retail,regional,RM,no,text,texto “Casacostanera”,sucursal,Convenio Casacostanera (restaurantes, estacionamientos, tiendas),2025-10-12,active,high
+https://www.petrobrasdistribucion.cl/promociones/descuento-con-medios-de-pago/banco-consorcio/,detail,combustible,nacional,,no,none,,cadena,Descuento Petrobras con tarjeta Consorcio (lunes),2025-10-12,active,high

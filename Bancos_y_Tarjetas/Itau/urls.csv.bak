@@ -1,0 +1,19 @@
+url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://itaubeneficios.cl/beneficios/beneficios-y-descuentos/,category,general,nacional,,no,none,,cadena,Sección general Beneficios y Descuentos Itaú,2025-10-12,active,high
+https://itaubeneficios.cl/promociones-del-mes/,category,campañas,nacional,,no,none,,cadena,Página Promociones del Mes Itaú Beneficios,2025-10-12,active,high
+https://itaubeneficios.cl/itau-puntos/,subcategory,financiero,nacional,,no,none,,cadena,Página de acumulación y canje de puntos Itaú,2025-10-12,active,medium
+https://itaubeneficios.cl/terminos-y-condiciones/,reference,general,nacional,,no,none,,cadena,Términos y condiciones del programa,2025-10-12,active,low
+https://itaubeneficios.cl/preguntas-frecuentes/,reference,general,nacional,,no,none,,cadena,FAQ del programa de beneficios Itaú,2025-10-12,active,low
+https://banco.itau.cl/wps/wcm/connect/es_contentsbic/bic_public/home/_campanas_web/programa-de-beneficios-de-tus-tarjetas-de-credito-de-itau,category,financiero,nacional,,no,none,,cadena,Programa oficial de beneficios tarjetas de crédito Itaú,2025-10-12,active,high
+
+https://itaubeneficios.cl/promociones-del-mes/apple-store-online-chile/,detail,tecnologia,nacional,,no,none,,cadena,Promoción Apple Store cuotas sin interés,2025-10-12,active,high
+https://itaubeneficios.cl/promociones-del-mes/descubre-el-catalogo-exclusivo-de-productos-para-canjear-tus-itau-puntos/,detail,financiero,nacional,,no,none,,cadena,Catálogo de canje de puntos Itaú,2025-10-12,active,medium
+https://itaubeneficios.cl/promociones-del-mes/cuotas/,subcategory,financiero,nacional,,no,none,,cadena,Promociones de cuotas sin interés,2025-10-12,active,medium
+https://itaubeneficios.cl/promociones-del-mes/cuotas-sin-interes-en-educacion/,detail,educacion,nacional,,no,none,,cadena,Promoción 10 cuotas sin interés educación Legend,2025-10-12,active,medium
+https://itaubeneficios.cl/promociones-del-mes/compra-tu-proximo-viaje-con-tu-tarjeta-de-credito-legend/,detail,viajes,nacional,,no,none,,cadena,Promoción X3 puntos Legend viajes,2025-10-12,active,medium
+https://itaubeneficios.cl/beneficios/beneficios-y-descuentos/restaurantes/,subcategory,gastronomia,nacional,,no,none,,cadena,Descuentos en restaurantes Itaú,2025-10-12,active,medium
+https://itaubeneficios.cl/beneficios-tarjeta/,subcategory,financiero,nacional,,no,none,,cadena,Beneficios específicos por tarjeta,2025-10-12,active,medium
+
+https://www.petrobrasdistribucion.cl/promociones/descuento-con-medios-de-pago/descuento-itau/,detail,combustible,nacional,,no,none,,cadena,Descuento Petrobras viernes con tarjeta Itaú,2025-10-12,active,high
+https://www.casaideas.cl/contenido/promo-itau-lunes-enero-2025,detail,retail,nacional,,no,none,,cadena,Promoción “Lunes Itaú” Casaideas,2025-10-12,active,medium
+https://promos.rappi.com/chile/banco-itau-abril-2025,detail,retail,nacional,,no,none,,cadena,Campaña Rappi + Itaú Abril 2025,2025-10-12,active,medium

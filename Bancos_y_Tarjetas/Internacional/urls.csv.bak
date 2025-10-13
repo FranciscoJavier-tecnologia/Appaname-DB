@@ -1,0 +1,35 @@
+url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://beneficios.internacional.cl/,category,general,nacional,,no,none,,cadena,Portal principal de beneficios Banco Internacional,2025-10-12,active,high
+https://beneficios.internacional.cl/gastronomia,subcategory,gastronomia,nacional,,no,none,,cadena,Categoría Gastronomía: restaurantes y cafés,2025-10-12,active,high
+https://beneficios.internacional.cl/entretencion,subcategory,entretenimiento,nacional,,no,none,,cadena,Categoría Entretención: cine, teatro, panoramas,2025-10-12,active,medium
+https://beneficios.internacional.cl/viajes,subcategory,viajes,nacional,,no,none,,cadena,Categoría Viajes: aerolíneas, hoteles, rent a car,2025-10-12,active,medium
+https://beneficios.internacional.cl/shopping,subcategory,retail,nacional,,no,none,,cadena,Categoría Shopping: tiendas y vestuario,2025-10-12,active,medium
+https://beneficios.internacional.cl/bienestar,subcategory,salud,nacional,,no,none,,cadena,Categoría Bienestar: salud, spa y gimnasios,2025-10-12,active,medium
+https://beneficios.internacional.cl/servicios,subcategory,servicios,nacional,,no,none,,cadena,Categoría Servicios: educación y convenios,2025-10-12,active,medium
+https://beneficios.internacional.cl/beneficios-destacados,subcategory,general,nacional,,no,none,,cadena,Página Beneficios destacados del mes,2025-10-12,active,high
+
+https://beneficios.internacional.cl/detalle/vicenzorestaurante,detail,gastronomia,nacional,,no,none,,cadena,Ficha Vicenzo Restaurante y Salumería (40% dcto jueves),2025-10-12,active,high
+https://beneficios.internacional.cl/detalle/copec,detail,combustible,nacional,,no,none,,cadena,Ficha Copec martes descuento por litro,2025-10-12,active,high
+https://beneficios.internacional.cl/detalle/naizz,detail,retail,nacional,,no,none,,cadena,Ficha Naizz vestuario,2025-10-12,active,medium
+https://beneficios.internacional.cl/detalle/cinehoysttsantiago,detail,entretenimiento,regional,RM,no,text,"texto CineHoyts Santiago",sucursal,Ficha CineHoyts Santiago,2025-10-12,active,medium
+https://beneficios.internacional.cl/detalle/latamtravel,detail,viajes,nacional,,no,none,,cadena,Ficha LATAM Travel (beneficio viajes),2025-10-12,active,high
+https://beneficios.internacional.cl/detalle/doggis,detail,gastronomia,nacional,,no,none,,cadena,Ficha Doggis martes de descuento,2025-10-12,active,medium
+https://beneficios.internacional.cl/detalle/jumbo,detail,retail,nacional,,no,none,,cadena,Ficha Jumbo descuento alimentos,2025-10-12,active,medium
+https://beneficios.internacional.cl/detalle/unimarc,detail,retail,nacional,,no,none,,cadena,Ficha Unimarc convenio,2025-10-12,active,medium
+https://beneficios.internacional.cl/detalle/sushihouse,detail,gastronomia,nacional,,no,none,,cadena,Ficha Sushi House,2025-10-12,active,medium
+https://beneficios.internacional.cl/detalle/clinicaalemana,detail,salud,regional,RM,no,text,texto Clínica Alemana,sucursal,Ficha Clínica Alemana,2025-10-12,active,medium
+
+https://www.internacional.cl/productos-campana,category,campañas,nacional,,no,none,,cadena,Página principal Campañas de Productos y Descuentos,2025-10-12,active,high
+https://www.internacional.cl/productos-campana/26,detail,combustible,nacional,,no,none,,cadena,Campaña Copec martes de descuento,2025-10-12,active,high
+https://www.internacional.cl/productos-campana/38,detail,gastronomia,nacional,,no,none,,cadena,Campaña 40 % en restaurantes seleccionados jueves,2025-10-12,active,medium
+https://www.internacional.cl/productos-campana/22,detail,retail,nacional,,no,none,,cadena,Campaña Cyber Internacional (comercios online),2025-10-12,active,medium
+https://www.internacional.cl/productos-campana/45,detail,gastronomia,nacional,,no,none,,cadena,Campaña Semana del Vino,2025-10-12,active,medium
+
+https://www.internacional.cl/productos/tarjetas,category,financiero,nacional,,no,none,,cadena,Página general de tarjetas Banco Internacional,2025-10-12,active,high
+https://www.internacional.cl/productos/tarjeta-mastercard-platinum,detail,financiero,nacional,,no,none,,cadena,Tarjeta Mastercard Platinum beneficios,2025-10-12,active,medium
+https://www.internacional.cl/productos/tarjeta-mastercard-gold,detail,financiero,nacional,,no,none,,cadena,Tarjeta Mastercard Gold beneficios,2025-10-12,active,medium
+https://www.internacional.cl/productos/tarjeta-mastercard-black,detail,financiero,nacional,,no,none,,cadena,Tarjeta Mastercard Black beneficios,2025-10-12,active,medium
+https://www.internacional.cl/productos/tarjeta-debito,detail,financiero,nacional,,no,none,,cadena,Tarjeta Débito con descuentos asociados,2025-10-12,active,medium
+https://www.internacional.cl/productos/cuenta-digital,detail,financiero,nacional,,no,none,,cadena,Cuenta Digital sin costo bajo condiciones,2025-10-12,active,medium
+https://www.internacional.cl/productos/seguros,subcategory,servicios,nacional,,no,none,,cadena,Página Seguros con beneficios asociados,2025-10-12,active,medium
+https://www.internacional.cl/productos-campana/19,detail,financiero,nacional,,no,none,,cadena,Campaña 7 cuotas sin interés,2025-10-12,active,medium

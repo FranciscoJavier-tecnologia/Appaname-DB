@@ -1,0 +1,20 @@
+url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://www.bancofalabella.cl/descuentos,category,general,nacional,,no,none,,cadena,Portal principal de descuentos Banco Falabella / CMR,2025-10-12,active,high
+https://www.bancofalabella.cl/descuentos/detalle/beneficios-del-mes,subcategory,general,nacional,,no,none,,cadena,Sección Beneficios del mes,2025-10-12,active,high
+https://www.bancofalabella.cl/descuentos/detalle/club-de-restaurantes,subcategory,gastronomia,nacional,,no,none,,cadena,Club de Restaurantes CMR,2025-10-12,active,medium
+https://www.bancofalabella.cl/tarjetas-credito-cmr,category,financiero,nacional,,no,none,,cadena,Página general Tarjeta CMR,2025-10-12,active,high
+https://www.bancofalabella.cl/tarjetas-credito-cmr/mastercard,detail,financiero,nacional,,no,none,,cadena,Versión Mastercard CMR y beneficios asociados,2025-10-12,active,medium
+https://www.bancofalabella.cl/tarjetas-credito-cmr/mastercard-elite,detail,financiero,nacional,,no,none,,cadena,Versión Mastercard Elite CMR,2025-10-12,active,medium
+https://www.bancofalabella.cl/descuentos/detalle/Gi,campaign,general,nacional,,no,none,,cadena,Campaña Día de la Madre CMR,2025-10-12,active,medium
+
+https://www.falabella.com/falabella-cl/collection/descuentos-cmr,category,retail,nacional,,no,none,,cadena,Productos con descuentos pagando con CMR en Falabella.com,2025-10-12,active,high
+https://www.falabella.com/falabella-cl/page/CMR-enlinea,reference,general,nacional,,no,none,,cadena,Sección CMR en Línea (gestión y beneficios),2025-10-12,active,medium
+https://www.falabella.com/falabella-cl/page/alianzas-y-descuentos,subcategory,retail,nacional,,no,none,,cadena,Página de alianzas y descuentos del ecosistema Falabella,2025-10-12,active,high
+https://www.falabella.com/falabella-cl/page/comunidad-f,subcategory,retail,nacional,,no,none,,cadena,Comunidad F – descuentos exclusivos y cupones,2025-10-12,active,medium
+
+https://www.cmrpuntos.cl/,category,financiero,nacional,,no,none,,cadena,Portal oficial de acumulación y canje de puntos CMR,2025-10-12,active,high
+https://canjeonline-cmrpuntos.puntospoint.com/,subcategory,financiero,nacional,,no,none,,cadena,Portal de canje de CMR Puntos (cupones y gift cards),2025-10-12,active,medium
+https://www.cmrfalabella.com/b2cfapr/CMRCORP/grafica/imgs/CL/baseseyp.pdf,document,financiero,nacional,,no,none,,cadena,Documento PDF con bases y promociones de CMR,2025-10-12,active,medium
+https://www.viajesfalabella.cl/ofertas-viajes/promociones,subcategory,viajes,nacional,,no,none,,cadena,Promociones de Viajes Falabella con beneficios CMR,2025-10-12,active,high
+
+https://www.bancofalabella.com.co/descuento-detalle/alianzas/burger-festival,reference,gastronomia,internacional,CO,no,none,,cadena,Ejemplo internacional: Burger Festival con CMR (Colombia),2025-10-12,inactive,low

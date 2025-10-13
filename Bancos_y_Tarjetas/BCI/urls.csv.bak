@@ -1,0 +1,34 @@
+url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://www.bci.cl/beneficios,category,general,nacional,,no,none,,cadena,Página principal de beneficios BCI,2025-10-12,active,high
+https://www.bci.cl/vivirconbeneficios/beneficios-bci,category,general,nacional,,no,none,,cadena,Sección “Vivir con Beneficios”,2025-10-12,active,high
+https://www.vivirconbeneficios.cl/portal,category,general,nacional,,no,none,,cadena,Portal central Vivir con Beneficios,2025-10-12,active,high
+https://www.vivirconbeneficios.cl/descuentos,subcategory,general,nacional,,no,none,,cadena,Descuentos públicos del portal Vivir con Beneficios,2025-10-12,active,medium
+https://www.bci.cl/personas/beneficios-tarjetas-bci,subcategory,general,nacional,,no,none,,cadena,Beneficios específicos para tarjetas BCI,2025-10-12,active,high
+https://www.bci.cl/personas/abrir-cuenta-corriente,subcategory,general,nacional,,no,none,,cadena,Página de abrir cuenta con cashback y descuentos,2025-10-12,active,medium
+https://www.bci.cl/personas/tarjetas/bciplus,subcategory,general,nacional,,no,none,,cadena,Información y beneficios de tarjeta BciPlus+,2025-10-12,active,medium
+
+https://www.bci.cl/beneficios/beneficios-bci/paga-en-cuotas,subcategory,financiero,nacional,,no,none,,cadena,Beneficio pagar en cuotas sin interés,2025-10-12,active,medium
+https://www.bci.cl/beneficios/beneficios-bci/restaurantes,subcategory,gastronomia,nacional,,no,text,subsección restaurantes,cadena,Descuentos en restaurantes,2025-10-12,active,high
+https://www.bci.cl/beneficios/beneficios-viajes,category,viajes,nacional,,no,none,,cadena,Sección de beneficios en viajes,2025-10-12,active,high
+https://www.bci.cl/beneficios/beneficios-viajes/beneficios-para-el-viaje,subcategory,viajes,nacional,,no,none,,cadena,Subsección Beneficios para el viaje,2025-10-12,active,medium
+
+https://www.bci.cl/beneficios/beneficios-bci/detalle/pagando-con-tus-tarjetas-de-credito-bci-s7hemmm,detail,financiero,nacional,,no,none,,cadena,Campaña pagar con tus tarjetas de crédito BCI,2025-10-12,active,medium
+https://www.bci.cl/beneficios/beneficios-bci/detalle/app-copec-9wbpts,detail,combustible,nacional,,no,none,,cadena,Alianza App Copec + BCI (cashback jueves),2025-10-12,active,high
+https://www.bci.cl/beneficios/beneficios-bci/detalle/lunes-providencia-qn2m5al,detail,gastronomia,regional,RM,no,text,texto “Lunes Providencia”,sucursal,Campaña lunes Providencia,2025-10-12,active,medium
+https://www.bci.cl/beneficios/beneficios-bci/detalle/miercoles-providencia-y-vitacura-cfneh3,detail,gastronomia,regional,RM,no,text,texto “Miércoles Providencia y Vitacura”,sucursal,Campaña miércoles Sublime,2025-10-12,active,medium
+https://www.bci.cl/beneficios/beneficios-bci/detalle/jueves-y-viernes-5x-de-cb-con-tus-tc-bci-en-acuenta.cl-lider.cl-y-app-lider-vc0qo7q,detail,retail,nacional,,no,none,,cadena,Campaña 5x cashback en ACuenta/Lider,2025-10-12,active,high
+
+https://www.conveniosbci.cl/,category,convenios,nacional,,no,none,,cadena,Portal Convenios BCI,2025-10-12,active,high
+https://www.conveniosbci.cl/asesoria,subcategory,convenios,nacional,,no,none,,cadena,Sección de Asesoría en Convenios BCI,2025-10-12,active,medium
+https://www.conveniosbci.cl/tombolas?tipo=TGDIFA04042025,campaign,convenios,nacional,,no,none,,cadena,Campaña o sorteo Tombolas BCI,2025-10-12,active,medium
+
+https://www.liderbci.cl/descuentos,category,retail,nacional,,no,none,,cadena,Portal de descuentos Lider BCI,2025-10-12,active,high
+https://tarjetaliderbci.cl/contenidos/descuentos,subcategory,retail,nacional,,no,none,,cadena,Descuentos Tarjeta Lider BCI,2025-10-12,active,medium
+https://www.appcopec.cl/promo-y-beneficios/banco-bci-2/,detail,combustible,nacional,,no,none,,cadena,Campaña App Copec + BCI,2025-10-12,active,high
+https://lipigas.cl/hogar/alianza-banco-bci/?srsltid=AfmBOorQMvwpj_JTplF8kwot7JgrdN0JckjTdqQeVexst7qPran8XaYn,detail,servicios,nacional,,no,none,,cadena,Alianza Lipigas + BCI (20% dcto),2025-10-12,active,medium
+https://varsovienne-chile.zendesk.com/hc/es-419/articles/25102862116503--40-de-CASHBACK-con-tus-tarjetas-de-cr%C3%A9dito-seleccionadas-Bci,detail,gastronomia,nacional,,no,text,texto en página,cadena,Campaña Varsovienne 40% cashback,2025-10-12,active,medium
+https://www.samsung.com/cl/offer/benefit-bci/,detail,retail,nacional,,no,none,,cadena,Campaña Samsung Chile + BCI,2025-10-12,active,medium
+
+https://cdn3.bci.cl/uploads/b9ccdef1-1453-4ccf-891a-a161ce503d94/original/Beneficios-Bci-Mayo-2025.pdf,document,general,nacional,,no,none,,cadena,Catálogo oficial Beneficios Mayo 2025,2025-10-12,active,medium
+https://cdn3.bci.cl/uploads/4298a9b1-383b-420d-8f9a-a32c83ce45de/original/Condiciones_del_Programa_PuntosBci_Agosto_2024.pdf,document,general,nacional,,no,none,,cadena,Condiciones Programa Puntos BCI,2025-10-12,active,medium
+https://www.bienestar.dgac.gob.cl/2025/03/04/beneficios-bci/,reference,general,nacional,,no,none,,cadena,Publicación institucional sobre Beneficios BCI,2025-10-12,active,low
