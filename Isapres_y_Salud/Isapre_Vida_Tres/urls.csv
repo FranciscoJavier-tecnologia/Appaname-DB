@@ -1,1 +1,35 @@
 url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://www.vidatres.cl/beneficios/,category,general,nacional,,no,none,,cadena,Página principal de beneficios Vida Tres,2025-10-13,active,high
+https://www.vidatres.cl/beneficios-en-farmacias/,detail,salud,nacional,,no,none,,cadena,Beneficios en Farmacias Salcobrand (hasta 30 %),2025-10-13,active,high
+https://www.vidatres.cl/disfruta-los-beneficios-nuestra-nueva-alianza-farmacias-salcobrand/,campaign,salud,nacional,,no,text,texto “alianza Salcobrand”,cadena,Campaña alianza Farmacias Salcobrand,2025-10-13,active,high
+https://www.vidatres.cl/producto-farmacia/,detail,salud,nacional,,no,none,,cadena,Producto Farmacia Ambulatoria con condiciones de medicamentos,2025-10-13,active,medium
+https://www.vidatres.cl/cobertura-dental/,detail,salud,nacional,,no,none,,cadena,Beneficio dental con 80 % bonificación en prestaciones,2025-10-13,active,high
+https://www.vidatres.cl/busqueda-de-prestadores/,tool,salud,nacional,,yes,map,mapa en página,buscador,Buscador de prestadores médicos en convenio,2025-10-13,active,high
+https://www.vidatres.cl/club-vida-tres/descuentos-en-medicamentos-en-farmacias-cruz-verde/,detail,salud,nacional,,no,none,,cadena,Descuentos en Farmacias Cruz Verde (Club Vida Tres),2025-10-13,active,high
+https://www.vidatres.cl/club-vida-tres/descuentos-permanentes/,detail,general,nacional,,no,none,,cadena,Descuentos permanentes del Club Vida Tres,2025-10-13,active,high
+https://www.vidatres.cl/usa-tus-excedentes-para-comprar-medicamentos/,detail,financiero,nacional,,no,text,texto “usa tus excedentes”,cadena,Compra de medicamentos con excedentes,2025-10-13,active,medium
+https://www.vidatres.cl/tenemos-una-amplia-y-prestigiosa-red-de-prestadores/,subcategory,salud,nacional,,no,none,,cadena,Red de prestadores y convenios médicos,2025-10-13,active,high
+https://www.vidatres.cl/club-vida-tres/,category,general,nacional,,no,none,,cadena,Portal central Club Vida Tres (beneficios, convenios, descuentos),2025-10-13,active,high
+https://www.vidatres.cl/club-vida-tres/salud-bienestar/,subcategory,salud,nacional,,no,none,,cadena,Beneficios de salud y bienestar (ópticas, gimnasios, exámenes),2025-10-13,active,high
+https://www.vidatres.cl/club-vida-tres/belleza/,subcategory,belleza,nacional,,no,none,,cadena,Descuentos en peluquerías, spas y cosmética,2025-10-13,active,medium
+https://www.vidatres.cl/club-vida-tres/farmacias/,subcategory,salud,nacional,,no,none,,cadena,Sección de farmacias adheridas (Salcobrand, Cruz Verde, Knop),2025-10-13,active,high
+https://www.vidatres.cl/club-vida-tres/educacion/,subcategory,educacion,nacional,,no,none,,cadena,Convenios educativos (universidades y centros de formación),2025-10-13,active,medium
+https://www.vidatres.cl/club-vida-tres/entretencion/,subcategory,entretenimiento,nacional,,no,none,,cadena,Convenios en cines, restaurantes y actividades recreativas,2025-10-13,active,medium
+https://www.vidatres.cl/club-vida-tres/viajes/,subcategory,viajes,nacional,,no,none,,cadena,Beneficios turísticos (LATAM Pass, hoteles),2025-10-13,active,medium
+https://www.vidatres.cl/club-vida-tres/mascotas/,subcategory,mascotas,nacional,,no,none,,cadena,Beneficios veterinarios y descuentos en clínicas,2025-10-13,active,medium
+https://www.vidatres.cl/convenios-de-salud/,category,salud,nacional,,no,none,,cadena,Listado general de convenios médicos,2025-10-13,active,high
+https://www.vidatres.cl/beneficios-de-salud/,subcategory,salud,nacional,,no,none,,cadena,Descuentos y coberturas en atención ambulatoria,2025-10-13,active,high
+https://www.vidatres.cl/farmacias-salcobrand/,detail,salud,nacional,,no,none,,cadena,Convenio exclusivo con Farmacias Salcobrand,2025-10-13,active,high
+https://www.vidatres.cl/farmacias-cruz-verde/,detail,salud,nacional,,no,none,,cadena,Convenio adicional con Farmacias Cruz Verde,2025-10-13,active,medium
+https://www.vidatres.cl/farmacias-knop/,detail,salud,nacional,,no,none,,cadena,Descuento de hasta 30 % en productos naturales Farmacias Knop,2025-10-13,active,medium
+https://www.vidatres.cl/farmacias-pharma-vida/,detail,salud,nacional,,no,none,,cadena,Convenio con Farmacia Pharma Vida (productos ambulatorios),2025-10-13,active,medium
+https://www.vidatres.cl/programa-salud-mujer/,programa,salud,nacional,,no,none,,cadena,Programa de salud femenina (ginecología y maternidad),2025-10-13,active,medium
+https://www.vidatres.cl/programa-preventivo/,programa,salud,nacional,,no,none,,cadena,Plan preventivo con chequeos médicos y copago $0,2025-10-13,active,high
+https://www.vidatres.cl/programa-vida-sana/,programa,salud,nacional,,no,none,,cadena,Beneficios en gimnasios y control nutricional,2025-10-13,active,high
+https://www.vidatres.cl/beneficio-checkup/,detail,salud,nacional,,no,none,,cadena,Descuentos y cobertura en chequeos médicos anuales,2025-10-13,active,high
+https://www.vidatres.cl/beneficios-covid19/,campaign,salud,nacional,,no,none,,cadena,Beneficios temporales COVID (PCR, test, telemedicina),2025-10-13,active,medium
+https://www.vidatres.cl/campana-vacunacion-influenza/,campaign,salud,nacional,,no,none,,cadena,Campaña de vacunación influenza anual,2025-10-13,active,high
+https://www.vidatres.cl/preguntas-frecuentes-beneficios/,reference,general,nacional,,no,none,,cadena,Preguntas frecuentes sobre beneficios Vida Tres,2025-10-13,active,low
+https://www.vidatres.cl/terminos-y-condiciones-beneficios/,document,general,nacional,,no,none,,cadena,Condiciones generales de los beneficios Club Vida Tres,2025-10-13,active,low
+https://www.vidatres.cl/centros-en-convenio/,tool,salud,nacional,,yes,map,mapa visible,buscador,Listado y mapa de centros en convenio,2025-10-13,active,high
+https://www.vidatres.cl/documentos/beneficios-vida-tres-2025.pdf,document,general,nacional,,no,none,,cadena,Catálogo PDF oficial de beneficios Vida Tres 2025,2025-10-13,active,high
