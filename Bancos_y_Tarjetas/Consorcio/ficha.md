@@ -1,27 +1,41 @@
-# Consorcio — Ficha técnica
+---
+emisor: Banco Consorcio / Grupo Consorcio
+categoria: Bancos y Tarjetas
+dominio_principal: consorcio.cl
+portal_principal: https://sitio.consorcio.cl/beneficios
+estado: active
+ultima_revision: 2025-10-13
+prioridad_extraccion: media
+render_tipo: SSR
+requiere_js: false
+frecuencia_cambio_dias: 14
+geo_detalle: texto
+selectores_clave:
+  merchant: "h1, .titulo"
+  discount: ".percent, .badge"
+  terms: ".tyc, .condiciones"
+  source_url: "link[rel='canonical']"
+rutas_base:
+  - https://sitio.consorcio.cl/beneficios
+  - https://sitio.consorcio.cl/servicio-clientes/promociones
+---
 
-**Categoría:** Bancos y Tarjetas  
-**Dominio principal:** consorcio.cl  
-**Última revisión:** 2025-10-11  
-**Estado:** active | needs_review
+# Ficha técnica — Consorcio
 
 ## Resumen
-(Descripción breve del portal sin login y sus secciones.)
+Beneficios y promociones para clientes; convenios (p.ej. Casacostanera), combustible, retail.
 
-## Navegación / Comportamiento
-(Render, paginado/scroll, buscador, botones, etc.)
+## Cobertura/Canales
+Nacional + casos RM; presencial/online.
 
-## Campos visibles por beneficio
-(merchant, discount, terms, days, channel, valid_until, source_url…)
+## Tipos
+Category/Detail/Campaign.
 
-## Segmentación geográfica
-(¿Texto de región? ¿Imagen? ¿Mapa? ¿Selector? Dónde aparece.)
+## Render
+SSR; estructura simple.
 
-## Riesgos / Particularidades
-(Cambios de layout, banners, iframes, cookies…)
+## Campos/Geo
+merchant, discount, terms, validity, source_url; geo en texto.
 
-## Frecuencia de cambios esperada
-(Semanal/mensual/estacional.)
-
-## Checklist verificado
-(3 ejemplos reales confirmados.)
+## Reglas/Frecuencia/Riesgos/QA
+Medios Consorcio; baja rotación; landings externas; checklist estándar.
