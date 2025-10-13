@@ -1,27 +1,32 @@
-# Mercado Pago — Ficha técnica
+---
+emisor: Mercado Pago
+categoria: Bancos y Tarjetas
+dominio_principal: mercadopago.cl
+portal_principal: https://www.mercadopago.cl/
+estado: active
+ultima_revision: 2025-10-13
+prioridad_extraccion: media
+render_tipo: SSR_hibrido
+requiere_js: true
+frecuencia_cambio_dias: 7
+geo_detalle: texto
+selectores_clave:
+  merchant: "h1, .title"
+  discount: ".percent, .badge"
+  terms: ".terms, .tyc"
+  source_url: "link[rel='canonical']"
+rutas_base:
+  - https://www.mercadopago.cl/ayuda/como-funcionan-los-descuentos-con-QR_4309
+  - https://mercadopago.cl/landing/<campaña>
+---
 
-**Categoría:** Bancos y Tarjetas  
-**Dominio principal:** mercadopago.cl  
-**Última revisión:** 2025-10-11  
-**Estado:** active | needs_review
+# Ficha técnica — Mercado Pago
 
 ## Resumen
-(Descripción breve del portal sin login y sus secciones.)
+Descuentos por QR/cashback y landings por campaña (Petrobras, Turbus, Lipigas, etc.).
 
-## Navegación / Comportamiento
-(Render, paginado/scroll, buscador, botones, etc.)
+## Cobertura/Canales
+Nacional; presencial/online; billetera/QR.
 
-## Campos visibles por beneficio
-(merchant, discount, terms, days, channel, valid_until, source_url…)
-
-## Segmentación geográfica
-(¿Texto de región? ¿Imagen? ¿Mapa? ¿Selector? Dónde aparece.)
-
-## Riesgos / Particularidades
-(Cambios de layout, banners, iframes, cookies…)
-
-## Frecuencia de cambios esperada
-(Semanal/mensual/estacional.)
-
-## Checklist verificado
-(3 ejemplos reales confirmados.)
+## Tipos/Render/Campos/Geo/Reglas/Frecuencia/Riesgos/QA
+Como estándar; foco en landings externas; validar vigencia/tyc.
