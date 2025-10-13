@@ -1,1 +1,40 @@
 url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://www.colmena.cl/beneficios/,category,general,nacional,,no,none,,cadena,Portal principal de beneficios y convenios Colmena,2025-10-13,active,high
+https://www.colmena.cl/beneficios-salud/,subcategory,salud,nacional,,no,none,,cadena,Beneficios médicos y hospitalarios (consultas, exámenes, hospitalización),2025-10-13,active,high
+https://www.colmena.cl/beneficios-farmacias/,subcategory,salud,nacional,,no,none,,cadena,Descuentos en farmacias adheridas (Salcobrand, Knop, Cruz Verde),2025-10-13,active,high
+https://www.colmena.cl/beneficios-dentales/,subcategory,salud,nacional,,no,none,,cadena,Convenios dentales (IntegraMédica, Uno Salud, RedSalud),2025-10-13,active,high
+https://www.colmena.cl/beneficios-opticas/,subcategory,salud,nacional,,no,none,,cadena,Convenios con ópticas Schilling, GMO, Econópticas,2025-10-13,active,high
+https://www.colmena.cl/beneficios-bienestar/,subcategory,bienestar,nacional,,no,none,,cadena,Beneficios bienestar (psicología, masajes, gimnasios, estética),2025-10-13,active,medium
+https://www.colmena.cl/beneficios-turismo/,subcategory,viajes,nacional,,no,none,,cadena,Convenios turísticos y hoteleros,2025-10-13,active,medium
+https://www.colmena.cl/beneficios-educacion/,subcategory,educacion,nacional,,no,none,,cadena,Convenios con instituciones educativas,2025-10-13,active,medium
+https://www.colmena.cl/convenio-farmacias-salcobrand/,detail,salud,nacional,,no,none,,cadena,Convenio oficial con Farmacias Salcobrand,2025-10-13,active,high
+https://salcobrand.cl/beneficios-colmena,detail,salud,nacional,,no,text,texto “Beneficios Colmena”,cadena,Página Salcobrand con descuentos Colmena,2025-10-13,active,high
+https://www.colmena.cl/convenio-farmacias-knop/,detail,salud,nacional,,no,none,,cadena,Convenio con Farmacias Knop (productos naturales 25 % off),2025-10-13,active,medium
+https://www.colmena.cl/convenio-redsalud/,detail,salud,nacional,,no,none,,cadena,Convenio con RedSalud (consultas, dental, laboratorio),2025-10-13,active,high
+https://www.colmena.cl/convenio-integramedica/,detail,salud,nacional,,no,none,,cadena,Convenio IntegraMédica (telemedicina y chequeos),2025-10-13,active,high
+https://www.colmena.cl/convenio-clinica-santa-maria/,detail,salud,nacional,,no,none,,cadena,Convenio Clínica Santa María,2025-10-13,active,medium
+https://www.colmena.cl/convenio-clinica-davila/,detail,salud,nacional,,no,none,,cadena,Convenio Clínica Dávila,2025-10-13,active,medium
+https://www.colmena.cl/convenio-clinica-bicentenario/,detail,salud,nacional,,no,none,,cadena,Convenio Clínica Bicentenario,2025-10-13,active,medium
+https://www.colmena.cl/convenio-clinica-vespucio/,detail,salud,nacional,,no,none,,cadena,Convenio Clínica Vespucio,2025-10-13,active,medium
+https://www.colmena.cl/convenio-clinica-las-condes/,detail,salud,nacional,,no,none,,cadena,Convenio Clínica Las Condes,2025-10-13,active,high
+https://www.colmena.cl/convenio-opticas-schilling/,detail,salud,nacional,,no,none,,cadena,Convenio Ópticas Schilling (25 % descuento),2025-10-13,active,medium
+https://www.colmena.cl/convenio-opticas-gmo/,detail,salud,nacional,,no,none,,cadena,Convenio Ópticas GMO (15 % descuento),2025-10-13,active,medium
+https://www.colmena.cl/convenio-opticas-econopticas/,detail,salud,nacional,,no,none,,cadena,Convenio Econópticas (10 % descuento),2025-10-13,active,medium
+https://www.colmena.cl/convenio-uno-salud-dental/,detail,salud,nacional,,no,none,,cadena,Convenio Uno Salud Dental (60 % descuento),2025-10-13,active,high
+https://www.colmena.cl/convenio-achs-salud/,detail,salud,nacional,,no,none,,cadena,Convenio ACHS Salud (copago preferente),2025-10-13,active,medium
+https://www.colmena.cl/convenio-lipigas/,detail,energia,nacional,,no,none,,cadena,Convenio Lipigas (20 % descuento en gas),2025-10-13,active,medium
+https://www.colmena.cl/programa-medicina-preventiva/,programa,salud,nacional,,no,none,,cadena,Programa de medicina preventiva (copago 0 en exámenes),2025-10-13,active,high
+https://www.colmena.cl/programa-salud-mujer/,programa,salud,nacional,,no,none,,cadena,Programa salud mujer (PAP, mamografía, ginecología),2025-10-13,active,high
+https://www.colmena.cl/programa-vida-sana/,programa,bienestar,nacional,,no,none,,cadena,Programa Vida Sana (nutrición y actividad física),2025-10-13,active,high
+https://www.colmena.cl/programa-cardiovascular/,programa,salud,nacional,,no,none,,cadena,Programa cardiovascular (control y prevención),2025-10-13,active,medium
+https://www.colmena.cl/programa-vacunacion/,programa,salud,nacional,,no,none,,cadena,Campaña anual de vacunación,2025-10-13,active,medium
+https://www.colmena.cl/beneficios-especiales/,category,general,nacional,,no,none,,cadena,Promociones y campañas mensuales,2025-10-13,active,medium
+https://www.colmena.cl/beneficios-covid19/,campaign,salud,nacional,,no,none,,cadena,Coberturas COVID-19 (test y hospitalización),2025-10-13,active,medium
+https://www.colmena.cl/documentos/beneficios-colmena-2025.pdf,document,general,nacional,,no,none,,cadena,Catálogo PDF oficial de beneficios 2025,2025-10-13,active,high
+https://www.colmena.cl/preguntas-frecuentes-beneficios/,reference,general,nacional,,no,none,,cadena,Preguntas frecuentes de beneficios,2025-10-13,active,low
+https://www.colmena.cl/terminos-y-condiciones-beneficios/,document,general,nacional,,no,none,,cadena,Condiciones legales del programa de beneficios,2025-10-13,active,low
+https://www.colmena.cl/centros-en-convenio/,tool,salud,nacional,,yes,map,mapa visible,buscador,Buscador y mapa de prestadores en convenio,2025-10-13,active,high
+https://www.colmena.cl/usa-tus-excedentes/,reference,financiero,nacional,,no,none,,cadena,Guía para uso de excedentes,2025-10-13,active,medium
+https://www.colmena.cl/reembolso-online/,tool,financiero,nacional,,no,none,,cadena,Portal digital de reembolso Colmena,2025-10-13,active,high
+https://www.colmena.cl/planifica-tu-salud/,tool,salud,nacional,,no,none,,cadena,Herramienta interactiva para planificar beneficios,2025-10-13,active,medium
+https://clubdebeneficios.colmena.cl/,category,general,nacional,,no,none,,cadena,Portal Club de Beneficios Colmena (descuentos retail y servicios),2025-10-13,active,high
