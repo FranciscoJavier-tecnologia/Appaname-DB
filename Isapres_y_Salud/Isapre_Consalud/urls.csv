@@ -1,1 +1,37 @@
 url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://www.consalud.cl/beneficios/,category,general,nacional,,no,none,,cadena,Portal principal de beneficios Consalud,2025-10-13,active,high
+https://www.consalud.cl/beneficios-de-salud/,subcategory,salud,nacional,,no,none,,cadena,Convenios médicos y reembolsos por plan,2025-10-13,active,high
+https://www.consalud.cl/beneficios-farmacias/,subcategory,salud,nacional,,no,none,,cadena,Resumen de descuentos y bonificaciones en farmacias,2025-10-13,active,high
+https://www.consalud.cl/beneficios-dentales/,subcategory,salud,nacional,,no,none,,cadena,Beneficios dentales y clínicas asociadas,2025-10-13,active,high
+https://www.consalud.cl/beneficios-opticas/,subcategory,salud,nacional,,no,none,,cadena,Convenios en ópticas Schilling, GMO, Econópticas,2025-10-13,active,high
+https://www.consalud.cl/beneficios-bienestar/,subcategory,bienestar,nacional,,no,none,,cadena,Descuentos en gimnasios, estética y salud mental,2025-10-13,active,medium
+https://www.consalud.cl/beneficios-educacion/,subcategory,educacion,nacional,,no,none,,cadena,Descuentos educativos en universidades e institutos,2025-10-13,active,medium
+https://www.consalud.cl/beneficios-turismo/,subcategory,viajes,nacional,,no,none,,cadena,Convenios turísticos y hoteleros (LATAM, Cocha, Viajes Falabella),2025-10-13,active,medium
+https://www.consalud.cl/alianza-salcobrand.html,detail,salud,nacional,,no,text,texto “alianza Salcobrand”,cadena,Condiciones de la alianza Consalud + Salcobrand,2025-10-13,active,high
+https://salcobrand.cl/content/beneficios/consalud,detail,salud,nacional,,no,none,,cadena,Página Salcobrand con descuentos para afiliados Consalud,2025-10-13,active,high
+https://www.consalud.cl/convenio-integramedica/,detail,salud,nacional,,no,none,,cadena,Convenio IntegraMédica (telemedicina y dental),2025-10-13,active,high
+https://www.consalud.cl/convenio-redsalud/,detail,salud,nacional,,no,none,,cadena,Convenio RedSalud con consultas y exámenes bonificados,2025-10-13,active,high
+https://www.consalud.cl/convenio-uno-salud-dental/,detail,salud,nacional,,no,none,,cadena,Convenio Uno Salud Dental (60 % descuento),2025-10-13,active,high
+https://www.consalud.cl/convenio-farmacias-salcobrand/,detail,salud,nacional,,no,none,,cadena,Convenio directo con Salcobrand (bonificación en medicamentos),2025-10-13,active,high
+https://www.consalud.cl/convenio-farmacias-knop/,detail,salud,nacional,,no,none,,cadena,Convenio con Farmacias Knop (productos naturales),2025-10-13,active,medium
+https://www.consalud.cl/convenio-opticas-schilling/,detail,salud,nacional,,no,none,,cadena,Descuento en Ópticas Schilling (20 %),2025-10-13,active,medium
+https://www.consalud.cl/convenio-opticas-gmo/,detail,salud,nacional,,no,none,,cadena,Convenio con Ópticas GMO (15 % en lentes),2025-10-13,active,medium
+https://www.consalud.cl/convenio-opticas-econopticas/,detail,salud,nacional,,no,none,,cadena,Convenio con Econópticas (10 % descuento),2025-10-13,active,medium
+https://www.consalud.cl/convenio-clinica-santa-maria/,detail,salud,nacional,,no,none,,cadena,Convenio con Clínica Santa María (consultas y urgencias),2025-10-13,active,high
+https://www.consalud.cl/convenio-clinica-davila/,detail,salud,nacional,,no,none,,cadena,Convenio Clínica Dávila (exámenes y atención médica),2025-10-13,active,medium
+https://www.consalud.cl/convenio-achs-salud/,detail,salud,nacional,,no,none,,cadena,Convenio con ACHS Salud (copago preferente),2025-10-13,active,medium
+https://www.consalud.cl/convenio-lipigas/,detail,energia,nacional,,no,none,,cadena,Descuento en gas y calefacción Lipigas para afiliados,2025-10-13,active,medium
+https://www.consalud.cl/programa-medicina-preventiva/,programa,salud,nacional,,no,none,,cadena,Chequeos anuales y medicina preventiva,2025-10-13,active,high
+https://www.consalud.cl/programa-salud-mujer/,programa,salud,nacional,,no,none,,cadena,Programa de salud mujer (PAP, mamografía, ginecología),2025-10-13,active,high
+https://www.consalud.cl/programa-vida-sana/,programa,bienestar,nacional,,no,none,,cadena,Programa Vida Sana (nutrición y actividad física),2025-10-13,active,high
+https://www.consalud.cl/programa-cardiovascular/,programa,salud,nacional,,no,none,,cadena,Programa cardiovascular (exámenes y prevención),2025-10-13,active,medium
+https://www.consalud.cl/programa-diabetes/,programa,salud,nacional,,no,none,,cadena,Control de diabetes con exámenes y teleconsulta,2025-10-13,active,medium
+https://www.consalud.cl/programa-vacunacion/,programa,salud,nacional,,no,none,,cadena,Campaña anual de vacunación influenza y COVID,2025-10-13,active,high
+https://www.consalud.cl/beneficios-especiales/,category,general,nacional,,no,none,,cadena,Promociones temporales y campañas del mes,2025-10-13,active,medium
+https://www.consalud.cl/beneficios-covid19/,campaign,salud,nacional,,no,none,,cadena,Coberturas COVID y telemedicina,2025-10-13,active,medium
+https://www.consalud.cl/documentos/beneficios-consalud-2025.pdf,document,general,nacional,,no,none,,cadena,Catálogo PDF oficial de beneficios 2025,2025-10-13,active,high
+https://www.consalud.cl/preguntas-frecuentes-beneficios/,reference,general,nacional,,no,none,,cadena,Preguntas frecuentes sobre beneficios Consalud,2025-10-13,active,low
+https://www.consalud.cl/terminos-y-condiciones-beneficios/,document,general,nacional,,no,none,,cadena,Condiciones generales de los beneficios,2025-10-13,active,low
+https://www.consalud.cl/centros-en-convenio/,tool,salud,nacional,,yes,map,mapa visible,buscador,Buscador y mapa de centros en convenio,2025-10-13,active,high
+https://www.consalud.cl/usa-tus-excedentes/,reference,financiero,nacional,,no,none,,cadena,Guía para usar excedentes en salud o farmacias,2025-10-13,active,medium
+https://www.consalud.cl/reembolso-online/,tool,financiero,nacional,,no,none,,cadena,Portal de reembolso digital Consalud,2025-10-13,active,high
