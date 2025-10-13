@@ -1,1 +1,40 @@
 url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://www.cruzblanca.cl/beneficios-de-tu-plan,category,general,nacional,,no,none,,cadena,Sección oficial “Beneficios de tu plan” con exámenes, dental y convenios,2025-10-13,active,high
+https://www.cruzblanca.cl/beneficios-en-farmacias-salcobrand,detail,salud,nacional,,no,none,,cadena,Beneficios en Farmacias Salcobrand (descuentos y uso de excedentes),2025-10-13,active,high
+https://sitio.cruzblanca.cl/BuscadorPrestadoresWeb/BuscadorPrestadores_cb.aspx,tool,salud,nacional,,yes,map,mapa visible,buscador,Buscador de prestadores preferentes (clínicas y médicos),2025-10-13,active,high
+https://www.cruzblanca.cl/convenios-zona-centro-clinicas-y-hospitales,detail,salud,regional,RM,no,text,texto “Zona Centro”,cadena,Listado de clínicas y hospitales en zona centro,2025-10-13,active,high
+https://www.cruzblanca.cl/beneficios-planes-colectivos,category,financiero,nacional,,no,none,,cadena,Beneficios para planes colectivos (reembolsos, licencias, GES),2025-10-13,active,medium
+https://www.cruzblanca.cl/bono-costo-cero,programa,salud,nacional,,no,none,,cadena,Programa Bono Costo Cero para exámenes sin costo según plan,2025-10-13,active,high
+https://www.cruzblanca.cl/beneficios-integramedica,detail,salud,nacional,,no,none,,cadena,Convenio con IntegraMédica (exámenes, dental, licencias online),2025-10-13,active,high
+https://static.salcobrandonline.cl/spree/legal_bases/315/original/Bases_legales_Cruz_Blanca.pdf,document,general,nacional,,no,none,,cadena,Bases legales estructurales Cruz Blanca – Salcobrand 2022,2025-10-13,active,medium
+https://www.cruzblanca.cl/celebremos-nuestra-alianza-con-tus-descuentos-favoritos,campaign,salud,nacional,,no,none,,cadena,Campaña “Alianza con tus descuentos favoritos” Cruz Blanca,2025-10-13,active,high
+https://www.cruzblanca.cl/como-usar-tu-plan,reference,general,nacional,,no,none,,cadena,Guía sobre cómo usar tu plan y acceder a beneficios,2025-10-13,active,medium
+https://www.cruzblanca.cl/convenios/,category,general,nacional,,no,none,,cadena,Portal general de convenios y alianzas Cruz Blanca,2025-10-13,active,high
+https://www.cruzblanca.cl/convenios-farmacias/,subcategory,salud,nacional,,no,none,,cadena,Convenios con farmacias Salcobrand, Knop, Cruz Verde,2025-10-13,active,high
+https://www.cruzblanca.cl/convenios-dentales/,subcategory,salud,nacional,,no,none,,cadena,Convenios dentales (IntegraMédica, Uno Salud, RedDental),2025-10-13,active,high
+https://www.cruzblanca.cl/convenios-opticas/,subcategory,salud,nacional,,no,none,,cadena,Convenios con ópticas (GMO, Schilling, Econópticas, Rotter & Krauss),2025-10-13,active,high
+https://www.cruzblanca.cl/convenios-bienestar/,subcategory,bienestar,nacional,,no,none,,cadena,Beneficios en bienestar y salud mental,2025-10-13,active,medium
+https://www.cruzblanca.cl/convenios-turismo/,subcategory,viajes,nacional,,no,none,,cadena,Convenios turísticos y hoteles con descuentos por afiliado,2025-10-13,active,medium
+https://www.cruzblanca.cl/convenio-salcobrand/,detail,salud,nacional,,no,none,,cadena,Convenio directo con Farmacias Salcobrand,2025-10-13,active,high
+https://www.cruzblanca.cl/convenio-farmacias-knop/,detail,salud,nacional,,no,none,,cadena,Convenio con Farmacias Knop,2025-10-13,active,medium
+https://www.cruzblanca.cl/convenio-redsalud/,detail,salud,nacional,,no,none,,cadena,Convenio con RedSalud (consultas y dental),2025-10-13,active,high
+https://www.cruzblanca.cl/convenio-integramedica/,detail,salud,nacional,,no,none,,cadena,Convenio con IntegraMédica (telemedicina y salud preventiva),2025-10-13,active,high
+https://www.cruzblanca.cl/convenio-uno-salud-dental/,detail,salud,nacional,,no,none,,cadena,Convenio Uno Salud Dental (descuentos en tratamientos),2025-10-13,active,medium
+https://www.cruzblanca.cl/convenio-opticas-schilling/,detail,salud,nacional,,no,none,,cadena,Convenio con Ópticas Schilling (25 % descuento),2025-10-13,active,medium
+https://www.cruzblanca.cl/convenio-opticas-gmo/,detail,salud,nacional,,no,none,,cadena,Convenio con Ópticas GMO (anteojos y lentes ópticos),2025-10-13,active,medium
+https://www.cruzblanca.cl/convenio-clinica-santa-maria/,detail,salud,nacional,,no,none,,cadena,Convenio con Clínica Santa María (hospitalización y cirugía),2025-10-13,active,high
+https://www.cruzblanca.cl/convenio-clinica-indisa/,detail,salud,nacional,,no,none,,cadena,Convenio con Clínica Indisa (consultas y urgencias),2025-10-13,active,high
+https://www.cruzblanca.cl/convenio-achs-salud/,detail,salud,nacional,,no,none,,cadena,Convenio con ACHS Salud (atenciones médicas a valores preferentes),2025-10-13,active,medium
+https://www.cruzblanca.cl/convenio-clinica-davila/,detail,salud,nacional,,no,none,,cadena,Convenio con Clínica Dávila (reembolsos y atención preferente),2025-10-13,active,medium
+https://www.cruzblanca.cl/convenio-opticas-lux/,detail,salud,nacional,,no,none,,cadena,Convenio con Ópticas Lux (lentes ópticos y de sol),2025-10-13,active,medium
+https://www.cruzblanca.cl/programa-salud-mujer/,programa,salud,nacional,,no,none,,cadena,Programa de salud mujer (PAP, mamografía, control),2025-10-13,active,high
+https://www.cruzblanca.cl/programa-medicina-preventiva/,programa,salud,nacional,,no,none,,cadena,Chequeos anuales y medicina preventiva,2025-10-13,active,high
+https://www.cruzblanca.cl/programa-vida-sana/,programa,bienestar,nacional,,no,none,,cadena,Programa Vida Sana (nutrición y ejercicio),2025-10-13,active,medium
+https://www.cruzblanca.cl/programa-vacunacion/,programa,salud,nacional,,no,none,,cadena,Campaña anual de vacunación,2025-10-13,active,medium
+https://www.cruzblanca.cl/beneficios-especiales/,category,general,nacional,,no,none,,cadena,Beneficios temporales y promociones especiales,2025-10-13,active,medium
+https://www.cruzblanca.cl/beneficios-covid19/,campaign,salud,nacional,,no,none,,cadena,Coberturas COVID-19 y test PCR,2025-10-13,active,medium
+https://www.cruzblanca.cl/documentos/beneficios-cruz-blanca-2025.pdf,document,general,nacional,,no,none,,cadena,Catálogo oficial PDF de beneficios 2025,2025-10-13,active,high
+https://www.cruzblanca.cl/preguntas-frecuentes-beneficios/,reference,general,nacional,,no,none,,cadena,Preguntas frecuentes sobre beneficios Cruz Blanca,2025-10-13,active,low
+https://www.cruzblanca.cl/terminos-y-condiciones-beneficios/,document,general,nacional,,no,none,,cadena,Términos legales del programa de beneficios,2025-10-13,active,low
+https://www.cruzblanca.cl/centros-en-convenio/,tool,salud,nacional,,yes,map,mapa visible,buscador,Mapa y listado de centros médicos adheridos,2025-10-13,active,high
+https://www.cruzblanca.cl/usa-tus-excedentes/,reference,financiero,nacional,,no,none,,cadena,Guía sobre uso de excedentes para pagar beneficios,2025-10-13,active,medium
