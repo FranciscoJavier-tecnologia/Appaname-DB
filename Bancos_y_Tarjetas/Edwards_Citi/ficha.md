@@ -1,27 +1,52 @@
-# Edwards Citi — Ficha técnica
+---
+emisor: Edwards Citi
+categoria: Bancos y Tarjetas
+dominio_principal: bancoedwards.cl
+portal_principal: https://sitiospublicos.bancoedwards.cl/personas/beneficios
+estado: active
+ultima_revision: 2025-10-13
+prioridad_extraccion: alta
+render_tipo: SSR_hibrido
+requiere_js: true
+frecuencia_cambio_dias: 7
+geo_detalle: texto | imagen
+selectores_clave:
+  merchant: "h1, .title"
+  discount: ".percent, .badge"
+  terms: ".terms, .condiciones"
+  source_url: "meta[property='og:url']"
+rutas_base:
+  - https://sitiospublicos.bancoedwards.cl/personas/beneficios
+  - https://sitiospublicos.bancoedwards.cl/personas/beneficios/detalle/<slug>
+---
 
-**Categoría:** Bancos y Tarjetas  
-**Dominio principal:** bancoedwards.cl  
-**Última revisión:** 2025-10-11  
-**Estado:** active | needs_review
+# Ficha técnica — Edwards Citi
 
 ## Resumen
-(Descripción breve del portal sin login y sus secciones.)
+Portal premium con campañas (Big 5, 40% Visa), fichas de comercios y tarjetas (Visa Infinite/Black).
 
-## Navegación / Comportamiento
-(Render, paginado/scroll, buscador, botones, etc.)
+## Cobertura/Canales
+Nacional con foco alta renta; presencial/online; tarjetas premium.
 
-## Campos visibles por beneficio
-(merchant, discount, terms, days, channel, valid_until, source_url…)
+## Tipos
+Category/Detail/Campaign.
 
-## Segmentación geográfica
-(¿Texto de región? ¿Imagen? ¿Mapa? ¿Selector? Dónde aparece.)
+## Render
+SSR con componentes dinámicos.
 
-## Riesgos / Particularidades
-(Cambios de layout, banners, iframes, cookies…)
+## Campos/Geo
+merchant, discount, terms, validity, source_url; geo vía texto/imagen.
 
-## Frecuencia de cambios esperada
-(Semanal/mensual/estacional.)
+## Reglas
+Medios Edwards; topes; no acumulable.
 
-## Checklist verificado
-(3 ejemplos reales confirmados.)
+## Frecuencia
+Semanal/mensual.
+
+## Riesgos
+Slugs; banners con texto clave.
+
+## QA
+- [ ] Sin login
+- [ ] %/condiciones
+- [ ] Geo/validez
