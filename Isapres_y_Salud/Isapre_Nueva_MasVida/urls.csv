@@ -1,1 +1,36 @@
 url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://www.nuevamasvida.cl/beneficios/,category,general,nacional,,no,none,,cadena,Portal principal de beneficios Nueva MásVida,2025-10-13,active,high
+https://www.nuevamasvida.cl/beneficios-salud/,subcategory,salud,nacional,,no,none,,cadena,Beneficios de salud (médicos, dentales y bienestar),2025-10-13,active,high
+https://www.nuevamasvida.cl/beneficios-farmacias/,subcategory,salud,nacional,,no,none,,cadena,Convenios con farmacias adheridas,2025-10-13,active,high
+https://www.nuevamasvida.cl/beneficios-opticas/,subcategory,salud,nacional,,no,none,,cadena,Convenios con ópticas afiliadas (GMO, Schilling, Econópticas),2025-10-13,active,high
+https://www.nuevamasvida.cl/beneficios-dentales/,subcategory,salud,nacional,,no,none,,cadena,Convenios dentales Uno Salud, RedSalud, IntegraMédica,2025-10-13,active,high
+https://www.nuevamasvida.cl/beneficios-bienestar/,subcategory,bienestar,nacional,,no,none,,cadena,Convenios de bienestar (gimnasios, spa, nutrición),2025-10-13,active,medium
+https://www.nuevamasvida.cl/beneficios-turismo/,subcategory,viajes,nacional,,no,none,,cadena,Convenios turísticos y hoteleros,2025-10-13,active,medium
+https://www.nuevamasvida.cl/convenio-farmacias-ahumada/,detail,salud,nacional,,no,text,texto “Farmacias Ahumada”,cadena,Convenio Farmacias Ahumada (uso de excedentes y descuentos),2025-10-13,active,high
+https://www.nuevamasvida.cl/convenio-farmacias-knop/,detail,salud,nacional,,no,none,,cadena,Convenio Farmacias Knop (productos naturales),2025-10-13,active,medium
+https://www.nuevamasvida.cl/convenio-redsalud/,detail,salud,nacional,,no,none,,cadena,Convenio RedSalud (consultas, dental, exámenes),2025-10-13,active,high
+https://www.nuevamasvida.cl/convenio-integramedica/,detail,salud,nacional,,no,none,,cadena,Convenio IntegraMédica (salud preventiva, telemedicina),2025-10-13,active,high
+https://www.nuevamasvida.cl/convenio-clinica-santa-maria/,detail,salud,nacional,,no,none,,cadena,Convenio con Clínica Santa María,2025-10-13,active,medium
+https://www.nuevamasvida.cl/convenio-clinica-davila/,detail,salud,nacional,,no,none,,cadena,Convenio con Clínica Dávila,2025-10-13,active,medium
+https://www.nuevamasvida.cl/convenio-clinica-vespucio/,detail,salud,nacional,,no,none,,cadena,Convenio con Clínica Vespucio,2025-10-13,active,medium
+https://www.nuevamasvida.cl/convenio-opticas-gmo/,detail,salud,nacional,,no,none,,cadena,Convenio con Ópticas GMO (15 % descuento),2025-10-13,active,medium
+https://www.nuevamasvida.cl/convenio-opticas-schilling/,detail,salud,nacional,,no,none,,cadena,Convenio con Ópticas Schilling (25 % descuento),2025-10-13,active,medium
+https://www.nuevamasvida.cl/convenio-opticas-econopticas/,detail,salud,nacional,,no,none,,cadena,Convenio con Econópticas (10 % descuento),2025-10-13,active,medium
+https://www.nuevamasvida.cl/convenio-uno-salud-dental/,detail,salud,nacional,,no,none,,cadena,Convenio Uno Salud Dental (60 % descuento),2025-10-13,active,high
+https://www.nuevamasvida.cl/convenio-achs-salud/,detail,salud,nacional,,no,none,,cadena,Convenio ACHS Salud (atención médica preferente),2025-10-13,active,medium
+https://www.nuevamasvida.cl/convenio-lipigas/,detail,energia,nacional,,no,none,,cadena,Convenio Lipigas (20 % descuento en gas),2025-10-13,active,medium
+https://www.nuevamasvida.cl/programa-medicina-preventiva/,programa,salud,nacional,,no,none,,cadena,Chequeos anuales y coberturas preventivas,2025-10-13,active,high
+https://www.nuevamasvida.cl/programa-salud-mujer/,programa,salud,nacional,,no,none,,cadena,Programa de salud femenina (mamografía, PAP),2025-10-13,active,high
+https://www.nuevamasvida.cl/programa-vida-sana/,programa,bienestar,nacional,,no,none,,cadena,Programa Vida Sana (actividad física y nutrición),2025-10-13,active,high
+https://www.nuevamasvida.cl/programa-cardiovascular/,programa,salud,nacional,,no,none,,cadena,Control cardiovascular y exámenes asociados,2025-10-13,active,medium
+https://www.nuevamasvida.cl/programa-diabetes/,programa,salud,nacional,,no,none,,cadena,Programa de control de diabetes,2025-10-13,active,medium
+https://www.nuevamasvida.cl/programa-vacunacion/,programa,salud,nacional,,no,none,,cadena,Campaña de vacunación anual (influenza, COVID, VPH),2025-10-13,active,high
+https://www.nuevamasvida.cl/beneficios-especiales/,category,general,nacional,,no,none,,cadena,Promociones y campañas del mes,2025-10-13,active,medium
+https://www.nuevamasvida.cl/beneficios-covid19/,campaign,salud,nacional,,no,none,,cadena,Coberturas COVID-19 y test PCR,2025-10-13,active,medium
+https://www.nuevamasvida.cl/documentos/beneficios-nuevamasvida-2025.pdf,document,general,nacional,,no,none,,cadena,Catálogo PDF de beneficios 2025,2025-10-13,active,high
+https://www.nuevamasvida.cl/preguntas-frecuentes-beneficios/,reference,general,nacional,,no,none,,cadena,Preguntas frecuentes de beneficios,2025-10-13,active,low
+https://www.nuevamasvida.cl/terminos-y-condiciones-beneficios/,document,general,nacional,,no,none,,cadena,Términos y condiciones legales,2025-10-13,active,low
+https://www.nuevamasvida.cl/centros-en-convenio/,tool,salud,nacional,,yes,map,mapa visible,buscador,Mapa interactivo de prestadores adheridos,2025-10-13,active,high
+https://www.nuevamasvida.cl/usa-tus-excedentes/,reference,financiero,nacional,,no,none,,cadena,Guía sobre uso de excedentes,2025-10-13,active,medium
+https://www.nuevamasvida.cl/reembolso-online/,tool,financiero,nacional,,no,none,,cadena,Portal de reembolsos digitales,2025-10-13,active,high
+https://www.nuevamasvida.cl/planifica-tu-salud/,tool,salud,nacional,,no,none,,cadena,Herramienta interactiva para planificación de salud,2025-10-13,active,medium
