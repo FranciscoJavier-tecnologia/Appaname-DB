@@ -1,27 +1,32 @@
-# Mach — Ficha técnica
+---
+emisor: MACH
+categoria: Bancos y Tarjetas
+dominio_principal: mach.cl
+portal_principal: https://www.mach.cl/beneficios
+estado: active
+ultima_revision: 2025-10-13
+prioridad_extraccion: alta
+render_tipo: SPA
+requiere_js: true
+frecuencia_cambio_dias: 7
+geo_detalle: texto
+selectores_clave:
+  merchant: ".benefit-title, h1"
+  discount: ".percent, .cashback"
+  terms: ".terms, .condiciones"
+  source_url: "meta[property='og:url']"
+rutas_base:
+  - https://www.machbank.cl/beneficios
+  - https://www.mach.cl/beneficios/<slug>
+---
 
-**Categoría:** Bancos y Tarjetas  
-**Dominio principal:** mach.cl  
-**Última revisión:** 2025-10-11  
-**Estado:** active | needs_review
+# Ficha técnica — MACH
 
 ## Resumen
-(Descripción breve del portal sin login y sus secciones.)
+Beneficios/cashback con alianzas (Uber, Copec, PedidosYa, streaming, etc.).
 
-## Navegación / Comportamiento
-(Render, paginado/scroll, buscador, botones, etc.)
+## Cobertura/Canales
+Nacional; billetera/app/QR; tarjetas MACH.
 
-## Campos visibles por beneficio
-(merchant, discount, terms, days, channel, valid_until, source_url…)
-
-## Segmentación geográfica
-(¿Texto de región? ¿Imagen? ¿Mapa? ¿Selector? Dónde aparece.)
-
-## Riesgos / Particularidades
-(Cambios de layout, banners, iframes, cookies…)
-
-## Frecuencia de cambios esperada
-(Semanal/mensual/estacional.)
-
-## Checklist verificado
-(3 ejemplos reales confirmados.)
+## Demás
+Estructura estándar; ojo con modales y contenido dinámico.
