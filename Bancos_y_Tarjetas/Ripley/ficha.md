@@ -1,27 +1,32 @@
-# Ripley — Ficha técnica
+---
+emisor: Banco Ripley
+categoria: Bancos y Tarjetas
+dominio_principal: bancoripley.cl
+portal_principal: https://www.bancoripley.cl/beneficios
+estado: active
+ultima_revision: 2025-10-13
+prioridad_extraccion: alta
+render_tipo: SPA
+requiere_js: true
+frecuencia_cambio_dias: 7
+geo_detalle: texto
+selectores_clave:
+  merchant: "h1, .benefit-title"
+  discount: ".percent, .badge"
+  terms: ".terms, .condiciones"
+  source_url: "link[rel='canonical']"
+rutas_base:
+  - https://www.bancoripley.cl/beneficios
+  - https://www.bancoripley.cl/beneficio?id=<id>
+---
 
-**Categoría:** Bancos y Tarjetas  
-**Dominio principal:** ripley.cl  
-**Última revisión:** 2025-10-11  
-**Estado:** active | needs_review
+# Ficha técnica — Banco Ripley
 
 ## Resumen
-(Descripción breve del portal sin login y sus secciones.)
+Beneficios + Puntos Go + campañas; fichas con parámetros (?id).
 
-## Navegación / Comportamiento
-(Render, paginado/scroll, buscador, botones, etc.)
+## Cobertura/Canales
+Nacional; presencial/online; tarjetas Ripley/Mastercard.
 
-## Campos visibles por beneficio
-(merchant, discount, terms, days, channel, valid_until, source_url…)
-
-## Segmentación geográfica
-(¿Texto de región? ¿Imagen? ¿Mapa? ¿Selector? Dónde aparece.)
-
-## Riesgos / Particularidades
-(Cambios de layout, banners, iframes, cookies…)
-
-## Frecuencia de cambios esperada
-(Semanal/mensual/estacional.)
-
-## Checklist verificado
-(3 ejemplos reales confirmados.)
+## Resto
+Estructura estándar; tener en cuenta IDs en query.
