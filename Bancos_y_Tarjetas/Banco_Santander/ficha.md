@@ -1,27 +1,60 @@
-# Banco Santander — Ficha técnica
+---
+emisor: Banco Santander
+categoria: Bancos y Tarjetas
+dominio_principal: banco.santander.cl
+portal_principal: https://banco.santander.cl/beneficios
+estado: active
+ultima_revision: 2025-10-13
+prioridad_extraccion: alta
+render_tipo: SPA
+requiere_js: true
+frecuencia_cambio_dias: 7
+geo_detalle: texto | lista_sucursales
+selectores_clave:
+  merchant: "h1, .beneficio__titulo"
+  discount: ".badge--percent, .beneficio__descuento"
+  terms: ".modal-terminos, .tyc"
+  source_url: "meta[property='og:url']"
+rutas_base:
+  - https://banco.santander.cl/beneficios
+  - https://banco.santander.cl/beneficios/promociones
+---
 
-**Categoría:** Bancos y Tarjetas  
-**Dominio principal:** santander.cl  
-**Última revisión:** 2025-10-11  
-**Estado:** active | needs_review
+# Ficha técnica — Banco Santander
 
 ## Resumen
-(Descripción breve del portal sin login y sus secciones.)
+Portal con promociones, descuentos en restaurantes, LATAM Pass y planes Life; fichas detalle y campañas.
 
-## Navegación / Comportamiento
-(Render, paginado/scroll, buscador, botones, etc.)
+## Cobertura/Canales
+Nacional + eventos regionales; presencial/online/app; tarjetas crédito/débito; LATAM Pass.
 
-## Campos visibles por beneficio
-(merchant, discount, terms, days, channel, valid_until, source_url…)
+## Tipos de página
+Category/Subcategory, Detail, Campaign, Document.
 
-## Segmentación geográfica
-(¿Texto de región? ¿Imagen? ¿Mapa? ¿Selector? Dónde aparece.)
+## Render
+SPA (JS) con paginado por query params; modales de T&C.
 
-## Riesgos / Particularidades
-(Cambios de layout, banners, iframes, cookies…)
+## Campos
+merchant, discount/value, days, payment_methods, channels, validity, terms, source_url, geo.
 
-## Frecuencia de cambios esperada
-(Semanal/mensual/estacional.)
+## Geo
+Texto en ficha/condiciones; campañas locales (p.ej. centros comerciales).
 
-## Checklist verificado
-(3 ejemplos reales confirmados.)
+## Reglas
+Medios Santander/LATAM; topes; no acumulable.
+
+## Frecuencia
+Semanal/mensual.
+
+## Riesgos
+Paginado con query; contenido en modales; slugs cambiantes.
+
+## QA
+- [ ] Sin login
+- [ ] % visible
+- [ ] Validez
+- [ ] Geo
+- [ ] Rol correcto
+
+## Notas
+- Playwright con espera a selectores; capturar modales antes de cerrar.
