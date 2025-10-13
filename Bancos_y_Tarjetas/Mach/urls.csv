@@ -1,1 +1,22 @@
 url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://www.machbank.cl/beneficios,category,general,nacional,,no,none,,cadena,Portal principal de beneficios MACHBANK,2025-10-12,active,high
+https://www.mach.cl/beneficios,category,general,nacional,,no,none,,cadena,Portal central de Beneficios MACH (cashback y descuentos),2025-10-12,active,high
+https://www.mach.cl/promociones,subcategory,campañas,nacional,,no,none,,cadena,Página de promociones activas MACH,2025-10-12,active,high
+https://www.mach.cl/cashback,subcategory,financiero,nacional,,no,none,,cadena,Sección Cashback MACH (comercios y condiciones),2025-10-12,active,high
+https://www.mach.cl,reference,general,nacional,,no,none,,cadena,Home oficial MACH con banners y campañas del mes,2025-10-12,active,medium
+
+https://www.mach.cl/beneficios/uber,detail,transporte,nacional,,no,none,,cadena,Beneficio Uber con MACH (cashback o descuento),2025-10-12,active,high
+https://www.mach.cl/beneficios/copec,detail,combustible,nacional,,no,none,,cadena,Promoción MACH + Copec (descuento tiendas Pronto),2025-10-12,active,high
+https://www.mach.cl/beneficios/pedidosya,detail,gastronomia,nacional,,no,none,,cadena,Beneficio PedidosYa con devolución %,2025-10-12,active,medium
+https://www.mach.cl/beneficios/disneyplus,detail,entretenimiento,nacional,,no,none,,cadena,Campaña MACH + Disney+ (mes gratis o cashback),2025-10-12,active,medium
+https://www.mach.cl/beneficios/spotify,detail,entretenimiento,nacional,,no,none,,cadena,Campaña MACH + Spotify Premium,2025-10-12,active,medium
+https://www.mach.cl/beneficios/turbus,detail,transporte,nacional,,no,none,,cadena,Alianza MACH + Turbus (descuento en pasajes),2025-10-12,active,medium
+https://www.mach.cl/beneficios/cinemark,detail,entretenimiento,nacional,,no,none,,cadena,Beneficio MACH + Cinemark (2x1 o 30% dcto),2025-10-12,active,medium
+https://www.mach.cl/beneficios/latam,detail,viajes,nacional,,no,none,,cadena,Promoción MACH + LATAM (cuotas sin interés o millas),2025-10-12,active,medium
+https://www.mach.cl/beneficios/steam,detail,tecnologia,nacional,,no,none,,cadena,Beneficios MACH gamers en Steam (cashback),2025-10-12,active,medium
+
+https://ayuda.somosmach.com/hc/es/articles/360059543152-Beneficios-MACHBANK,reference,general,nacional,,no,none,,cadena,Artículo oficial “Beneficios MACHBANK”,2025-10-12,active,medium
+https://ayuda.somosmach.com/hc/es/articles/360056430711-C%C3%B3mo-funcionan-los-beneficios-de-MACH,reference,general,nacional,,no,none,,cadena,Explicación oficial cómo funcionan los beneficios MACH,2025-10-12,active,medium
+https://ayuda.somosmach.com/hc/es/articles/360060425391-T%C3%A9rminos-y-condiciones-de-beneficios,reference,general,nacional,,no,none,,cadena,Términos y condiciones de beneficios MACH,2025-10-12,active,low
+https://ayuda.somosmach.com/hc/es/articles/360057493431-Promociones-y-cashbacks,reference,general,nacional,,no,none,,cadena,Lista de promociones y cashbacks MACH,2025-10-12,active,low
+https://ayuda.somosmach.com/hc/es/articles/360058498432-C%C3%B3mo-aprovechar-los-beneficios-en-restaurantes,reference,gastronomia,nacional,,no,none,,cadena,Artículo sobre beneficios en restaurantes MACH,2025-10-12,active,low
