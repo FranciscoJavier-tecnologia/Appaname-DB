@@ -1,1 +1,21 @@
 url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://www.losheroes.cl/trabajadores/salud,subcategory,salud,nacional,,no,none,,cadena,Página principal de salud y convenios médicos,2025-10-13,active,high
+https://www.losheroes.cl/pensionados/beneficios/,subcategory,general,nacional,,no,none,,cadena,Portal de beneficios para pensionados afiliados,2025-10-13,active,high
+https://www.losheroes.cl/beneficios/convenios/,category,general,nacional,,no,none,,cadena,Listado general de convenios Caja Los Héroes,2025-10-13,active,high
+https://www.losheroes.cl/beneficios/convenios/salud/,detail,salud,nacional,,no,none,,cadena,Convenios específicos del área de salud,2025-10-13,active,high
+https://www.losheroes.cl/trabajadores/beneficios-del-mes,subcategory,campañas,nacional,,no,none,,cadena,Página de beneficios destacados del mes,2025-10-13,active,high
+https://www.prepagolosheroes.cl/page/beneficios-afiliados-prepago-los-heroes,detail,financiero,nacional,,no,none,,cadena,Beneficios para afiliados del prepago Los Héroes,2025-10-13,active,high
+https://www.integramedica.cl/planes-y-convenios/convenios/caja-los-heroes,detail,salud,nacional,,no,none,,cadena,Convenio Caja Los Héroes – IntegraMédica (copagos, consultas),2025-10-13,active,high
+https://www.clini.cl/convenios-salud/caja-los-heroes,detail,salud,nacional,,no,none,,cadena,Convenio de salud con Clini (exámenes y laboratorio),2025-10-13,active,medium
+https://ssms.gob.cl/wp-content/uploads/2024/11/PPT-Los-Heroes-SSMS-1.pdf,document,general,nacional,,no,none,,cadena,Presentación PDF con beneficios salud y convenios,2025-10-13,active,medium
+https://www.unosalud.cl/convenio/los-heroes/,detail,salud,nacional,,no,none,,cadena,Convenio con Uno Salud Dental (60 % descuento),2025-10-13,active,high
+https://lipigas.cl/hogar/convenio-los-heroes/,detail,energia,nacional,,no,none,,cadena,Convenio con Lipigas (descuentos en gas y calefacción),2025-10-13,active,high
+https://www.achs.cl/centro-de-noticias/noticia/2025/convenio-entre-los-heroes-y-achs-salud-promueve-atencion-medica-a-valores-accesibles,reference,salud,nacional,,no,text,texto “convenio ACHS Salud”,cadena,Noticia oficial convenio ACHS Salud,2025-10-13,active,medium
+https://www.losheroes.cl/trabajadores/salud/examenes-medicos-desde-copago-0,detail,salud,nacional,,no,text,texto “copago 0”,cadena,Beneficio exámenes médicos con copago $0,2025-10-13,active,high
+https://www.heroesparques.cl/,category,recreacion,nacional,,no,none,,cadena,Portal “Héroes Parques” destino recreacional de la Caja,2025-10-13,active,high
+https://beneficios-app.losheroes.cl/,category,general,nacional,,no,none,,cadena,Portal web de beneficios para la app móvil Los Héroes,2025-10-13,active,high
+https://www.prepagolosheroes.cl/page/beneficios-prepago-los-heroes,detail,financiero,nacional,,no,none,,cadena,Beneficios específicos para producto Prepago Los Héroes,2025-10-13,active,high
+https://www.prepagolosheroes.cl/page/daily-promo,detail,campañas,nacional,,no,none,,cadena,Promociones diarias “Daily Promo” del Prepago,2025-10-13,active,medium
+https://redsalud.ssmso.cl/wp-content/uploads/2024/03/Beneficios-Salud-Los-Heroes.pdf,document,salud,nacional,,no,none,,cadena,PDF con beneficios de salud Los Héroes,2025-10-13,active,medium
+https://www.prepagolosheroes.cl/,category,financiero,nacional,,no,none,,cadena,Página principal Prepago Los Héroes (menú beneficios),2025-10-13,active,medium
+https://www.esachs.cl/beneficios/beneficio/cajadecompensacion,reference,salud,nacional,,no,none,,cadena,Beneficio ACHS Servicios asociado a Los Héroes,2025-10-13,active,medium
