@@ -1,1 +1,19 @@
 url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://www.caja18.cl/beneficios/,category,general,nacional,,no,none,,cadena,Portal principal Beneficios Caja 18,2025-10-13,active,high
+https://beneficios.caja18.cl/trabajadores/,subcategory,general,nacional,,no,none,,cadena,Portal Beneficios Trabajadores (farmacias, gas, recreación),2025-10-13,active,high
+https://beneficios.caja18.cl/trabajadores/salud/farmacias/,detail,salud,nacional,,no,none,,cadena,Descuentos en Farmacias Ahumada, Knop, Constitución,2025-10-13,active,high
+https://beneficios.caja18.cl/trabajadores/farmacias-knop/,detail,salud,nacional,,no,none,,cadena,Página específica Farmacias Knop (hasta 50 % dcto),2025-10-13,active,medium
+https://beneficios.caja18.cl/trabajadores/salud/centros-medicos-con-reembolso/,detail,salud,nacional,,no,none,,cadena,Listado de centros médicos con reembolso Caja 18,2025-10-13,active,medium
+https://beneficios.caja18.cl/trabajadores/salud/laboratorio/,detail,salud,nacional,,no,none,,cadena,Convenio laboratorios afiliados Caja 18,2025-10-13,active,medium
+https://www.caja18.cl/trabajadores/salud/,subcategory,salud,nacional,,no,none,,cadena,Sección salud (reembolsos médicos, descuentos),2025-10-13,active,high
+https://www.caja18.cl/trabajadores/educacion/,subcategory,educacion,nacional,,no,none,,cadena,Bonificaciones y estímulos educativos para afiliados,2025-10-13,active,medium
+https://www.caja18.cl/beneficios-en-educacion/,subcategory,educacion,nacional,,no,none,,cadena,Convenios educativos (universidades, CFT, IP),2025-10-13,active,medium
+https://www.caja18.cl/trabajadores/apoyo-familiar/cargas-familiares/,subcategory,familiar,nacional,,no,none,,cadena,Sección apoyo familiar / cargas familiares,2025-10-13,active,medium
+https://www.caja18.cl/pensionados/beneficios/,subcategory,general,nacional,,no,none,,cadena,Portal beneficios para pensionados,2025-10-13,active,high
+https://www.caja18.cl/pensionados/bonos-sociales/,detail,social,nacional,,no,none,,cadena,Bonos sociales (matrimonio, defunción, escolar, etc.),2025-10-13,active,high
+https://www.caja18.cl/pensionados/que-son-los-puntos-dorados/,detail,programa,nacional,,no,none,,cadena,Explicación programa “Puntos Dorados”,2025-10-13,active,medium
+https://www.caja18.cl/pensionados/como-canjear-puntos-dorados/,detail,programa,nacional,,no,none,,cadena,Guía para canjear “Puntos Dorados”,2025-10-13,active,medium
+https://www.caja18.cl/pensionados/tarjeta-bip-adulto-mayor/,detail,transporte,regional,RM,no,text,texto “BIP adulto mayor”,sucursal,Beneficio transporte adultos mayores,2025-10-13,active,medium
+https://www.caja18.cl/beneficios-que-enamoran/,campaign,campañas,nacional,,no,none,,cadena,Campaña “Beneficios que Enamoran” descuentos online,2025-10-13,active,high
+https://www.caja18.cl/beneficios-en-calefaccion/,campaign,energia,nacional,,no,none,,cadena,Campaña calefacción (Gasco / Lipigas),2025-10-13,active,high
+https://www.integramedica.cl/planes-y-convenios/convenios/caja-18,external,salud,nacional,,no,none,,cadena,Convenio Caja 18 – IntegraMédica (copagos, prestaciones),2025-10-13,active,medium
