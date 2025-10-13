@@ -1,27 +1,35 @@
-# Internacional — Ficha técnica
+---
+emisor: Banco Internacional
+categoria: Bancos y Tarjetas
+dominio_principal: internacional.cl
+portal_principal: https://beneficios.internacional.cl/
+estado: active
+ultima_revision: 2025-10-13
+prioridad_extraccion: alta
+render_tipo: SSR_hibrido
+requiere_js: true
+frecuencia_cambio_dias: 7
+geo_detalle: texto | lista_sucursales
+selectores_clave:
+  merchant: ".benefit-title, h1"
+  discount: ".percent, .badge"
+  terms: ".terms, .condiciones"
+  source_url: "meta[property='og:url']"
+rutas_base:
+  - https://beneficios.internacional.cl/
+  - https://beneficios.internacional.cl/detalle/<slug>
+---
 
-**Categoría:** Bancos y Tarjetas  
-**Dominio principal:** bancointernacional.cl  
-**Última revisión:** 2025-10-11  
-**Estado:** active | needs_review
+# Ficha técnica — Banco Internacional
 
 ## Resumen
-(Descripción breve del portal sin login y sus secciones.)
+Portal de beneficios con categorías (gastronomía, viajes, shopping, bienestar) y fichas detalle.
 
-## Navegación / Comportamiento
-(Render, paginado/scroll, buscador, botones, etc.)
+## Cobertura/Canales
+Nacional + casos regionales; presencial/online.
 
-## Campos visibles por beneficio
-(merchant, discount, terms, days, channel, valid_until, source_url…)
+## Tipos/Render
+Category/Detail/Campaign; SSR con componentes.
 
-## Segmentación geográfica
-(¿Texto de región? ¿Imagen? ¿Mapa? ¿Selector? Dónde aparece.)
-
-## Riesgos / Particularidades
-(Cambios de layout, banners, iframes, cookies…)
-
-## Frecuencia de cambios esperada
-(Semanal/mensual/estacional.)
-
-## Checklist verificado
-(3 ejemplos reales confirmados.)
+## Campos/Geo/Reglas/Frecuencia/Riesgos/QA
+Como estándar; geo textual; campañas semanales; slugs; checklist.
