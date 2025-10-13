@@ -1,27 +1,32 @@
-# Tenpo — Ficha técnica
+---
+emisor: Tenpo
+categoria: Bancos y Tarjetas
+dominio_principal: tenpo.cl
+portal_principal: https://tenpo.cl/beneficios
+estado: active
+ultima_revision: 2025-10-13
+prioridad_extraccion: alta
+render_tipo: SSR_hibrido
+requiere_js: true
+frecuencia_cambio_dias: 7
+geo_detalle: texto
+selectores_clave:
+  merchant: ".benefit-title, h1"
+  discount: ".percent, .badge"
+  terms: ".terms, .condiciones"
+  source_url: "link[rel='canonical']"
+rutas_base:
+  - https://tenpo.cl/beneficios
+  - https://www.tenpo.cl/beneficios/<slug>
+---
 
-**Categoría:** Bancos y Tarjetas  
-**Dominio principal:** tenpo.cl  
-**Última revisión:** 2025-10-11  
-**Estado:** active | needs_review
+# Ficha técnica — Tenpo
 
 ## Resumen
-(Descripción breve del portal sin login y sus secciones.)
+Portal de beneficios/cashback y campañas (Copec, Kupos, Ahumada, etc.).
 
-## Navegación / Comportamiento
-(Render, paginado/scroll, buscador, botones, etc.)
+## Cobertura/Canales
+Nacional; presencial/online; prepago y crédito.
 
-## Campos visibles por beneficio
-(merchant, discount, terms, days, channel, valid_until, source_url…)
-
-## Segmentación geográfica
-(¿Texto de región? ¿Imagen? ¿Mapa? ¿Selector? Dónde aparece.)
-
-## Riesgos / Particularidades
-(Cambios de layout, banners, iframes, cookies…)
-
-## Frecuencia de cambios esperada
-(Semanal/mensual/estacional.)
-
-## Checklist verificado
-(3 ejemplos reales confirmados.)
+## Resto
+Patrón estándar (campos/geo/reglas/frecuencia/QA).
