@@ -1,1 +1,20 @@
 url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://beneficios.laaraucana.cl/,category,general,nacional,,no,none,,cadena,Portal principal de beneficios de Caja La Araucana,2025-10-13,active,high
+https://estamosaqui.beneficioslaaraucana.cl/valparaiso/,detail,general,regional,Valparaíso,no,text,texto “Estamos Aquí Valparaíso”,sucursal,Beneficios regionales Valparaíso,2025-10-13,active,medium
+https://beneficios.laaraucana.cl/salud/,subcategory,salud,nacional,,no,none,,cadena,Sección de salud (medicamentos, exámenes, copagos),2025-10-13,active,high
+https://web.beneficioslaaraucana.cl/ahumada/,detail,salud,nacional,,no,none,,cadena,Convenio con Farmacias Ahumada (descuento en medicamentos con receta),2025-10-13,active,high
+https://web.beneficioslaaraucana.cl/plan-de-medicamentos/,detail,salud,nacional,,no,none,,cadena,Programa de medicamentos y patologías crónicas,2025-10-13,active,high
+https://www.unosalud.cl/convenio/la-araucana/,detail,salud,nacional,,no,none,,cadena,Convenio Uno Salud Dental (descuentos dentales),2025-10-13,active,high
+https://www.laaraucana.cl/,reference,general,nacional,,no,none,,cadena,Sitio institucional con enlaces a campañas y convenios,2025-10-13,active,medium
+https://diversion.beneficioslaaraucana.cl/,subcategory,entretenimiento,nacional,,no,none,,cadena,Sección de recreación y turismo (descuentos hoteles y viajes),2025-10-13,active,high
+https://estamosaqui.beneficioslaaraucana.cl/maule/,detail,general,regional,Maule,no,text,texto “Estamos Aquí Maule”,sucursal,Beneficios regionales Maule,2025-10-13,active,medium
+https://estamosaqui.beneficioslaaraucana.cl/magallanes/,detail,general,regional,Magallanes,no,text,texto “Estamos Aquí Magallanes”,sucursal,Beneficios regionales Magallanes,2025-10-13,active,medium
+https://todoparamama.beneficioslaaraucana.cl/,campaign,campañas,nacional,,no,none,,cadena,Campaña “Todo para Mamá” Día de la Madre (productos y hoteles),2025-10-13,active,high
+https://convenio.laaraucana.cl/,category,convenios,nacional,,no,none,,cadena,Portal implícito de convenios con terceros (servicios externos),2025-10-13,active,medium
+https://www.clini.cl/convenios-salud/caja-la-araucana,detail,salud,nacional,,no,none,,cadena,Convenio médico Clini – Caja La Araucana (exámenes y consultas),2025-10-13,active,high
+https://beneficioslaaraucana.cl/fondosconcursables,detail,social,nacional,,no,none,,cadena,Portal de fondos concursables para afiliados,2025-10-13,active,medium
+https://educacion.beneficioslaaraucana.cl/,campaign,educacion,nacional,,no,none,,cadena,Campaña educativa “Vuelta a Clases” con descuentos escolares,2025-10-13,active,high
+https://proempresa.beneficioslaaraucana.cl/,subcategory,empresas,nacional,,no,none,,cadena,Plan de beneficios para empresas afiliadas,2025-10-13,active,medium
+https://ssms.gob.cl/wp-content/uploads/2025/02/BENEFICIOS-CAJA-LA-ARAUCANA.pdf,document,general,nacional,,no,none,,cadena,Catálogo PDF oficial con convenios y tarifas,2025-10-13,active,medium
+https://www.laaraucana.cl/trabajadores,subcategory,general,nacional,,no,none,,cadena,Portal de beneficios para trabajadores (salud, educación, viajes),2025-10-13,active,high
+https://www.laaraucana.cl/pensionados,subcategory,general,nacional,,no,none,,cadena,Portal de beneficios para pensionados (descuentos y convenios),2025-10-13,active,high
