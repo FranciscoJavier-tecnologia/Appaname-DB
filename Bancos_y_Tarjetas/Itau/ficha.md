@@ -1,27 +1,56 @@
-# Itau — Ficha técnica
+---
+emisor: Itaú
+categoria: Bancos y Tarjetas
+dominio_principal: itaubeneficios.cl
+portal_principal: https://itaubeneficios.cl/beneficios/beneficios-y-descuentos/
+estado: active
+ultima_revision: 2025-10-13
+prioridad_extraccion: alta
+render_tipo: SSR
+requiere_js: false
+frecuencia_cambio_dias: 7
+geo_detalle: texto
+selectores_clave:
+  merchant: "h1, .benefit-title"
+  discount: ".percent, .tag-discount"
+  terms: ".terms, .tyc"
+  source_url: "link[rel='canonical']"
+rutas_base:
+  - https://itaubeneficios.cl/beneficios/beneficios-y-descuentos/
+  - https://itaubeneficios.cl/promociones-del-mes/
+---
 
-**Categoría:** Bancos y Tarjetas  
-**Dominio principal:** itau.cl  
-**Última revisión:** 2025-10-11  
-**Estado:** active | needs_review
+# Ficha técnica — Itaú
 
 ## Resumen
-(Descripción breve del portal sin login y sus secciones.)
+Sitio Itaú Beneficios con categorías y “Promociones del mes”, fichas con %/cuotas/CB.
 
-## Navegación / Comportamiento
-(Render, paginado/scroll, buscador, botones, etc.)
+## Cobertura/Canales
+Nacional; presencial/online; tarjetas Itaú y programas de puntos.
 
-## Campos visibles por beneficio
-(merchant, discount, terms, days, channel, valid_until, source_url…)
+## Tipos de página
+Category/Subcategory, Detail, Campaign, Reference.
 
-## Segmentación geográfica
-(¿Texto de región? ¿Imagen? ¿Mapa? ¿Selector? Dónde aparece.)
+## Render
+SSR clásico; navegación por categorías.
 
-## Riesgos / Particularidades
-(Cambios de layout, banners, iframes, cookies…)
+## Campos
+merchant, discount/value, days, payment_methods, channels, validity, terms, source_url, geo.
 
-## Frecuencia de cambios esperada
-(Semanal/mensual/estacional.)
+## Geo
+Texto en condiciones; pocas segmentaciones regionales.
 
-## Checklist verificado
-(3 ejemplos reales confirmados.)
+## Reglas
+Tarjetas Itaú; cuotas sin interés; topes.
+
+## Frecuencia
+Semanal/mensual.
+
+## Riesgos
+Alianzas externas que corren en dominios terceros.
+
+## QA
+- [ ] Sin login
+- [ ] % visible
+- [ ] Validez
+- [ ] Rol correcto
