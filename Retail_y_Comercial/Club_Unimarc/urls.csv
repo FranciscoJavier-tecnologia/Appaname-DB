@@ -1,1 +1,16 @@
 url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://www.unimarc.cl/club-unimarc,category,supermercados,nacional,,no,none,,cadena,Portal principal del Club Unimarc,2025-10-14,active,high
+https://www.unimarc.cl/club-unimarc/beneficios,subcategory,supermercados,nacional,,no,none,,cadena,Sección “Mis descuentos / beneficios” del Club Unimarc,2025-10-14,active,high
+https://www.unimarc.cl/page/membresia,program,supermercados,nacional,,no,none,,cadena,Programa de membresía (incluye nivel Diamante),2025-10-14,active,high
+https://www.unimarc.cl/static/terminos-condiciones-club-unimarc,document,supermercados,nacional,,no,text,terminos y condiciones,cadena,Términos y condiciones del Club Unimarc,2025-10-14,active,medium
+https://clubahorro.cl/,reference,supermercados,nacional,,no,none,,cadena,Sitio histórico “Club Ahorro” (redirige a Club Unimarc),2025-10-14,active,low
+https://clubahorro.cl/coupon,reference,supermercados,nacional,,no,none,,cadena,Sección de cupones del club anterior (herencia),2025-10-14,active,low
+https://www.avis.cl/alianzas/unimarc,detail,transporte,nacional,,no,text,texto “alianzas Unimarc”,partner,Descuento 30 % en AVIS para socios Club Unimarc,2025-10-14,active,high
+https://shopping.latampass.latam.com/es_cl/onerewardgift/categoria/unimarc/05d3a081?tipo=RESGATE,detail,viajes,nacional,,no,none,,partner,Canje/redenciones vinculadas a Unimarc en Shopping LATAM Pass,2025-10-14,active,medium
+https://www.mediabanco.com/vuela-viaja-y-pasalo-increible-con-los-beneficios-de-club-unimarc/,reference,general,nacional,,no,text,nota de prensa,partner,Resumen de beneficios (JetSMART, FlixBus, cine, gastronomía),2025-10-14,active,low
+https://www.en-cancha.cl/enlahora/servicios/2025/06/28/banco-estado-ofrece-6000-de-descuento-en-supermercado-unimarc,reference,supermercados,nacional,,no,text,descuento BancoEstado,partner,Alianza BancoEstado: $6.000 de descuento con RutPay en Unimarc,2025-10-14,active,medium
+https://www.facebook.com/unimarc/posts/1168163502016567,reference,supermercados,nacional,,no,text,post martes/jueves,partner,Post oficial con descuentos (martes/jueves) para socios,2025-10-14,active,low
+https://www.instagram.com/unimarc/,reference,supermercados,nacional,,no,text,feed Instagram,partner,Publicaciones con beneficios (ej. 15 % en ópticas GMO),2025-10-14,active,low
+https://www.instagram.com/p/DHWuIN1RNTx/,reference,restaurantes,nacional,,no,text,reel “La Carta” 20 %,partner,Reel con beneficio adicional en restaurante “La Carta”,2025-10-14,active,low
+https://www.en-cancha.cl/enlahora/servicios/2024/12/11/unimarc-ofrece-30-de-descuento-pagando-con-banco-estado-estas-categorias-estan-con-rebaja/,reference,supermercados,nacional,,no,text,artículo 30 % BancoEstado,partner,Oferta 30 % pagando con BancoEstado en categorías seleccionadas,2025-10-14,active,medium
+https://www.instagram.com/p/DF5zGopzuLI/,reference,supermercados,nacional,,no,text,post RutPay,partner,Post: “Con RutPay tu compra en Unimarc te cuesta menos…”,2025-10-14,active,low
