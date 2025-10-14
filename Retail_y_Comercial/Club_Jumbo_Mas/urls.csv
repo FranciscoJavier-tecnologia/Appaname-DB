@@ -1,1 +1,18 @@
 url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://www.jumbo.cl/club,category,supermercados,nacional,,no,none,,cadena,Portal principal del Club Jumbo,2025-10-14,active,high
+https://www.jumbo.cl/prime,subcategory,supermercados,nacional,,no,none,,cadena,Sección Jumbo Prime en jumbo.cl,2025-10-14,active,high
+https://jumboprime.cl/,program,supermercados,nacional,,no,none,,cadena,Sitio oficial del programa Jumbo Prime (membresía),2025-10-14,active,high
+https://jumboprime.cl/faq,document,supermercados,nacional,,no,text,FAQ Prime,cadena,FAQ de Jumbo Prime (beneficios y condiciones),2025-10-14,active,medium
+https://jumboprime.cl/registro,tool,supermercados,nacional,,no,none,,cadena,Registro al programa Jumbo Prime,2025-10-14,active,high
+https://www.jumbo.cl/oferta/prime,campaign,supermercados,nacional,,no,none,,cadena,Ofertas exclusivas para miembros Prime,2025-10-14,active,high
+https://www.jumbo.cl/oferta/beneficios-primeweek,campaign,supermercados,nacional,,no,none,,cadena,Promociones “Prime Week” para clientes Prime,2025-10-14,active,medium
+https://www.jumbo.cl/oferta/super-week-prime,campaign,supermercados,nacional,,no,none,,cadena,Promociones “Super Week Prime”,2025-10-14,active,medium
+https://puntoscencosud.cl/puntos/tiendas/jumbo,program,financiero,nacional,,no,none,,partner,Puntos Cencosud aplicables en Jumbo (acumulación/redención),2025-10-14,active,high
+https://www.puntoscencosud.cl/,category,financiero,nacional,,no,none,,partner,Programa Puntos Cencosud (portal general),2025-10-14,active,medium
+https://www.cencosud.com/como-puedo-canjear-y-acumular-puntos-por-compras,document,financiero,nacional,,no,text,guía Cencosud,partner,Guía oficial para acumular y canjear puntos (incluye Jumbo),2025-10-14,active,medium
+https://www.cencosud.com/beneficioscencosud-chile,reference,general,nacional,,no,text,listado beneficios,partner,Beneficios Cencosud Chile (impactan en Jumbo y asociados),2025-10-14,active,low
+https://www.jumbo.cl/ofertas-tarjeta-cencosud,detail,supermercados,nacional,,no,none,,cadena,Ofertas con Tarjeta Cencosud al comprar en Jumbo,2025-10-14,active,high
+https://www.tarjetacencosud.cl/publico/beneficios/landing/inicio,category,financiero,nacional,,no,none,,partner,Portal de beneficios de Tarjeta Cencosud que aplica en Jumbo,2025-10-14,active,high
+https://www.tarjetacencosud.cl/,reference,financiero,nacional,,no,none,,partner,Sitio de Tarjeta Cencosud Scotiabank (beneficios conexos),2025-10-14,active,low
+https://ayuda.jumbo.cl/ayuda/jumbo-prime/que-es-jumbo-prime,document,supermercados,nacional,,no,text,artículo ayuda,cadena,Explicación oficial de qué es Jumbo Prime,2025-10-14,active,medium
+https://www.appcopec.cl/beneficios-appcopec/combustible/jumbo-prime/,detail,combustible,nacional,,no,text,beneficio combustible,partner,Descuento en combustible Copec para clientes Jumbo Prime,2025-10-14,active,high
