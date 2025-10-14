@@ -1,1 +1,19 @@
 url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://www.enex.cl/alianza-shell-cmr-puntos,category,combustible,nacional,,no,none,,cadena,Alianza Shell–CMR Puntos: acumula puntos en estaciones Shell y tiendas upa!,2025-10-14,active,high
+https://www.bancofalabella.cl/descuentos/detalle/shell,detail,combustible,nacional,,no,none,,partner,Beneficio Banco Falabella–Shell: 3× CMR Puntos con App Micopiloto o 2× pagando con CMR,2025-10-14,active,high
+https://www.micopiloto.cl/,category,combustible,nacional,,no,none,,cadena,App Micopiloto: pago en Shell y upa! con promociones y beneficios,2025-10-14,active,high
+https://sitiospublicos.bancoedwards.cl/personas/beneficios/detalle/shell-beneficio,detail,combustible,nacional,,no,text,texto “Shell beneficio Banco Edwards”,partner,Descuento $100 por litro con App Micopiloto y tarjeta Banco Edwards,2025-10-14,active,high
+https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/shell-beneficio,detail,combustible,nacional,,no,text,texto “Shell beneficio Banco de Chile”,partner,Descuento $100 por litro los jueves pagando con tarjeta Banco de Chile,2025-10-14,active,high
+https://www.enex.cl/shell-card/shell-card-taxi,subcategory,transporte,nacional,,no,none,,cadena,Programa Shell Card Taxi: descuentos por litro para taxis y colectivos,2025-10-14,active,medium
+https://www.shell.cl/estaciones-de-servicio/tarjetas-shell-card/shell-card-empresa.html,subcategory,transporte,nacional,,no,none,,cadena,Shell Card Empresa: control de flotas livianas y beneficios por consumo,2025-10-14,active,medium
+https://www.selyt.cl/shellcard,detail,transporte,nacional,,no,text,texto “Shell Card Empresa”,partner,Shell Card Empresa ofrecida por Selyt con descuentos por litro y gestión de consumo,2025-10-14,active,medium
+https://experiencias.cmrpuntos.cl/?category=Servicios&eco=Shell,program,financiero,nacional,,no,none,,cadena,Canje de puntos CMR por descuentos Shell vía Micopiloto,2025-10-14,active,medium
+https://www.shell.cl/estaciones-de-servicio/tarjetas-shell-card.html,category,transporte,nacional,,no,none,,cadena,Portal general de Tarjetas Shell Card (Empresa, Taxi, Institucional),2025-10-14,active,high
+https://www.shell.cl/estaciones-de-servicio/promociones-y-campanas.html,category,campañas,nacional,,no,none,,cadena,Promociones y campañas vigentes de Shell Chile,2025-10-14,active,high
+https://www.enex.cl/shell-card,category,transporte,nacional,,no,none,,cadena,Plataforma general de Shell Card (Empresa / Transporte / Taxi / Institucional),2025-10-14,active,medium
+https://www.shell.cl/estaciones-de-servicio/micopiloto.html,subcategory,combustible,nacional,,no,none,,cadena,Página oficial de App Micopiloto Shell Chile (pagos, promociones y beneficios),2025-10-14,active,high
+https://www.tarjeta-transporte.cl/,subcategory,transporte,nacional,,no,none,,cadena,Portal de Shell Card Transporte (flotas de carga pesada),2025-10-14,active,medium
+https://www.tarjeta-taxi.cl/,subcategory,transporte,nacional,,no,none,,cadena,Portal de Shell Card Taxi (beneficios para taxis y colectivos),2025-10-14,active,medium
+https://www.tarjeta-empresa.cl/,subcategory,transporte,nacional,,no,none,,cadena,Portal vinculado a Shell Card Empresa,2025-10-14,active,low
+https://www.enex.cl/shell-card/shell-card-taxi/,detail,transporte,nacional,,no,none,,cadena,Descuentos específicos del programa Shell Card Taxi ($10–15 por litro),2025-10-14,active,high
+https://www.selyt.cl/shellcard,detail,transporte,nacional,,no,none,,partner,Shell Card Empresa gestionada por Selyt (tarjeta gratuita y control de consumo),2025-10-14,active,medium
