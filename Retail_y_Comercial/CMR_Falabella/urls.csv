@@ -1,1 +1,22 @@
 url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://www.falabella.com/falabella-cl/collection/descuentos-cmr,category,retail,nacional,,no,none,,cadena,Colección de productos con descuento CMR Falabella,2025-10-14,active,high
+https://www.bancofalabella.cl/descuentos,category,financiero,nacional,,no,none,,cadena,Portal general de descuentos y aliados Banco Falabella,2025-10-14,active,high
+https://www.falabella.com/falabella-cl/page/alianzas-y-descuentos,category,retail,nacional,,no,none,,cadena,Listado de alianzas y descuentos Falabella,2025-10-14,active,high
+https://www.falabella.com/falabella-cl/page/comprar-beneficios,subcategory,retail,nacional,,no,none,,cadena,Portal de beneficios de compras en Falabella.com,2025-10-14,active,medium
+https://www.falabella.com/falabella-cl/page/beneficios-sellers,subcategory,retail,nacional,,no,none,,cadena,Programa de beneficios para sellers de Falabella,2025-10-14,active,medium
+https://www.mallplaza.com/cl/blog-descuentos-banco-falabella/index.html,reference,retail,nacional,,no,text,texto “descuentos Banco Falabella”,partner,Descuentos Banco Falabella publicados en Mallplaza Chile,2025-10-14,active,medium
+https://www.bancofalabella.cl/descuentos/detalle/descuentos-tottus-lunes,detail,supermercados,nacional,,no,none,,partner,Descuento en Tottus cada lunes con CMR Falabella,2025-10-14,active,high
+https://www.bancofalabella.cl/descuentos/detalle/club-de-restaurantes,detail,restaurantes,nacional,,no,none,,partner,Club de Restaurantes con descuentos CMR en locales afiliados,2025-10-14,active,high
+https://www.mallplaza.com/cl/blog-descuentos-banco-falabella,reference,retail,nacional,,no,text,texto “descuentos banco falabella”,partner,Descuentos vigentes CMR Banco Falabella en Mallplaza,2025-10-14,active,medium
+https://www.mallplaza.com/cl/tobalaba/descuento-banco-falabella-espacio-gastronomico,detail,restaurantes,regional,RM,no,text,texto “Espacio Gastronómico”,partner,Hasta 40 % descuento en restaurantes de Mallplaza Tobalaba con CMR,2025-10-14,active,high
+https://www.cmrfalabella.com/b2cfapr/CMRCORP/grafica/imgs/CL/baseseyp.pdf,document,financiero,nacional,,no,pdf,archivo baseseyp.pdf,cadena,Bases oficiales de beneficios CMR Chile (categorías Premium y Elite),2025-10-14,active,medium
+https://canjeonline-cmrpuntos.puntospoint.com/,program,financiero,nacional,,no,none,,cadena,Portal de canje online CMR Puntos (cupones y gift cards),2025-10-14,active,high
+https://www.cmrpuntos.cl/donde-acumular-cmr-puntos-clientes-banco-falabella,tool,financiero,nacional,,no,none,,cadena,Buscador de comercios adheridos para acumular CMR Puntos,2025-10-14,active,high
+https://www.falabella.com/falabella-cl/page/promociones-falabellacom,category,retail,nacional,,no,none,,cadena,Promociones Falabella con descuentos por pago con CMR,2025-10-14,active,high
+https://www.falabella.com/falabella-cl/page/comunidad-f,subcategory,retail,nacional,,no,none,,cadena,Comunidad F – convenios locales y cupones Falabella,2025-10-14,active,medium
+https://www.bancofalabella.cl/descuentos/restaurantes,subcategory,restaurantes,nacional,,no,none,,partner,Oportunidades únicas CMR en restaurantes adheridos,2025-10-14,active,high
+https://www.viajesfalabella.cl/informacion/medios-de-pago,subcategory,viajes,nacional,,no,none,,cadena,Medios de pago y promociones CMR en Viajes Falabella,2025-10-14,active,high
+https://www.viajesfalabella.cl/ofertas-viajes/promociones,detail,viajes,nacional,,no,none,,cadena,Promociones y descuentos exclusivos con CMR en Viajes Falabella,2025-10-14,active,high
+https://www.viajesfalabella.cl/cmr/cmr-puntos,detail,viajes,nacional,,no,none,,cadena,Canje de CMR Puntos en Viajes Falabella,2025-10-14,active,medium
+https://www.bancofalabella.cl/tarjetas-credito-cmr/mastercard-elite,detail,financiero,nacional,,no,none,,cadena,Beneficios exclusivos para clientes CMR Mastercard Elite,2025-10-14,active,high
+https://www.bancofalabella.com.co/descuento-detalle/alianzas/40-dto-burger-king,reference,restaurantes,internacional,Colombia,no,text,texto “Burger King”,partner,Ejemplo de alianza CMR Falabella con Burger King (modelo aplicable),2025-10-14,active,low
