@@ -1,1 +1,15 @@
 url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://www.bancoripley.cl/,category,financiero,nacional,,no,none,,cadena,Sitio oficial del Banco Ripley (tarjetas, beneficios, promociones),2025-10-15,active,high
+https://www.bancoripley.cl/beneficios-y-promociones,category,retail,nacional,,no,none,,cadena,Portal principal de beneficios y promociones del Banco Ripley,2025-10-15,active,high
+https://www.bancoripley.cl/tarjeta-ripley-mastercard,subcategory,financiero,nacional,,no,none,,cadena,Detalle de la Tarjeta Ripley Mastercard (beneficios, condiciones, requisitos),2025-10-15,active,high
+https://www.bancoripley.cl/tarjeta-ripley-mastercard-black,subcategory,financiero,nacional,,no,none,,cadena,Detalles y beneficios exclusivos de la Tarjeta Ripley Mastercard Black,2025-10-15,active,medium
+https://www.bancoripley.cl/planes,subcategory,financiero,nacional,,no,text,texto “planes Banco Ripley”,cadena,Planes de cuenta con beneficios adicionales (ej: $150 de descuento por litro los miércoles),2025-10-15,active,high
+https://ripleypuntosgo.cl/home,program,financiero,nacional,,no,none,,cadena,Programa Ripley Puntos Go (acumulación y canje de puntos por beneficios),2025-10-15,active,high
+https://simple.ripley.cl/minisitios/estatico/especial-tarjeta,category,retail,nacional,,no,none,,cadena,Sección “Especial Tarjeta Ripley” con descuentos exclusivos,2025-10-15,active,high
+https://ripley.zendesk.com/hc/es-419/sections/360008108354-Preguntas-Tarjeta-Ripley,document,financiero,nacional,,no,text,FAQ,cadena,Centro de ayuda con preguntas frecuentes sobre la Tarjeta Ripley,2025-10-15,active,medium
+https://www.petrobrasdistribucion.cl/promociones/descuento-con-medios-de-pago/descuento-ripley/,detail,combustible,nacional,,no,text,texto “descuento Ripley”,partner,Descuento por litro en Petrobras pagando con Tarjeta Ripley Mastercard,2025-10-15,active,high
+https://nbeneficios.cl/tarjetas/ver/ripley,tool,retail,nacional,,no,none,,partner,Listado de comercios adheridos y descuentos con Tarjeta Ripley,2025-10-15,active,high
+https://www.entel.cl/beneficios/descuentos/tienda/ripley,detail,retail,nacional,,no,text,texto “descuento Entel Ripley”,partner,Descuento del 30 % en Entel Tienda al pagar con Tarjeta Ripley,2025-10-15,active,medium
+https://blog.pedidosya.cl/bases-usuarios-tarjetas-de-credito-banco-ripley-marzo-2025/,campaign,retail,nacional,,no,text,texto “RIPLEYMAR25”,partner,Campaña PedidosYa: 40 % de descuento pagando con Tarjeta Ripley Mastercard,2025-10-15,active,medium
+https://www.comparaonline.cl/tarjeta-de-credito/product/banco-ripley/mastercard-internacional-banco-ripley,reference,financiero,nacional,,no,text,ficha comparador,partner,Ficha informativa de la Tarjeta Ripley Mastercard en ComparaOnline,2025-10-15,active,low
+https://www.bancoripley.com.pe/promociones/default.html,reference,financiero,internacional,Perú,no,none,,partner,Portal de promociones Ripley Perú (referencia regional de modelo de beneficios),2025-10-15,active,low
