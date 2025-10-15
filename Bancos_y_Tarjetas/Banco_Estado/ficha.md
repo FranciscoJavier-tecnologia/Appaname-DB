@@ -1,60 +1,30 @@
----
-emisor: Banco Estado
-categoria: Bancos y Tarjetas
+# Banco Estado
+
+emisor: banco_estado
+categorías: Bancos y Tarjetas
 dominio_principal: bancoestado.cl
-portal_principal: https://www.bancoestado.cl/content/bancoestado-public/cl/es/home/home/todosuma---bancoestado-personas/todos-beneficios.html
-estado: active
-ultima_revision: 2025-10-13
-prioridad_extraccion: alta
-render_tipo: SSR
-requiere_js: false
-frecuencia_cambio_dias: 7
-geo_detalle: texto | lista_sucursales
+portal_principal: https://www.bancoestado.cl/beneficios
+estado: activo
+última_revisión: 2025-10-15
+prioridad_extracción: alta
+tipo_de_renderizado: SPA
+requiere_js: verdadero
+frecuencia_cambio_días: 7
+detalles_geográficos: Nacional (Chile)
 selectores_clave:
-  merchant: "h1, .be-benefit-title"
-  discount: ".be-discount, .percent"
-  terms: ".be-terms, .bases-condiciones"
-  source_url: "meta[property='og:url']"
+  - campo: comerciante
+    selector: ".beneficio__titulo, .beneficio-titulo, h2"
+  - campo: descuento
+    selector: ".beneficio__porcentaje, .badge--porcentaje"
+  - campo: términos
+    selector: ".beneficio__tyc, .modal-tyc"
 rutas_base:
-  - https://www.bancoestado.cl/.../todos-beneficios.html
-  - https://www.bancoestado.cl/.../campanas-.../
----
-
-# Ficha técnica — Banco Estado
-
-## Resumen
-Portal de campañas y beneficios (gastronomía, retail, salud, viajes) con fichas/landings por comercio.
-
-## Cobertura/Canales
-Mayormente nacional; campañas segmentadas por días. Canales presencial/online; tarjetas débito/crédito y CuentaRUT.
-
-## Tipos de página
-Category/Campaign/Detail; documentos PDF de bases.
-
-## Render
-SSR clásico; a veces iframes o páginas legacy ASP.
-
-## Campos objetivo
-merchant, discount/value, days, payment_methods, channels, validity, terms, source_url, geo.
-
-## Geosegmentación
-Frases en condiciones o en el cuerpo; en algunos casos locales específicos RM.
-
-## Reglas
-Medios BancoEstado; topes; exclusiones (gift cards, combos).
-
-## Frecuencia
-Campañas mensuales; fichas 7–14 días.
-
-## Riesgos
-Rutas legacy; expiración silenciosa; PDFs externos.
-
-## QA
-- [ ] Sin login
-- [ ] % y condiciones
-- [ ] Validez
-- [ ] Geo
-- [ ] Rol correcto
-
-## Notas
-- Extraer también PDFs; normalizar textos legacy.
+  - https://www.bancoestado.cl/beneficios
+  - https://www.bancoestado.cl/personas/beneficios
+  - https://www.bancoestado.cl/personas/beneficios-supermercados
+campos_extra: "comerciante|descuento|términos|url_de_origen|geo"
+notas: |
+  - Portal SPA con carga dinámica de beneficios según categoría (Retail, Combustible, Supermercado, etc.).
+  - Sección “Beneficios BancoEstado” actualiza semanalmente campañas (Lider, Unimarc, Shell, Copec).
+  - Requiere extracción vía navegador headless (Playwright) por lazy-loading JS.
+  - Campos extra recomendados: 'vigencia', 'método_pago', 'segmento_tarjeta'.
