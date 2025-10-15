@@ -1,27 +1,30 @@
-# Caja Los Andes — Ficha técnica
+# Caja Los Andes
 
-**Categoría:** Cajas de Compensación
-**Dominio principal:** cajalosandes.cl  
-**Última revisión:** 2025-10-11  
-**Estado:** active | needs_review
-
-## Resumen
-(Descripción breve del portal sin login y sus secciones.)
-
-## Navegación / Comportamiento
-(Render, paginado/scroll, buscador, botones, etc.)
-
-## Campos visibles por beneficio
-(merchant, discount, terms, days, channel, valid_until, source_url…)
-
-## Segmentación geográfica
-(¿Texto de región? ¿Imagen? ¿Mapa? ¿Selector? Dónde aparece.)
-
-## Riesgos / Particularidades
-(Cambios de layout, banners, iframes, cookies…)
-
-## Frecuencia de cambios esperada
-(Semanal/mensual/estacional.)
-
-## Checklist verificado
-(3 ejemplos reales confirmados.)
+emisor: caja_los_andes
+categorías: Cajas de Compensación
+dominio_principal: cajalosandes.cl
+portal_principal: https://www.cajalosandes.cl/beneficios
+estado: activo
+última_revisión: 2025-10-15
+prioridad_extracción: media
+tipo_de_renderizado: SPA
+requiere_js: verdadero
+frecuencia_cambio_días: 15
+detalles_geográficos: Nacional (regiones RM, V, VIII)
+selectores_clave:
+  - campo: comerciante
+    selector: ".beneficio__nombre, h2"
+  - campo: descuento
+    selector: ".beneficio__porcentaje, .badge--descuento"
+  - campo: términos
+    selector: ".modal-tyc, .beneficio__detalle"
+rutas_base:
+  - https://www.cajalosandes.cl/beneficios
+  - https://beneficios.cajalosandes.cl/
+  - https://www.cajalosandes.cl/personas/beneficios
+campos_extra: "comerciante|descuento|términos|categoria|geo"
+notas: |
+  - Portal SPA basado en ReactJS, con API interna /api/beneficios.
+  - Requiere navegación por filtros (categorías, regiones).
+  - Se actualiza quincenalmente con nuevos convenios.
+  - Extraer metadatos: categoría, vigencia, región.
