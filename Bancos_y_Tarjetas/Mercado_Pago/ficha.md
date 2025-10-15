@@ -1,32 +1,46 @@
----
-emisor: Mercado Pago
-categoria: Bancos y Tarjetas
+# Mercado Pago (Chile)
+
+emisor: mercado_pago
+categorías: Bancos y Tarjetas
 dominio_principal: mercadopago.cl
 portal_principal: https://www.mercadopago.cl/
-estado: active
-ultima_revision: 2025-10-13
-prioridad_extraccion: media
-render_tipo: SSR_hibrido
-requiere_js: true
-frecuencia_cambio_dias: 7
-geo_detalle: texto
+estado: activo
+última_revisión: 2025-10-15
+prioridad_extracción: media
+tipo_de_renderizado: HTML
+requiere_js: falso
+frecuencia_cambio_días: 15
+detalles_geográficos: Nacional (Chile)
 selectores_clave:
-  merchant: "h1, .title"
-  discount: ".percent, .badge"
-  terms: ".terms, .tyc"
-  source_url: "link[rel='canonical']"
+  - campo: beneficio
+    selector: "h2, .beneficio, [class*=promo]"
+  - campo: descuento
+    selector: ".badge, .percent, [class*=cashback]"
+  - campo: términos
+    selector: ".tyc, .bases, .modal-tyc"
 rutas_base:
-  - https://www.mercadopago.cl/ayuda/como-funcionan-los-descuentos-con-QR_4309
-  - https://mercadopago.cl/landing/<campaña>
----
-
-# Ficha técnica — Mercado Pago
-
-## Resumen
-Descuentos por QR/cashback y landings por campaña (Petrobras, Turbus, Lipigas, etc.).
-
-## Cobertura/Canales
-Nacional; presencial/online; billetera/QR.
-
-## Tipos/Render/Campos/Geo/Reglas/Frecuencia/Riesgos/QA
-Como estándar; foco en landings externas; validar vigencia/tyc.
+  - https://www.mercadopago.cl/
+  - https://www.mercadolibre.cl/l/mercado-pago-descuentos
+  - https://www.mercadopago.cl/landing/liquidos-fisico
+campos_extra: "beneficio|descuento|vigencia|url_de_origen"
+qa_checks:
+  requires_login: falso
+  pagination: "none"
+  expected_min_items: 3
+  tolerate_empty_fields: ["términos"]
+crawl_hints:
+  rate_limit_rps: 1
+  user_agent: "AppanameBot/1.0 (+contacto)"
+  wait_after_nav_ms: 600
+  js_enable: auto
+extraction_schema:
+  - name: beneficio
+  - name: descuento
+  - name: vigencia
+  - name: url_de_origen
+fallback_selectors:
+  beneficio: ["h1","h2","[class*=title]"]
+  descuento: [".badge",".percent","[class*=promo]"]
+  terminos:  [".tyc",".modal",".bases-legales"]
+notas: |
+  - Beneficios y promos comunicadas en landings y dentro de ML (desc.-MP). :contentReference[oaicite:10]{index=10}
