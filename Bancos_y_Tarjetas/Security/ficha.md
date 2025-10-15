@@ -1,54 +1,49 @@
----
-emisor: Banco Security
-categoria: Bancos y Tarjetas
+# Banco Security
+
+emisor: banco_security
+categorías: Bancos y Tarjetas
 dominio_principal: bancosecurity.cl
 portal_principal: https://personas.bancosecurity.cl/beneficios
-estado: active
-ultima_revision: 2025-10-13
-prioridad_extraccion: media
-render_tipo: SSR
-requiere_js: false
-frecuencia_cambio_dias: 10
-geo_detalle: texto | lista_sucursales
+estado: activo
+última_revisión: 2025-10-15
+prioridad_extracción: media
+tipo_de_renderizado: HTML
+requiere_js: falso
+frecuencia_cambio_días: 15
+detalles_geográficos: Nacional (Chile)
 selectores_clave:
-  merchant: "h1, .title"
-  discount: ".discount, .percent"
-  terms: ".terms, .condiciones"
-  source_url: "meta[property='og:url']"
+  - campo: comerciante
+    selector: ".card h3, h2, [class*=beneficio]"
+  - campo: descuento
+    selector: ".badge, .percent, [class*=descuento]"
+  - campo: términos
+    selector: ".tyc, .bases, .modal-tyc"
 rutas_base:
   - https://personas.bancosecurity.cl/beneficios
----
-
-# Ficha técnica — Banco Security
-
-## Resumen
-Portal con categorías (Gourmet, Shopping, Viajes, Entretención), fichas detalle y tarjetas.
-
-## Cobertura/Canales
-Nacional + casos RM; presencial/online; tarjetas ONE/crédito/débito.
-
-## Tipos
-Category/Subcategory, Detail, Campaign.
-
-## Render
-SSR; algunas páginas antiguas de referencia.
-
-## Campos
-merchant, discount/value, days, payment_methods, channels, validity, terms, source_url, geo.
-
-## Geo
-Texto en condiciones y/o ficha.
-
-## Reglas
-Tarjetas Security; topes; no acumulable.
-
-## Frecuencia
-Semanal/10 días.
-
-## Riesgos
-Scroll/paginado simple; fichas con contenido parcial.
-
-## QA
-- [ ] Sin login
-- [ ] % y condiciones
-- [ ] Validez/Geo
+  - https://personas.bancosecurity.cl/tarjeta-credito-one
+  - https://personas.bancosecurity.cl/tarjeta-credito-black-one
+campos_extra: "comerciante|descuento|vigencia|método_pago|url_de_origen|geo"
+qa_checks:
+  requires_login: falso
+  pagination: "none"
+  expected_min_items: 6
+  tolerate_empty_fields: ["términos"]
+crawl_hints:
+  rate_limit_rps: 1
+  user_agent: "AppanameBot/1.0 (+contacto)"
+  wait_after_nav_ms: 500
+  js_enable: auto
+extraction_schema:
+  - name: comerciante
+  - name: descuento
+  - name: vigencia
+  - name: metodo_pago
+  - name: terminos
+  - name: url_de_origen
+  - name: geo
+fallback_selectors:
+  comerciante: ["h1","h2","[class*=title]"]
+  descuento:   [".badge",".percent","[class*=promo]"]
+  terminos:    [".tyc",".modal",".bases-legales"]
+notas: |
+  - Listado por categorías + páginas de tarjetas con beneficios asociados (VIP, cashback, etc.). :contentReference[oaicite:4]{index=4}
