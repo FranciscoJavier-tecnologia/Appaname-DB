@@ -1,1 +1,21 @@
 url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://www.fonasa.cl/,category,salud,nacional,,no,none,,cadena,Portal principal de FONASA con acceso a beneficios,2025-10-15,active,high
+https://adjuntos.fonasa.gob.cl/sites/fonasa/beneficiarios/medicamentos,detail,salud,nacional,,no,none,,cadena,Descuentos en medicamentos para afiliados FONASA,2025-10-15,active,high
+https://medicamentos.fonasa.cl/,tool,salud,nacional,,no,none,,cadena,Buscador de medicamentos y farmacias con convenio FONASA,2025-10-15,active,high
+https://www.chileatiende.gob.cl/fichas/64/descuentos-medicamentos-fonasa,detail,salud,nacional,,no,text,texto “descuentos medicamentos”,partner,Información oficial sobre descuentos en medicamentos FONASA,2025-10-15,active,medium
+https://www.chileatiende.gob.cl/fichas/89965-buscador-de-medicamentos-con-descuentos-para-asegurados-de-fonasa,tool,salud,nacional,,no,none,,partner,Buscador ChileAtiende de medicamentos con descuento para afiliados FONASA,2025-10-15,active,high
+https://www.chileatiende.gob.cl/fichas/9793-copago-cero-de-fonasa,category,salud,nacional,,no,text,texto “copago cero”,partner,Información sobre Copago Cero para tramos C y D (atenciones gratuitas),2025-10-15,active,high
+https://www.chileatiende.gob.cl/fichas/4930-prestamo-de-salud-de-fonasa,detail,salud,nacional,,no,text,texto “préstamo de salud”,partner,Préstamos médicos de FONASA para financiar atenciones,2025-10-15,active,medium
+https://www.chileatiende.gob.cl/fichas/7762-condonaciones-de-deuda-de-atencion-de-salud-y-auge-ges-de-fonasa,detail,salud,nacional,,no,text,texto “condonaciones de deuda”,partner,Condonaciones de deuda por atención de salud o AUGE/GES,2025-10-15,active,medium
+https://www.chileatiende.gob.cl/fichas/38457-pago-asociado-a-un-diagnostico-pad-de-fonasa,detail,salud,nacional,,no,text,texto “Bono PAD”,partner,Información oficial sobre el Bono PAD (Pago Asociado a Diagnóstico) FONASA,2025-10-15,active,high
+https://www.chileatiende.gob.cl/fichas/119860-bono-de-fonasa,detail,salud,nacional,,no,text,texto “bono Fonasa”,partner,Guía de ChileAtiende sobre el uso y compra del Bono Fonasa,2025-10-15,active,medium
+https://www.chileatiende.gob.cl/fichas/85585-incorporacion-de-venta-de-bonos-electronicos,document,salud,nacional,,no,text,texto “bonos electrónicos”,partner,Procedimiento para incorporar venta de bonos electrónicos modalidad Libre Elección,2025-10-15,active,low
+https://www.chileatiende.gob.cl/fichas/64272-inscripcion-de-entidades-de-la-salud-en-la-modalidad-de-libre-eleccion-mle-de-fonasa,document,salud,nacional,,no,text,texto “inscripción entidades”,partner,Inscripción de prestadores a la modalidad Libre Elección FONASA,2025-10-15,active,low
+https://www.superdesalud.gob.cl/tax-materias-fonasa/cobertura-y-bonificaciones-3459/,category,salud,nacional,,no,text,texto “cobertura y bonificaciones”,partner,Información sobre coberturas y bonificaciones ofrecidas por FONASA,2025-10-15,active,medium
+https://www.integramedica.cl/planes-y-convenios/convenios/fonasa,detail,salud,nacional,,no,none,,partner,Convenios con IntegraMédica para afiliados FONASA,2025-10-15,active,medium
+https://www.clinicabupasantiago.cl/programas-y-convenios/fonasa,detail,salud,nacional,,no,none,,partner,Convenio de Bono PAD entre Clínica Bupa Santiago y FONASA,2025-10-15,active,medium
+https://www.redsalud.cl/informacion-para-el-paciente/fonasa-en-redsalud,detail,salud,nacional,,no,none,,partner,RedSalud: prestaciones y servicios en convenio con FONASA,2025-10-15,active,medium
+https://www.indisa.cl/convenio-fonasa,detail,salud,nacional,,no,none,,partner,Clínica INDISA: convenio FONASA para Bono PAD y atenciones quirúrgicas,2025-10-15,active,medium
+https://www.redclinica.cl/informacion-al-paciente/atencion-ambulatoria/convenios.aspx,reference,salud,nacional,,no,none,,partner,Red Clínica: convenios y atenciones bajo modalidad Libre Elección,2025-10-15,active,low
+https://farmex.cl/pages/descuentos-fonasa,detail,salud,nacional,,no,none,,partner,Farmacia Farmex: descuentos en más de 2.000 medicamentos con convenio FONASA,2025-10-15,active,high
+https://salcobrand.cl/beneficios-fonasa,detail,salud,nacional,,no,none,,partner,Salcobrand: beneficios y descuentos especiales para afiliados FONASA,2025-10-15,active,high
