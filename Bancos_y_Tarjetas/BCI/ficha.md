@@ -1,88 +1,49 @@
----
-emisor: BCI
-categoria: Bancos y Tarjetas
+# Banco Bci
+
+emisor: bci
+categorías: Bancos y Tarjetas
 dominio_principal: bci.cl
-portal_principal: https://www.vivirconbeneficios.cl/
-estado: active
-ultima_revision: 2025-10-13
-prioridad_extraccion: alta
-render_tipo: SSR_hibrido
-requiere_js: true
-frecuencia_cambio_dias: 7
-geo_detalle: texto | lista_sucursales
+portal_principal: https://www.bci.cl/beneficios/beneficios-bci
+estado: activo
+última_revisión: 2025-10-15
+prioridad_extracción: alta
+tipo_de_renderizado: HTML
+requiere_js: falso
+frecuencia_cambio_días: 7
+detalles_geográficos: Nacional (Chile)
 selectores_clave:
-  merchant: ".beneficio-titulo"
-  discount: ".porcentaje-descuento"
-  terms: ".condiciones"
-  source_url: "meta[property='og:url']"
+  - campo: comerciante
+    selector: "h3, .beneficio-titulo, .card-title"
+  - campo: descuento
+    selector: ".badge, .descuento, [class*=percent]"
+  - campo: términos
+    selector: ".tyc, .bases, .modal-tyc"
 rutas_base:
-  - https://www.vivirconbeneficios.cl/
-  - https://www.bci.cl/beneficios
----
-
-# Ficha técnica — BCI
-
-## 1) Resumen del portal
-BCI publica beneficios en **dos dominios**: el portal general (bci.cl) y el sitio especializado **Vivir con Beneficios**.  
-Las fichas individuales muestran imágenes, condiciones y % de descuento dinámicos cargados por JavaScript.
-
-## 2) Cobertura
-- **Ámbito:** Nacional con promociones específicas por región (ej. RM, V Región).  
-- **Segmentos:** Personas naturales, tarjetas BCI (Crédito, Débito, BciPlus+).  
-- **Canales:** presencial, online, app y QR.  
-- **Medios de pago:** tarjetas BCI, App BCI, convenios externos (Copec, Líder, etc.).
-
-## 3) Tipos de páginas y patrones
-- **Category/Subcategory:** listados temáticos.  
-- **Detail:** ficha con %/cashback, condiciones y vigencia.  
-- **Campaign:** landings temporales (Cyber, día de la madre, etc.).  
-- **Document/Reference:** PDFs, términos legales o bases.  
-
-**Patrones detectados:**  
-`https://www.vivirconbeneficios.cl/beneficios/detalle/<slug>`  
-`https://www.bci.cl/beneficios/<categoría>`
-
-## 4) Render y comportamiento
-- Render **SSR híbrido** con componentes SPA.  
-- Algunos listados usan scroll infinito.  
-- Filtros por categoría y medio de pago.  
-- Banners dinámicos de campañas.
-
-## 5) Campos objetivo por beneficio
-merchant, category, discount/value, days/hours, payment_methods, channels, promo_code, validity, terms, source_url, images, geo.
-
-## 6) Geosegmentación
-- Evidencias: texto (“válido en RM”), imágenes con sello, listas de tiendas adheridas.  
-- Suele aparecer en sección “Condiciones” o al final de la ficha.
-
-## 7) Reglas de elegibilidad
-- Pago exclusivo con tarjetas BCI.  
-- Cashback o % máximo por compra.  
-- No acumulable con otras promos salvo eventos especiales.
-
-## 8) Frecuencia de cambios
-- Campañas: semanal o mensual.  
-- Fichas detalle: 7–14 días.  
-- PDFs/bases: baja frecuencia (mensual).
-
-## 9) Riesgos detectados
-- Cambios frecuentes de slug o layout.  
-- Contenido crítico en imágenes.  
-- Landings externas con expiración sin aviso.
-
-## 10) Ejemplos verificados
-1) Copec + BCI — martes — cashback 5 % — nacional.  
-2) Líder/ACuenta — retail — viernes — 10 %.  
-3) Starbucks — gastronómico — RM — 20 %.
-
-## 11) Checklist QA scraping
-- [x] Abre sin login  
-- [x] Muestra %/cashback visible  
-- [ ] Contiene fecha o texto inferible  
-- [ ] Evidencia geográfica si aplica  
-- [ ] Rol correcto (category/detail/campaign/document/reference)
-
-## 12) Notas para el Data Engine
-- Extraer con Playwright o Puppeteer headless.  
-- Respetar rate-limit y robots.txt.  
-- Guardar HTML crudo y timestamp.  
+  - https://www.bci.cl/beneficios/beneficios-bci
+  - https://www.bci.cl/beneficios/
+  - https://www.vivirconbeneficios.cl/portal
+campos_extra: "comerciante|descuento|vigencia|método_pago|url_de_origen|geo"
+qa_checks:
+  requires_login: falso
+  pagination: "none"
+  expected_min_items: 8
+  tolerate_empty_fields: ["términos"]
+crawl_hints:
+  rate_limit_rps: 1
+  user_agent: "AppanameBot/1.0 (+contacto)"
+  wait_after_nav_ms: 500
+  js_enable: auto
+extraction_schema:
+  - name: comerciante
+  - name: descuento
+  - name: vigencia
+  - name: metodo_pago
+  - name: terminos
+  - name: url_de_origen
+  - name: geo
+fallback_selectors:
+  comerciante: ["h2","h3","[class*=titulo]"]
+  descuento:   [".badge",".descuento","[class*=percent]"]
+  terminos:    [".bases",".tyc",".modal"]
+notas: |
+  - Portal beneficios y hub externo “Vivir con Beneficios” con listados claros (HTML). :contentReference[oaicite:2]{index=2}
