@@ -1,41 +1,35 @@
----
-emisor: Banco Consorcio / Grupo Consorcio
-categoria: Bancos y Tarjetas
-dominio_principal: consorcio.cl
-portal_principal: https://sitio.consorcio.cl/beneficios
-estado: active
-ultima_revision: 2025-10-13
-prioridad_extraccion: media
-render_tipo: SSR
-requiere_js: false
-frecuencia_cambio_dias: 14
-geo_detalle: texto
+# Banco Consorcio
+
+emisor: banco_concorcio
+categorías: Bancos y Tarjetas
+dominio_principal: bancoconsorcio.cl
+portal_principal: https://www.bancoconsorcio.cl/personas/beneficios
+estado: activo
+última_revisión: 2025-10-15
+prioridad_extracción: media
+tipo_de_renderizado: HTML
+requiere_js: falso
+frecuencia_cambio_días: 15
+detalles_geográficos: Nacional
 selectores_clave:
-  merchant: "h1, .titulo"
-  discount: ".percent, .badge"
-  terms: ".tyc, .condiciones"
-  source_url: "link[rel='canonical']"
+  - campo: comerciante
+    selector: "h3, .beneficio__titulo"
+  - campo: descuento
+    selector: ".percent, .badge"
+  - campo: términos
+    selector: ".tyc, .bases"
 rutas_base:
-  - https://sitio.consorcio.cl/beneficios
-  - https://sitio.consorcio.cl/servicio-clientes/promociones
----
-
-# Ficha técnica — Consorcio
-
-## Resumen
-Beneficios y promociones para clientes; convenios (p.ej. Casacostanera), combustible, retail.
-
-## Cobertura/Canales
-Nacional + casos RM; presencial/online.
-
-## Tipos
-Category/Detail/Campaign.
-
-## Render
-SSR; estructura simple.
-
-## Campos/Geo
-merchant, discount, terms, validity, source_url; geo en texto.
-
-## Reglas/Frecuencia/Riesgos/QA
-Medios Consorcio; baja rotación; landings externas; checklist estándar.
+  - https://www.bancoconsorcio.cl/personas/beneficios
+  - https://www.bancoconsorcio.cl/personas/beneficios/promociones
+campos_extra: "comerciante|descuento|vigencia|url_de_origen"
+qa_checks:
+  expected_min_items: 5
+crawl_hints:
+  wait_after_nav_ms: 500
+extraction_schema:
+  - name: comerciante
+  - name: descuento
+  - name: vigencia
+  - name: url_de_origen
+notas: |
+  - HTML estático, listado por rubros y categorías; beneficios vigentes actualizados mensualmente.
