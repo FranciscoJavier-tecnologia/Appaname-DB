@@ -1,1 +1,8 @@
 url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://okmarket.cl/,category,retail,nacional,,no,none,,cadena,Sitio principal OK Market (presenta ofertas exclusivas diarias),2025-10-15,active,high
+https://okmarket.cl/promociones/,category,retail,nacional,,no,none,,cadena,Sección oficial de promociones y descuentos vigentes en OK Market,2025-10-15,active,high
+https://okmarket.cl/preguntas-frecuentes/,document,retail,nacional,,no,text,texto “promociones vigentes”,cadena,Sección de Preguntas Frecuentes (incluye consulta sobre promociones activas),2025-10-15,active,medium
+https://www.catalogosofertas.cl/tiendas/ok-market/ofertas-catalogos,reference,retail,nacional,,no,none,,partner,Portal externo con catálogos de ofertas y folletos OK Market,2025-10-15,active,medium
+https://okmarket.cuponcl.com/,reference,retail,nacional,,no,none,,partner,Sitio de cupones con códigos promocionales para OK Market,2025-10-15,active,medium
+https://fne.gob.cl/,reference,general,nacional,,no,text,texto “Club OK+ migró al Club Ahorro”,partner,Informe FNE menciona que el antiguo programa Club OK+ migró al Club Ahorro (Unimarc),2025-10-15,active,low
+https://conbeneficios.cl/e/banco-de-credito-e-inversiones/convenio/23924,reference,financiero,nacional,,no,text,texto “convenio BCI OK Market”,partner,Referencia de convenio Banco BCI con comercios que incluye OK Market,2025-10-15,active,low
