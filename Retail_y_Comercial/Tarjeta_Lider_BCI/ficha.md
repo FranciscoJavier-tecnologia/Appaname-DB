@@ -1,63 +1,35 @@
 # Tarjeta Líder BCI
 
-**Categoría:** Minorista y Comercio  
-**Tipo de Emisor:** Retail / Banco / Tarjeta de Crédito  
-**Última actualización:** Octubre 2025  
-**Fuente Oficial:** [https://www.tarjetaliderbci.cl/](https://www.tarjetaliderbci.cl/)
-
----
-
-## 🧾 Descripción General
-La **Tarjeta Líder BCI** es una alianza entre **Walmart Chile** y el **Banco BCI**, que entrega beneficios exclusivos en supermercados Líder, Líder Express, SuperBodega aCuenta y otros comercios asociados.  
-Ofrece descuentos permanentes, acumulación de **Pesos Mi Club**, y promociones en comercios externos como Lipigas, Starbucks y Petrobras.
-
----
-
-## 💳 Beneficios Destacados
-- **6 % de cashback** en Pesos Mi Club en compras en supermercados del grupo Walmart.  
-- **Hasta 40 % de descuento** en comercios aliados seleccionados.  
-- **Descuento todos los lunes** en Líder y Lider.cl con Tarjeta Líder BCI.  
-- **Beneficios adicionales** en Lipigas, Petrobras y Starbucks.  
-- **Cuotas sin interés** en compras online o presenciales.
-
----
-
-## 🌐 Enlaces Oficiales y Fuentes
-- https://www.tarjetaliderbci.cl/contenidos/oportunidades-en-lider  
-- https://www.tarjetaliderbci.cl/contenidos/ahorros  
-- https://www.tarjetaliderbci.cl/contenidos/descuentos  
-- https://liderbci.cl/descuentos  
-- https://bci.cl/beneficios/beneficios-bci/detalle/hasta-40-por-ciento-de-dctos-con-tus-tarjetas-de-credito-bci-y-tarjeta-lider-bci-ciihw6k  
-- https://walmartchile.cl/en-walmart-chile-renovamos-la-tarjeta-lider-bci-para-que-acumules-6-en-pesos-mi-club-todos-los-dias  
-- https://chocale.cl/2025/07/tarjeta-lider-bci-nuevo-beneficio-cashback-todos-los-dias-en-supermercado/  
-- https://www.petrobrasdistribucion.cl/promociones/descuento-con-medios-de-pago/descuento-lider-bci/  
-- https://www.tarjetaliderbci.cl/contenidos/tarjetas  
-- https://www.instagram.com/tarjetaliderbci/  
-
----
-
-## 🧠 Notas Técnicas para App
-- **Frecuencia de actualización:** semanal  
-- **Tipo de datos:** HTML público + PDF campañas  
-- **Compatible con:** módulo Retail / Bancos  
-- **Validación automática:** ✅  
-- **Última verificación manual:** 15/10/2025  
-
----
-
-## 📊 Campos Clave para Base de Datos
-| Campo | Ejemplo | Descripción |
-|-------|----------|-------------|
-| `issuer` | `"tarjeta_lider_bci"` | Identificador único del emisor |
-| `category` | `"minorista_comercio"` | Categoría principal |
-| `source_url` | `"https://www.tarjetaliderbci.cl/"` | URL base |
-| `tags` | `"lider, bci, walmart, cashback, descuentos, supermercado"` | Palabras clave |
-| `region` | `"Chile"` | Cobertura nacional |
-
----
-
-## 🧩 Comentarios Internos
-> Scraper activo en `/contenidos/descuentos` y `/contenidos/ahorros`.  
-> Confirmar actualizaciones del programa **Pesos Mi Club** trimestralmente.  
-> Etiquetar beneficios tipo “cashback” en la BD para visualización especial.  
-> Monitorear alianzas con Lipigas, Petrobras y Starbucks (cambian cada trimestre).
+emisor: tarjeta_lider_bci
+categorías: Minorista y Comercio
+dominio_principal: tarjetaliderbci.cl
+portal_principal: https://www.tarjetaliderbci.cl/beneficios
+estado: activo
+última_revisión: 2025-10-15
+prioridad_extracción: alta
+tipo_de_renderizado: SPA
+requiere_js: verdadero
+frecuencia_cambio_días: 7
+detalles_geográficos: Nacional
+selectores_clave:
+  - campo: comerciante
+    selector: ".card h3, h2"
+  - campo: descuento
+    selector: ".badge, .percent"
+  - campo: términos
+    selector: ".tyc, .bases"
+rutas_base:
+  - https://www.tarjetaliderbci.cl/beneficios
+campos_extra: "comerciante|descuento|vigencia|url_de_origen"
+qa_checks:
+  expected_min_items: 8
+crawl_hints:
+  js_enable: required
+  wait_after_nav_ms: 800
+extraction_schema:
+  - name: comerciante
+  - name: descuento
+  - name: vigencia
+  - name: url_de_origen
+notas: |
+  - SPA Vue con scroll por rubro; actualiza cada semana según campañas BCI y Walmart.
