@@ -1,1 +1,10 @@
 url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://www.cencosud.com/beneficioscencosud-chile,category,retail,nacional,,no,text,texto “beneficios cruzados”,partner,Portal de beneficios Cencosud Chile con descuentos 20 % Easy y Easy.cl,2025-10-15,active,high
+https://www.tarjetacencosud.cl/publico/beneficios/landing/cuotas-sin-interes,detail,financiero,nacional,,no,none,,partner,Beneficio 12 cuotas sin interés sobre $100.000 en Easy y Easy.cl con Tarjeta Cencosud Scotiabank,2025-10-15,active,high
+https://www.cencosud.com/como-puedo-canjear-y-acumular-puntos-por-compras,document,financiero,nacional,,no,text,texto “canjear puntos”,partner,Guía para acumular y canjear puntos Cencosud por compras en Easy,2025-10-15,active,medium
+https://www.tarjetacencosud.cl/publico/beneficios/landing/inicio,category,financiero,nacional,,no,none,,partner,Sección general de descuentos con Tarjeta Cencosud (incluye Easy y tiendas asociadas),2025-10-15,active,high
+https://www.tarjetacencosud.cl/publico/beneficios/landing/semana_aniversario,campaign,retail,nacional,,no,text,texto “semana aniversario Easy”,partner,Campaña especial: 12 CSI por compras sobre $100.000 durante semana aniversario Easy,2025-10-15,active,medium
+https://nbeneficios.cl/tarjetas/ver/cencosud?page=4,tool,retail,nacional,,no,none,,partner,Listado de beneficios vigentes de Tarjeta Cencosud (Easy y otras tiendas asociadas),2025-10-15,active,medium
+https://cencopay.cl/,category,fintech,nacional,,no,none,,partner,Billetera digital CencoPay (incluye beneficios aplicables en Easy y otros comercios del grupo),2025-10-15,active,high
+https://www.easy.cl/eventos/cencopay,detail,retail,nacional,,no,none,,cadena,Ofertas exclusivas en Easy.cl usando CencoPay como medio de pago,2025-10-15,active,high
+https://club.cruzverde.cl/beneficios/tarjeta-cencosud-scotiabank/,reference,salud,nacional,,no,text,texto “beneficio Cencosud Scotiabank”,partner,Beneficio complementario 25 % dcto en medicamentos y vitaminas con Tarjeta Cencosud Scotiabank (mismo emisor),2025-10-15,active,low
