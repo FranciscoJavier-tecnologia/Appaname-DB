@@ -1,1 +1,10 @@
 url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://www.tricard.cl/,category,financiero,nacional,,no,none,,cadena,Sitio oficial de Tricard (información general de beneficios y promociones),2025-10-15,active,high
+https://www.tricard.cl/mis-beneficios/,category,retail,nacional,,no,none,,cadena,Portal “Mis Beneficios” con descuentos y convenios vigentes Tricard,2025-10-15,active,high
+https://www.tricard.cl/tarjeta/,subcategory,financiero,nacional,,no,none,,cadena,Detalles de la Tarjeta Tricard Visa y requisitos de contratación,2025-10-15,active,high
+https://tricardpublic.voxcom.cl/mis-beneficios/,subcategory,retail,nacional,,no,none,,partner,Portal público de beneficios Tricard (Peppermint, Dimeiggs, Faber-Castell, etc.),2025-10-15,active,high
+https://www.tricard.cl/beneficios/del-mar-a-tu-hogar/,detail,retail,nacional,,no,text,texto “Del Mar a tu Hogar”,partner,Descuento 20 % los lunes y jueves pagando con Tricard Visa en DelMar a tu Hogar,2025-10-15,active,medium
+https://www.tricard.cl/beneficios/spot-essence/,detail,retail,regional,RM,no,text,texto “Spot Essence”,partner,Descuento 30 % en Spot Essence (Mall Parque Arauco y Plaza Vespucio),2025-10-15,active,medium
+https://www.tricot.cl/ofertas,category,retail,nacional,,no,none,,cadena,Sección oficial de ofertas y descuentos online en Tricot.cl,2025-10-15,active,high
+https://tricot.cuponcl.com/,reference,retail,nacional,,no,none,,partner,Portal externo de cupones y códigos promocionales Tricot,2025-10-15,active,medium
+https://www.comparaonline.cl/tarjeta-de-credito/product/tricot/tricard-visa,reference,financiero,nacional,,no,text,ficha comparador,partner,Ficha informativa de la Tarjeta Tricard Visa en ComparaOnline,2025-10-15,active,low
