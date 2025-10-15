@@ -1,56 +1,48 @@
----
-emisor: Itaú
-categoria: Bancos y Tarjetas
-dominio_principal: itaubeneficios.cl
-portal_principal: https://itaubeneficios.cl/beneficios/beneficios-y-descuentos/
-estado: active
-ultima_revision: 2025-10-13
-prioridad_extraccion: alta
-render_tipo: SSR
-requiere_js: false
-frecuencia_cambio_dias: 7
-geo_detalle: texto
+# Banco Itaú
+
+emisor: itau
+categorías: Bancos y Tarjetas
+dominio_principal: itau.cl
+portal_principal: https://itaubeneficios.cl/
+estado: activo
+última_revisión: 2025-10-15
+prioridad_extracción: alta
+tipo_de_renderizado: HTML
+requiere_js: falso
+frecuencia_cambio_días: 7
+detalles_geográficos: Nacional (Chile)
 selectores_clave:
-  merchant: "h1, .benefit-title"
-  discount: ".percent, .tag-discount"
-  terms: ".terms, .tyc"
-  source_url: "link[rel='canonical']"
+  - campo: comerciante
+    selector: ".card h3, h2, [class*=beneficio]"
+  - campo: descuento
+    selector: ".badge, .percent, [class*=descuento]"
+  - campo: términos
+    selector: ".tyc, .bases, .modal-tyc"
 rutas_base:
-  - https://itaubeneficios.cl/beneficios/beneficios-y-descuentos/
-  - https://itaubeneficios.cl/promociones-del-mes/
----
-
-# Ficha técnica — Itaú
-
-## Resumen
-Sitio Itaú Beneficios con categorías y “Promociones del mes”, fichas con %/cuotas/CB.
-
-## Cobertura/Canales
-Nacional; presencial/online; tarjetas Itaú y programas de puntos.
-
-## Tipos de página
-Category/Subcategory, Detail, Campaign, Reference.
-
-## Render
-SSR clásico; navegación por categorías.
-
-## Campos
-merchant, discount/value, days, payment_methods, channels, validity, terms, source_url, geo.
-
-## Geo
-Texto en condiciones; pocas segmentaciones regionales.
-
-## Reglas
-Tarjetas Itaú; cuotas sin interés; topes.
-
-## Frecuencia
-Semanal/mensual.
-
-## Riesgos
-Alianzas externas que corren en dominios terceros.
-
-## QA
-- [ ] Sin login
-- [ ] % visible
-- [ ] Validez
-- [ ] Rol correcto
+  - https://itaubeneficios.cl/
+  - https://www.itau.cl/personas
+campos_extra: "comerciante|descuento|vigencia|método_pago|url_de_origen|geo"
+qa_checks:
+  requires_login: falso
+  pagination: "none"
+  expected_min_items: 8
+  tolerate_empty_fields: ["términos"]
+crawl_hints:
+  rate_limit_rps: 1
+  user_agent: "AppanameBot/1.0 (+contacto)"
+  wait_after_nav_ms: 600
+  js_enable: auto
+extraction_schema:
+  - name: comerciante
+  - name: descuento
+  - name: vigencia
+  - name: metodo_pago
+  - name: terminos
+  - name: url_de_origen
+  - name: geo
+fallback_selectors:
+  comerciante: ["h1","h2","[class*=title]"]
+  descuento:   [".badge",".percent","[class*=promo]"]
+  terminos:    [".tyc",".modal",".bases-legales"]
+notas: |
+  - Hub “Itaú Beneficios” + secciones en itau.cl personas con campañas y rutas gourmet/viajes. :contentReference[oaicite:3]{index=3}
