@@ -1,1 +1,18 @@
 url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://www.banmedica.cl/beneficios/,category,salud,nacional,,no,none,,cadena,Portal oficial de beneficios para afiliados Banmédica,2025-10-15,active,high
+https://www.banmedica.cl/plan-salud-isapre/,subcategory,salud,nacional,,no,none,,cadena,Información de planes de salud Banmédica,2025-10-15,active,high
+https://www.banmedica.cl/convenios-medicos/,subcategory,salud,nacional,,no,none,,cadena,Listado de médicos y prestadores con convenio Banmédica,2025-10-15,active,high
+https://www.banmedica.cl/conoce-nuestros-prestadores/,tool,salud,nacional,,no,none,,cadena,Buscador de prestadores y clínicas convenidas,2025-10-15,active,high
+https://www.banmedica.cl/beneficios-en-farmacias/,detail,salud,nacional,,no,text,texto “farmacias Salcobrand”,cadena,Descuento hasta 30 % en Farmacias Salcobrand para afiliados,2025-10-15,active,high
+https://productos-adicionales.banmedica.cl/beneficio/farmacia-ambulatoria/,detail,salud,nacional,,no,none,,cadena,Programa “Farmacia Ambulatoria” con descuentos entre 50 % y 80 % en medicamentos,2025-10-15,active,high
+https://www.banmedica.cl/disfruta-los-beneficios-nuestra-nueva-alianza-farmacias-salcobrand/,campaign,salud,nacional,,no,text,texto “alianza Salcobrand”,cadena,Campaña de alianza Banmédica–Salcobrand con beneficios exclusivos,2025-10-15,active,high
+https://salcobrand.cl/beneficios-banmedica,reference,salud,nacional,,no,none,,partner,Portal de Salcobrand con detalles de beneficios para afiliados Banmédica,2025-10-15,active,medium
+https://www.banmedica.cl/club/descuentos-en-productos-en-farmacias-cruz-verde/,detail,salud,nacional,,no,text,texto “Farmacias Cruz Verde”,cadena,Descuentos del 12–25 % en Cruz Verde para afiliados Banmédica,2025-10-15,active,medium
+https://www.unosalud.cl/convenio/isapre-banmedica/,detail,salud,nacional,,no,none,,partner,Convenio Uno Salud Dental con 60 % de descuento en prestaciones dentales,2025-10-15,active,high
+https://www.banmedica.cl/productos-adicionales/,subcategory,salud,nacional,,no,none,,cadena,Sección de productos adicionales y coberturas complementarias,2025-10-15,active,medium
+https://www.banmedica.cl/planes-full-vida/,detail,salud,nacional,,no,none,,cadena,Planes Full Vida con cobertura ampliada en clínicas asociadas,2025-10-15,active,medium
+https://www.banmedica.cl/informate-bien/,document,salud,nacional,,no,text,texto “informate bien”,cadena,Guía educativa sobre coberturas y prestaciones diferenciadas,2025-10-15,active,low
+https://www.banmedica.cl/por-que-elegirnos-2/,subcategory,salud,nacional,,no,text,texto “ópticas y dentales”,cadena,Información general sobre beneficios dentales y ópticos,2025-10-15,active,medium
+https://www.banmedica.cl/devoluciones/,tool,salud,nacional,,no,none,,cadena,Plataforma de devoluciones y reembolsos para afiliados y exafiliados,2025-10-15,active,medium
+https://www.banmedica.cl/venta-online/,tool,salud,nacional,,no,none,,cadena,Plataforma de venta y cotización online de planes Banmédica,2025-10-15,active,high
+https://www.banmedica.cl/costo-del-plan-salud/,document,salud,nacional,,no,text,texto “costos plan”,cadena,Detalle informativo sobre costos y valores de planes Banmédica,2025-10-15,active,medium
