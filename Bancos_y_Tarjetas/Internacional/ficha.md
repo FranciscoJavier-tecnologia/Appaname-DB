@@ -1,35 +1,48 @@
----
-emisor: Banco Internacional
-categoria: Bancos y Tarjetas
+# Banco Internacional
+
+emisor: banco_internacional
+categorías: Bancos y Tarjetas
 dominio_principal: internacional.cl
 portal_principal: https://beneficios.internacional.cl/
-estado: active
-ultima_revision: 2025-10-13
-prioridad_extraccion: alta
-render_tipo: SSR_hibrido
-requiere_js: true
-frecuencia_cambio_dias: 7
-geo_detalle: texto | lista_sucursales
+estado: activo
+última_revisión: 2025-10-15
+prioridad_extracción: media
+tipo_de_renderizado: HTML
+requiere_js: falso
+frecuencia_cambio_días: 15
+detalles_geográficos: Nacional (Chile)
 selectores_clave:
-  merchant: ".benefit-title, h1"
-  discount: ".percent, .badge"
-  terms: ".terms, .condiciones"
-  source_url: "meta[property='og:url']"
+  - campo: comerciante
+    selector: ".card h3, h2"
+  - campo: descuento
+    selector: ".badge, .percent, [class*=descuento]"
+  - campo: términos
+    selector: ".tyc, .bases, .modal-tyc"
 rutas_base:
   - https://beneficios.internacional.cl/
-  - https://beneficios.internacional.cl/detalle/<slug>
----
-
-# Ficha técnica — Banco Internacional
-
-## Resumen
-Portal de beneficios con categorías (gastronomía, viajes, shopping, bienestar) y fichas detalle.
-
-## Cobertura/Canales
-Nacional + casos regionales; presencial/online.
-
-## Tipos/Render
-Category/Detail/Campaign; SSR con componentes.
-
-## Campos/Geo/Reglas/Frecuencia/Riesgos/QA
-Como estándar; geo textual; campañas semanales; slugs; checklist.
+  - https://www.internacional.cl/productos/tarjetas
+campos_extra: "comerciante|descuento|vigencia|método_pago|url_de_origen|geo"
+qa_checks:
+  requires_login: falso
+  pagination: "none"
+  expected_min_items: 5
+  tolerate_empty_fields: ["términos"]
+crawl_hints:
+  rate_limit_rps: 1
+  user_agent: "AppanameBot/1.0 (+contacto)"
+  wait_after_nav_ms: 600
+  js_enable: auto
+extraction_schema:
+  - name: comerciante
+  - name: descuento
+  - name: vigencia
+  - name: metodo_pago
+  - name: terminos
+  - name: url_de_origen
+  - name: geo
+fallback_selectors:
+  comerciante: ["h1","h2","[class*=title]"]
+  descuento:   [".badge",".percent","[class*=promo]"]
+  terminos:    [".tyc",".modal",".bases-legales"]
+notas: |
+  - Portal propio de beneficios + páginas de producto Tarjetas. :contentReference[oaicite:5]{index=5}
