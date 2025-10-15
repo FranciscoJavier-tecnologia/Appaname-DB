@@ -1,1 +1,14 @@
 url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://www.sodimac.cl/sodimac-cl/content/circulo-de-especialistas,category,hogar,nacional,,no,none,,cadena,Portal oficial del Círculo de Especialistas (CES) en Sodimac Chile,2025-10-15,active,high
+https://www.circulodeespecialistas.cl/,program,hogar,nacional,,no,none,,cadena,Sitio principal del programa CES (inscripción y beneficios),2025-10-15,active,high
+https://www.circulodeespecialistas.cl/socios/estandar,detail,hogar,nacional,,no,none,,cadena,Nivel Estándar CES: arriendo con descuento, talleres, apoyo técnico,2025-10-15,active,high
+https://www.circulodeespecialistas.cl/socios/black,detail,hogar,nacional,,no,none,,cadena,Nivel Black CES: descuentos preferentes, línea de crédito, herramientas en cuotas,2025-10-15,active,high
+https://www.sodimac.cl/sodimac-cl/content/concursos-sodimac,campaign,hogar,nacional,,no,none,,cadena,Concursos y promociones especiales para socios/clientes Sodimac,2025-10-15,active,medium
+https://www.sodimac.cl/sodimac-cl/content/comprar-beneficios,subcategory,hogar,nacional,,no,none,,cadena,Beneficios por compras en Sodimac (incluye acumulación CMR Puntos),2025-10-15,active,medium
+https://www.sodimac.cl/sodimac-cl/content/todo-constructor,subcategory,hogar,nacional,,no,none,,cadena,Sección “Todo Constructor”: contenidos y acceso al CES,2025-10-15,active,medium
+https://www.sodimac.cl/sodimac-cl/content/cmr-puntos-ayuda,document,financiero,nacional,,no,text,ayuda CMR Puntos,cadena,Ayuda e información para uso de CMR Puntos en Sodimac,2025-10-15,active,medium
+https://www.sodimac.cl/sodimac-cl/content/pagar-cmr-puntos-mas-pesos,tool,financiero,nacional,,no,none,,cadena,Funcionalidad “CMR Puntos + Pesos” para pagar en Sodimac.cl,2025-10-15,active,high
+https://www.bancofalabella.cl/cmr-puntos-detalle/destacados/catalogo-tienda-sodimac,program,financiero,nacional,,no,none,,partner,Catálogo/Canjes de CMR Puntos en tienda Sodimac,2025-10-15,active,high
+https://sodimac.falabella.com/sodimac-cl/page/circulo-de-especialistas,reference,hogar,nacional,,no,none,,cadena,Landing espejo en dominio Falabella con info del CES,2025-10-15,active,low
+https://www.sodimac.cl/static/bases/bl-nueva-matriz-descuentos-oro-black.pdf,document,hogar,nacional,,no,pdf,matriz descuentos,cadena,PDF con matriz de descuentos para socios Oro/Black (campaña 2025),2025-10-15,active,high
+https://sodimac.falabella.com/sodimac-cl/page/folleto-junio-CO-pisos-ces-black,document,hogar,nacional,,no,text,folleto CES Black,cadena,Folleto de beneficios CES Black (categorías y descuentos),2025-10-15,active,medium
