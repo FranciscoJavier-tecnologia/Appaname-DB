@@ -1,1 +1,11 @@
 url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://www.tarjetaabc.cl/,category,financiero,nacional,,no,none,,cadena,Sitio principal de Tarjeta ABC (productos, beneficios y solicitudes),2025-10-14,active,high
+https://www.tarjetaabc.cl/s/descuentos,category,retail,nacional,,no,none,,cadena,Portal oficial de descuentos y promociones Tarjeta ABC,2025-10-14,active,high
+https://www.tarjetaabc.cl/s/tarjetas,subcategory,financiero,nacional,,no,none,,cadena,Información de tipos de tarjetas ABC y beneficios asociados,2025-10-14,active,medium
+https://www.tarjetaabc.cl/solicita-tu-tarjeta.html,tool,financiero,nacional,,no,none,,cadena,Formulario para solicitar la Tarjeta ABC,2025-10-14,active,high
+https://www.tarjetaabc.cl/s/,category,retail,nacional,,no,none,,cadena,Portal general con acceso a secciones de descuentos, beneficios y simuladores,2025-10-14,active,medium
+https://www.abcserviciosfinancieros.cl/beneficios-abcvisa,category,financiero,nacional,,no,none,,cadena,Portal de beneficios de ABCVISA (seguros, avances, asistencia),2025-10-14,active,high
+https://www.abcserviciosfinancieros.cl/asesoria-financiera,subcategory,financiero,nacional,,no,none,,cadena,Asesoría financiera y servicios complementarios de ABCVISA,2025-10-14,active,medium
+https://www.abcserviciosfinancieros.cl/paga-tu-cuenta,tool,financiero,nacional,,no,none,,cadena,Portal de pago de cuenta de Tarjeta ABCVISA,2025-10-14,active,high
+https://www.abcserviciosfinancieros.cl/simula-avance,tool,financiero,nacional,,no,none,,cadena,Simulador para solicitar avances con Tarjeta ABC,2025-10-14,active,high
+https://www.petrobrasdistribucion.cl/promociones/descuento-con-medios-de-pago/descuento-abc-visa/,detail,combustible,nacional,,no,text,texto “descuento ABC VISA Petrobras”,partner,Descuento los jueves en combustible y tiendas Spacio1 pagando con ABCVISA,2025-10-14,active,high
