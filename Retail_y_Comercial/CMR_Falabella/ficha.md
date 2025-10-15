@@ -1,52 +1,30 @@
 # CMR Falabella
 
-**Categoría:** Minorista y Comercio  
-**Tipo de Emisor:** Retail + Banco  
-**Última actualización:** Octubre 2025  
-**Fuente Oficial:** [https://www.bancofalabella.cl/descuentos](https://www.bancofalabella.cl/descuentos)
-
----
-
-## 🧾 Descripción General
-CMR Falabella es la tarjeta de crédito y fidelización del grupo Falabella, con beneficios exclusivos en retail, restaurantes, viajes y comercios asociados a Banco Falabella y Falabella Retail.
-
----
-
-## 💳 Beneficios Destacados
-- 3× CMR Puntos pagando con CMR en comercios aliados.  
-- Descuentos semanales en MallPlaza, Tottus, y Club de Restaurantes.  
-- Cuotas sin interés y canje de puntos por viajes y experiencias.
-
----
-
-## 🌐 Enlaces Oficiales y Fuentes
-- https://www.bancofalabella.cl/descuentos  
-- https://www.falabella.com/falabella-cl/page/alianzas-y-descuentos  
-- https://www.viajesfalabella.cl/ofertas-viajes/promociones  
-- https://www.cmrpuntos.cl/donde-acumular-cmr-puntos-clientes-banco-falabella  
-
----
-
-## 🧠 Notas Técnicas para App
-- **Frecuencia de actualización:** semanal  
-- **Tipo de datos:** HTML público + API parcial  
-- **Compatible con:** módulo Retail / Bancos  
-- **Validación automática:** ✅  
-- **Última verificación manual:** 15/10/2025  
-
----
-
-## 📊 Campos Clave para Base de Datos
-| Campo | Ejemplo | Descripción |
-|-------|----------|-------------|
-| `issuer` | `"cmr_falabella"` | Identificador del emisor |
-| `category` | `"minorista_comercio"` | Categoría principal |
-| `source_url` | `"https://www.bancofalabella.cl/descuentos"` | URL base |
-| `tags` | `"cmr, falabella, descuentos, puntos, retail"` | Palabras clave |
-| `region` | `"Chile"` | Cobertura nacional |
-
----
-
-## 🧩 Comentarios Internos
-> Integrar módulo CMRPoints API (si se habilita JSON público).  
-> Scraper listo para endpoint `/descuentos`.
+emisor: cmr_falabella
+categorías: Minorista y Comercio
+dominio_principal: cmr.cl
+portal_principal: https://www.cmr.cl/beneficios
+estado: activo
+última_revisión: 2025-10-15
+prioridad_extracción: alta
+tipo_de_renderizado: SPA
+requiere_js: verdadero
+frecuencia_cambio_días: 7
+detalles_geográficos: Nacional + campañas regionales
+selectores_clave:
+  - campo: comerciante
+    selector: ".benefit-card__title, h2"
+  - campo: descuento
+    selector: ".benefit-card__discount, .discount-badge"
+  - campo: términos
+    selector: ".benefit-card__tyc, .modal-terms"
+rutas_base:
+  - https://www.cmr.cl/beneficios
+  - https://www.cmr.cl/beneficios-vigentes
+  - https://www.cmr.cl/beneficios/supermercados
+campos_extra: "comerciante|descuento|vigencia|método_pago|url_de_origen"
+notas: |
+  - Portal SPA con paginación infinita y categorías (Retail, Gastronomía, Belleza, Supermercados).
+  - Requiere JavaScript completo (render en cliente con Vue.js).
+  - Beneficios actualizados semanalmente (según categorías dinámicas).
+  - Verificar endpoints JSON ocultos en la API interna 'benefits.cmr.cl'.
