@@ -1,1 +1,9 @@
 url,role,topic,region_scope,region_value,has_map,geo_evidence,geo_source_hint,merchant_scope,notes,last_checked_yyyy_mm_dd,status,priority
+https://www.tarjetahites.com/en,category,financiero,nacional,,no,none,,cadena,Portal principal Tarjeta Hites (acceso a beneficios y secciones),2025-10-15,active,high
+https://www.tarjetahites.com/en/tarjeta-hites,subcategory,financiero,nacional,,no,none,,cadena,Detalle de Tarjeta Hites: presentación, beneficios y requisitos,2025-10-15,active,high
+https://www.tarjetahites.com/en/donde-usarla,tool,retail,nacional,,no,none,,cadena,Listado de comercios y rubros donde usar Tarjeta Hites,2025-10-15,active,high
+https://www.hites.com/especiales/tarjeta-hites/,category,retail,nacional,,no,none,,cadena,Especial/Ofertas de Hites para clientes con Tarjeta Hites,2025-10-15,active,high
+https://www.petrobrasdistribucion.cl/promociones/descuento-con-medios-de-pago/descuento-hites/,detail,combustible,nacional,,no,text,texto “descuento Hites Petrobras”,partner,Descuento por litro los domingos en Petrobras pagando con Tarjeta Hites,2025-10-15,active,high
+https://www.clarochile.cl/personas/hites/,detail,telecom,nacional,,no,text,texto “alianza Claro–Hites”,partner,Alianza Claro–Hites: descuentos en planes móviles pagando con Tarjeta Hites,2025-10-15,active,medium
+https://www.instagram.com/tiendashites/,reference,retail,nacional,,no,text,perfil Instagram,partner,Promociones y campañas comunicadas en Instagram oficial de Hites,2025-10-15,active,low
+https://www.jdescuentos.cl/cupones-descuento/hites,reference,retail,nacional,,no,text,agregador cupones,partner,Agregador externo con cupones/beneficios Hites (referencial),2025-10-15,active,low
