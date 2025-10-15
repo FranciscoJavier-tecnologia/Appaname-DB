@@ -1,67 +1,47 @@
----
-emisor: Banco de Chile
-categoria: Bancos y Tarjetas
+# Banco de Chile
+
+emisor: banco_de_chile
+categorías: Bancos y Tarjetas
 dominio_principal: bancochile.cl
-portal_principal: https://sitiospublicos.bancochile.cl/personas/beneficios
-estado: active
-ultima_revision: 2025-10-13
-prioridad_extraccion: alta
-render_tipo: SSR_hibrido
-requiere_js: true
-frecuencia_cambio_dias: 7
-geo_detalle: texto | imagen | lista_sucursales
+portal_principal: https://sitiospublicos.bancochile.cl/
+estado: activo
+última_revisión: 2025-10-15
+prioridad_extracción: alta
+tipo_de_renderizado: SPA
+requiere_js: verdadero
+frecuencia_cambio_días: 7
+detalles_geográficos: Nacional (Chile)
 selectores_clave:
-  merchant: ".benefit-card .title, h1"
-  discount: ".discount, .percent"
-  terms: ".terms, .condiciones"
-  source_url: "meta[property='og:url']"
+  - campo: comerciante
+    selector: ".beneficio, .card h3, h2, [class*=titulo]"
+  - campo: descuento
+    selector: ".badge, .porcentaje, [class*=descuento]"
+  - campo: términos
+    selector: ".tyc, .modal-tyc, [class*=bases]"
 rutas_base:
-  - https://sitiospublicos.bancochile.cl/personas/beneficios
-  - https://sitiospublicos.bancochile.cl/personas/beneficios/sabores
-  - https://sitiospublicos.bancochile.cl/personas/beneficios/detalle/<slug>
----
-
-# Ficha técnica — Banco de Chile
-
-## Resumen
-Portal con categorías (sabores, panoramas, viajes, bienestar), páginas de campañas y fichas detalle con %/condiciones.
-
-## Cobertura y canales
-Nacional + casos regionales; presencial/online/app; medios: tarjetas Banco de Chile/Edwards y Visa/Mastercard por segmento.
-
-## Tipos de página
-Category/Subcategory, Detail, Campaign, Document/Reference. Patrones /beneficios/... y /beneficios/detalle/<slug>.
-
-## Render/Comportamiento
-SSR con componentes dinámicos; algunos listados con más carga al navegar; banners rotatorios.
-
-## Campos objetivo
-merchant, category, discount/value, days/hours, payment_methods, channels, promo_code, validity, terms, source_url, images, geo.
-
-## Geosegmentación
-Texto en condiciones (“válido en RM”), imágenes con sellos, sucursales adheridas.
-
-## Reglas de elegibilidad
-Medios de pago del banco; topes/cashback; exclusiones típicas; no acumulable salvo campaña.
-
-## Frecuencia de cambios
-Campañas semanal/mensual; fichas 7–14 días; PDFs baja.
-
-## Riesgos
-Slugs que rotan; contenido crítico en imágenes; landings de aliados.
-
-## Ejemplos (completar)
-1) KFC — % — nacional — (URL)
-2) Adidas — % — presencial — (URL)
-3) Jetsmart — traslado/CB — (URL)
-
-## QA checklist
-- [ ] Sin login
-- [ ] % visible
-- [ ] Validez detectada
-- [ ] Evidencia geo si aplica
-- [ ] Rol correcto
-
-## Notas Data Engine
-- Playwright headless con espera por selectores.
-- Respetar robots/rate-limit; guardar HTML crudo.
+  - https://sitiospublicos.bancochile.cl/  <!-- portal beneficios y fan -->
+campos_extra: "comerciante|descuento|vigencia|método_pago|url_de_origen|geo"
+qa_checks:
+  requires_login: falso
+  pagination: "scroll"
+  expected_min_items: 8
+  tolerate_empty_fields: ["términos"]
+crawl_hints:
+  rate_limit_rps: 1
+  user_agent: "AppanameBot/1.0 (+contacto)"
+  wait_after_nav_ms: 900
+  js_enable: auto
+extraction_schema:
+  - name: comerciante
+  - name: descuento
+  - name: vigencia
+  - name: metodo_pago
+  - name: terminos
+  - name: url_de_origen
+  - name: geo
+fallback_selectors:
+  comerciante: ["h1","h2","[class*=beneficio] [class*=titulo]"]
+  descuento:   [".badge",".porcentaje","[class*=discount]"]
+  terminos:    [".tyc",".modal",".bases-legales","[id*=tyc]"]
+notas: |
+  - Portal público con vistas de beneficios/promos y vertical Travel/Latam Pass. :contentReference[oaicite:0]{index=0}
