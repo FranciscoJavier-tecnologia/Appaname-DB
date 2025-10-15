@@ -1,63 +1,44 @@
 # Easy Club / Cencosud Scotiabank
 
-**Categoría:** Minorista y Comercio  
-**Tipo de Emisor:** Retail / Tarjeta de Crédito / Programa de Fidelización  
-**Última actualización:** Octubre 2025  
-**Fuente Oficial:** [https://www.easy.cl/](https://www.easy.cl/)
-
----
-
-## 🧾 Descripción General
-**Easy Club** es el programa de beneficios del grupo **Cencosud** enfocado en el rubro del hogar, construcción y mejoramiento.  
-Al pagar con la **Tarjeta Cencosud Scotiabank**, los clientes acceden a descuentos, cuotas sin interés y acumulación de **Puntos Cencosud**, tanto en tiendas Easy como en Easy.cl.  
-El programa también se integra con **CencoPay**, la billetera digital del grupo.
-
----
-
-## 💳 Beneficios Destacados
-- **20 % de descuento** pagando con Tarjeta Cencosud Scotiabank en campañas seleccionadas.  
-- **12 cuotas sin interés** en compras sobre $100.000 en Easy y Easy.cl.  
-- **3× Puntos Cencosud** en compras con tarjeta Cencosud.  
-- **Promociones exclusivas** vía billetera digital **CencoPay**.  
-- **Descuentos cruzados** en tiendas del grupo: Paris, Jumbo, Santa Isabel, Spid.  
-
----
-
-## 🌐 Enlaces Oficiales y Fuentes
-- https://www.easy.cl/  
-- https://www.cencosud.com/beneficioscencosud-chile  
-- https://www.tarjetacencosud.cl/publico/beneficios/landing/inicio  
-- https://www.tarjetacencosud.cl/publico/beneficios/landing/cuotas-sin-interes  
-- https://cencopay.cl/ofertas/easy/  
-- https://www.easy.cl/eventos/cencopay  
-- https://nbeneficios.cl/tarjetas/ver/cencosud?page=4  
-- https://www.facebook.com/easychile/  
-- https://www.instagram.com/easychile/?hl=es  
-
----
-
-## 🧠 Notas Técnicas para App
-- **Frecuencia de actualización:** semanal  
-- **Tipo de datos:** HTML público + JSON (CencoPay)  
-- **Compatible con:** módulo Retail / Cencosud  
-- **Validación automática:** ✅  
-- **Última verificación manual:** 15/10/2025  
-
----
-
-## 📊 Campos Clave para Base de Datos
-| Campo | Ejemplo | Descripción |
-|-------|----------|-------------|
-| `issuer` | `"easy_cencosud"` | Identificador único del emisor |
-| `category` | `"minorista_comercio"` | Categoría principal |
-| `source_url` | `"https://www.easy.cl/"` | Fuente base |
-| `tags` | `"easy, cencosud, scotiabank, cencopay, hogar, descuentos"` | Palabras clave |
-| `region` | `"Chile"` | Cobertura nacional |
-
----
-
-## 🧩 Comentarios Internos
-> Scraper validado en `/eventos/cencopay` y `/beneficios/landing/cuotas-sin-interes`.  
-> Sincronizar con feed CencoPay API para beneficios dinámicos.  
-> Etiquetar beneficios con `"tipo": "hogar"` para clasificación temática.  
-> Revisar semanalmente campañas “Aniversario Easy” y “Fin de Semana Constructor”.
+emisor: easy_cencosud_scotiabank
+categorías: Minorista y Comercio
+dominio_principal: easy.cl
+portal_principal: https://www.easy.cl/beneficios
+estado: activo
+última_revisión: 2025-10-15
+prioridad_extracción: alta
+tipo_de_renderizado: SPA
+requiere_js: verdadero
+frecuencia_cambio_días: 7
+detalles_geográficos: Nacional
+selectores_clave:
+  - campo: comerciante
+    selector: ".card h3, h2"
+  - campo: descuento
+    selector: ".badge, .percent, [class*=descuento]"
+  - campo: términos
+    selector: ".tyc, .bases, .modal-tyc"
+rutas_base:
+  - https://www.easy.cl/beneficios
+  - https://www.cencosudscotiabank.cl/beneficios
+campos_extra: "comerciante|descuento|vigencia|método_pago|url_de_origen"
+qa_checks:
+  requires_login: falso
+  pagination: "scroll"
+  expected_min_items: 10
+crawl_hints:
+  rate_limit_rps: 1
+  user_agent: "AppanameBot/1.0"
+  wait_after_nav_ms: 900
+extraction_schema:
+  - name: comerciante
+  - name: descuento
+  - name: vigencia
+  - name: metodo_pago
+  - name: url_de_origen
+fallback_selectors:
+  comerciante: ["h1","h2","[class*=title]"]
+  descuento: [".badge",".percent","[class*=promo]"]
+  terminos: [".tyc",".modal",".bases-legales"]
+notas: |
+  - Portal Easy integrado con beneficios Cencosud Scotiabank; usa React y scroll infinito.
